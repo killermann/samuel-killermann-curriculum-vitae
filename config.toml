@@ -2,7 +2,7 @@ baseURL = "http://samuel-killermann.netlify.com/"
 languageCode = "en-us"
 title = "sK"
 author = "Sam Killermann"
-theme= "Paper"
+theme= "Hugo-Paper"
 
 [build]
 publish = "public"
