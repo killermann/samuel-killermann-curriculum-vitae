@@ -28,3 +28,9 @@ name = "Bio"
 pre = "<span class='emoji'>📜</span>"
 url = "/bio/"
 weight = -90
+
+[context.production.environment]
+HUGO_VERSION = "0.40"
+
+[context.deploy-preview.environment]
+HUGO_VERSION = "0.40"
