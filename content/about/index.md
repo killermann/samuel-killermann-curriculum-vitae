@@ -1,7 +1,7 @@
 ---
 title: "About Sam Killermann"
 layout: "single"
-emoji: "⚡️"
+emoji: "👁"
 date: 2018-05-01
 kind: "page"
 ---
