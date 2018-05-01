@@ -1,0 +1,26 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "sK"
+author = "Sam Killermann"
+theme= "Paper"
+
+[menu]
+
+	[[menu.main]]
+	identifier = "about"
+	name = "About"
+	pre = "<span class='emoji'>😎</span>"
+	url = "/about/"
+	weight = -110
+
+	[[menu.main]]
+	name = "Now"
+	pre = "<span class='emoji'>⌚️</span>"
+	url = "/now/"
+	weight = -100
+
+	[[menu.main]]
+	name = "Bio"
+	pre = "<span class='emoji'>📜</span>"
+	url = "/bio/"
+	weight = -90
