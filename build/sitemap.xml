@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://example.org/work/post-styles-new-post/</loc>
+    <lastmod>2018-05-01T13:23:24-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/work/another-post/</loc>
+    <lastmod>2018-04-30T13:09:22-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/work/my-second-post/</loc>
+    <lastmod>2018-04-29T13:09:22-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/work/my-first-post/</loc>
+    <lastmod>2018-04-28T13:09:22-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/now/february-2018/</loc>
+    <lastmod>2018-02-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/about/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/</loc>
+    <lastmod>2018-05-01T13:23:24-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/now/january-2018/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/now/may-2018/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/bio/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/now/</loc>
+    <lastmod>2018-02-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/work/</loc>
+    <lastmod>2018-05-01T13:23:24-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
