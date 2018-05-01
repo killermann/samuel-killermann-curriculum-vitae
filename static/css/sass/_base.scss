@@ -163,19 +163,6 @@
 				max-width:700px;
 				margin:0 auto;
 
-				a {
-					text-decoration:none;
-					color:darken(#af6ee2,10%);;
-					border-bottom:2px solid var(--purple);
-					transition:all .1s linear;
-					cursor: pointer;
-
-					&:hover {
-						background:lighten(#af6ee2,30%);
-						border-color:lighten(#af6ee2,30%);
-					}
-				}
-
 				& > p:first-of-type {
 					font-family:var(--serif);
 					font-size:1.6em;
@@ -197,6 +184,21 @@
 			}
 		}
 	}
+}
+
+.post-content {
+    a {
+        text-decoration:none;
+        color:darken(#af6ee2,10%);;
+        border-bottom:2px solid var(--purple);
+        transition:all .1s linear;
+        cursor: pointer;
+
+        &:hover {
+            background:lighten(#af6ee2,30%);
+            border-color:lighten(#af6ee2,30%);
+        }
+    }
 }
 
 
@@ -240,7 +242,10 @@
 
 .now.first-entry {
     padding-top:30px;
+
+    header:before {display:none;}
 }
+
 
 .now {
 

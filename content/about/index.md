@@ -2,21 +2,54 @@
 title: "About Sam Killermann"
 layout: "single"
 emoji: "⚡️"
+date: 2018-05-01
 kind: "page"
 ---
 
-Lorem ipsum dolor amet tumeric 8-bit raclette post-ironic, VHS vexillologist echo park trust fund church-key ennui.
+Hi! I'm Sam and I wear a lot of hats.
 
-Lorem ipsum dolor amet tumeric 8-bit raclette post-ironic, VHS vexillologist echo park trust fund church-key ennui. Put a bird on it kogi XOXO, cold-pressed tousled ramps helvetica bushwick raclette [letterpress keffiyeh](http://blah.com) street art bespoke snackwave hell of. Fashion axe jianbing salvia lumbersexual art party quinoa vaporware. Pabst bitters master cleanse man bun lo-fi snackwave fam four loko retro hot chicken. Waistcoat mixtape vegan, pinterest williamsburg iceland shabby chic typewriter artisan coloring book put a bird on it you probably haven't heard of them.
+If you've poked around this site, specifically the work page, you've likely already figured that out.
 
-Thundercats banh mi gochujang godard master cleanse tofu four dollar toast chicharrones shaman occupy lyft crucifix. Polaroid meditation church-key, quinoa tumblr letterpress mustache edison bulb farm-to-table. Chillwave glossier food truck raw denim succulents. Pok pok venmo leggings, pour-over DIY unicorn pabst tilde iPhone.
+I'm not really sure what you want to know about me, so I'll do my best to answer the most common questions I get asked from crowd members and readers.
 
-***
+## The Short Explanation
 
-Skateboard bushwick succulents, stumptown lo-fi woke air plant farm-to-table kickstarter messenger bag pok pok coloring book. Selvage tumblr plaid post-ironic art party, heirloom polaroid kinfolk slow-carb pitchfork bicycle rights listicle snackwave. Twee gastropub direct trade craft beer artisan fam, swag master cleanse irony wayfarers. Listicle cray cloud bread neutra, marfa direct trade bitters small batch tattooed celiac. Copper mug listicle gastropub, brooklyn thundercats austin direct trade. Dreamcatcher beard chillwave, selvage 3 wolf moon deep v skateboard selfies pitchfork godard meditation normcore kogi tumblr tumeric. Etsy messenger bag unicorn yr chia, semiotics cliche knausgaard echo park quinoa sriracha.
+Here's how I describe myself on [Twitter](http://twitter.com/killermann) (at the time of writing this page):
 
-Brooklyn forage edison bulb selvage pickled. Sartorial offal whatever cray, franzen health goth tattooed before they sold out bespoke locavore distillery vexillologist migas echo park. Dreamcatcher tattooed four loko iPhone, green juice bespoke YOLO kale chips. Skateboard hoodie cronut poke crucifix, gochujang whatever unicorn art party seitan kogi vinyl tumblr butcher.
+> Activist / Social justice comedian. Author. Storyteller. Sexuality & Gender Educator. "He’s perfectly O.K. with being known as the toilet sign guy." -@NYTimes
 
-VHS authentic butcher, franzen air plant listicle hell of. Disrupt four dollar toast blog whatever authentic humblebrag. Shoreditch sustainable fam selvage, snackwave synth pug. Man bun live-edge offal PBR&B cliche. Beard kale chips cred iceland, offal franzen coloring book.
+That last thing is my favorite brag. If you want to read more professional bio stuff and work brags, click over to [my bio](../bio).
 
-Oh. You need a little dummy text for your mockup? How quaint.
+## How I Pay Rent
+
+I spend most of my time creating free things for the internet. For the past several years, I primarily earned a living from...
+
+- performing [social justice comedy shows](http://itspronouncedmetrosexual.com/campus-programs/)
+- [speaking](http://samtalkto.us) at events; and
+- royalties from [my books](https://www.amazon.com/Sam-Killermann/e/B00F9CIDGM)
+
+Something that's super new, but I'm excited about, is starting to adopt the "patronage" way of doing things. So I'll be hoping to, in the coming months, be less reliant on traveling and speaking and more able to just make things.
+
+The two main places folks can patronize (?) me are:
+
+- **http://patreon.com/killermann** - for general supporters/members, who want to say thanks or get access to exclusive goodies
+- **http://patreon.com/itspronouncedmetrosexual** - specifically for fans of the IPM site who want to help me pay the (super hefty) hosting bill
+
+## Social Media Accounts &amp; Presence
+
+I don't really use social media. I find it to be a mind-suck, and often times a total Hellmouth. That said, here are the accounts I keep somewhat active:
+
+- [Twitter: @killermann](http://twitter.com/killermann)
+- [Instagram: @killermann](http://instagram.com/killermann)
+- [Facebook/Killermann](http://facebook.com/killermann) - my "personal" profile (but almost everything I post there is public)
+- [Facebook/SamKillermann](http://facebook.com/samkillermann) - my general Facebook fanpage
+- [Facebook/MetroSam](http://facebook.com/metrosam) - the fanpage for "It's Pronounced Metrosexual"
+
+## Personal Deets?
+
+People ask about these things a lot, so here they are:
+
+- **Born** in Chicago on July 21, 1987 (but I only lived there until I was 2)
+- **Lived** in more homes than I can count, from the Midwest to the Midwest
+- **Live** in Austin, TX. The best city in the US
+- **Went to college** at Purdue University, and **grad school** at Bowling Green State University

@@ -2,21 +2,18 @@
 title: "Sam Killermann Biography"
 layout: "single"
 emoji: "📜"
+date: "2018-05-01"
 kind: "page"
 ---
 
-Lorem ipsum dolor amet tumeric 8-bit raclette post-ironic, VHS vexillologist echo park trust fund church-key ennui.
+Sam Killermann is a comedian, author, and award-winning activist. Sam travels the world performing comedy shows and giving talks on themes of social justice, gender, and sexuality.
 
-Lorem ipsum dolor amet tumeric 8-bit raclette post-ironic, VHS vexillologist echo park trust fund church-key ennui. Put a bird on it kogi XOXO, cold-pressed tousled ramps helvetica bushwick raclette [letterpress keffiyeh](http://blah.com) street art bespoke snackwave hell of. Fashion axe jianbing salvia lumbersexual art party quinoa vaporware. Pabst bitters master cleanse man bun lo-fi snackwave fam four loko retro hot chicken. Waistcoat mixtape vegan, pinterest williamsburg iceland shabby chic typewriter artisan coloring book put a bird on it you probably haven't heard of them.
+Killermann's work (that he uncopyrighted in 2013) has been downloaded by hundreds of millions of people around the world who utilize it to bolster their educational efforts toward global equity. His versions of the [Genderbread Person](http://itspronouncedmetrosexual.com/2012/03/the-genderbread-person-v2-0/), a model for understanding and teaching gender and sexual diversity, have been translated into over a dozen languages.
 
-Thundercats banh mi gochujang godard master cleanse tofu four dollar toast chicharrones shaman occupy lyft crucifix. Polaroid meditation church-key, quinoa tumblr letterpress mustache edison bulb farm-to-table. Chillwave glossier food truck raw denim succulents. Pok pok venmo leggings, pour-over DIY unicorn pabst tilde iPhone.
+In 2017, Sam was profiled in National Geographic's documentary "Gender Revolution: A Journey with Katie Couric. In 2014, Sam designed an [all-gender restroom sign](http://itspronouncedmetrosexual.com/2014/07/how-the-gender-neutral-bathroom-sign-i-made-is-being-manufactured-and-donated-to-colleges/) that he gifted to the commons, which is now being implemented on three continents, was featured in the White House, and is becoming the standard for dozens of communities around the U.S. and world.
 
-***
+Sam is the author of several books, including [A Guide to Gender](http://www.guidetogender.com), which is an exploration of gender from a social justice perspective, with humor and comics sprinkled in. The book opened as the #1 bestseller in gender on Amazon, and as a reflection of Sam's commitment to access as a core social justice value, he's given away over 20,000 copies of the book. He gave a well-received [TEDxTalk](http://youtu.be/NRcPXtqdKjE) that has over 300,000 views called "Understanding the Complexities of Gender," where he distilled the themes of the book into a few minutes of fun, energetic, and easily-digestible speech.
 
-Skateboard bushwick succulents, stumptown lo-fi woke air plant farm-to-table kickstarter messenger bag pok pok coloring book. Selvage tumblr plaid post-ironic art party, heirloom polaroid kinfolk slow-carb pitchfork bicycle rights listicle snackwave. Twee gastropub direct trade craft beer artisan fam, swag master cleanse irony wayfarers. Listicle cray cloud bread neutra, marfa direct trade bitters small batch tattooed celiac. Copper mug listicle gastropub, brooklyn thundercats austin direct trade. Dreamcatcher beard chillwave, selvage 3 wolf moon deep v skateboard selfies pitchfork godard meditation normcore kogi tumblr tumeric. Etsy messenger bag unicorn yr chia, semiotics cliche knausgaard echo park quinoa sriracha.
+Sam is the co-creator of [TheSafeZoneProject.com](http://thesafezoneproject.com), a free online resource for LGBTQ and Ally training materials. The open source curriculum they published is being used by over 17,000 educators in at least 100 countries.
 
-Brooklyn forage edison bulb selvage pickled. Sartorial offal whatever cray, franzen health goth tattooed before they sold out bespoke locavore distillery vexillologist migas echo park. Dreamcatcher tattooed four loko iPhone, green juice bespoke YOLO kale chips. Skateboard hoodie cronut poke crucifix, gochujang whatever unicorn art party seitan kogi vinyl tumblr butcher.
-
-VHS authentic butcher, franzen air plant listicle hell of. Disrupt four dollar toast blog whatever authentic humblebrag. Shoreditch sustainable fam selvage, snackwave synth pug. Man bun live-edge offal PBR&B cliche. Beard kale chips cred iceland, offal franzen coloring book.
-
-Oh. You need a little dummy text for your mockup? How quaint.
+Outside of his key initiatives, Sam is a frequent keynote speaker, makes political shirts for [EveryShirtIsPolitical](http://everyshirtispolitical.com), co-facilitates [FaciltiatingXYZ](http://facilitating.xyz),  was named a "Person We Love" by Yes! Magazine, Austin "Changemaker,"  and is always dreaming up new social good projects. When he's not on the road, he likes to spend at least a few hours a day bicycling around sunny Austin, TX, where he counts himself lucky to live.
