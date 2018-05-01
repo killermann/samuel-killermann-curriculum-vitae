@@ -3,25 +3,28 @@ languageCode = "en-us"
 title = "sK"
 author = "Sam Killermann"
 theme= "Paper"
-publishDir= "public"
+
+[build]
+publish = "public"
+command = "hugo"
 
 [menu]
 
-	[[menu.main]]
-	identifier = "about"
-	name = "About"
-	pre = "<span class='emoji'>😎</span>"
-	url = "/about/"
-	weight = -110
+[[menu.main]]
+identifier = "about"
+name = "About"
+pre = "<span class='emoji'>😎</span>"
+url = "/about/"
+weight = -110
 
-	[[menu.main]]
-	name = "Now"
-	pre = "<span class='emoji'>⌚️</span>"
-	url = "/now/"
-	weight = -100
+[[menu.main]]
+name = "Now"
+pre = "<span class='emoji'>⌚️</span>"
+url = "/now/"
+weight = -100
 
-	[[menu.main]]
-	name = "Bio"
-	pre = "<span class='emoji'>📜</span>"
-	url = "/bio/"
-	weight = -90
+[[menu.main]]
+name = "Bio"
+pre = "<span class='emoji'>📜</span>"
+url = "/bio/"
+weight = -90
