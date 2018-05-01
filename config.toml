@@ -30,7 +30,7 @@ url = "/bio/"
 weight = -90
 
 [context.production.environment]
-HUGO_VERSION = "0.40.2"
+HUGO_VERSION = "0.40.1"
 
 [context.deploy-preview.environment]
-HUGO_VERSION = "0.40.2"
+HUGO_VERSION = "0.40.1"
