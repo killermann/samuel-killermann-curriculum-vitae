@@ -2,41 +2,41 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>What Am I up to Right Meow? on sK</title>
-    <link>http://example.org/now/</link>
+    <link>http://samuel-killermann.netlify.com/now/</link>
     <description>Recent content in What Am I up to Right Meow? on sK</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 11 Feb 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://example.org/now/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://samuel-killermann.netlify.com/now/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>A Whole New Pile of Mess</title>
-      <link>http://example.org/now/february-2018/</link>
+      <link>http://samuel-killermann.netlify.com/now/february-2018/</link>
       <pubDate>Sun, 11 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/now/february-2018/</guid>
+      <guid>http://samuel-killermann.netlify.com/now/february-2018/</guid>
       <description>You hear me, baby? Hold together! Got him! I got him! Great kid! Don&amp;rsquo;t get cocky. There are still two more of them out there! That&amp;rsquo;s it! We did it! We did it! Help! I think I&amp;rsquo;m melting! This is all your fault.
 There&amp;rsquo;s nothing you could have done, Luke, had you been there. You&amp;rsquo;d have been killed, too, and the droids would be in the hands of the Empire. I want to come with you to Alderaan.</description>
     </item>
     
     <item>
       <title>New Podcast, New Work Schedule, Etc.</title>
-      <link>http://example.org/now/january-2018/</link>
+      <link>http://samuel-killermann.netlify.com/now/january-2018/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/now/january-2018/</guid>
+      <guid>http://samuel-killermann.netlify.com/now/january-2018/</guid>
       <description>You hear me, baby? Hold together! Got him! I got him! Great kid! Don&amp;rsquo;t get cocky. There are still two more of them out there! That&amp;rsquo;s it! We did it! We did it! Help! I think I&amp;rsquo;m melting! This is all your fault.
 There&amp;rsquo;s nothing you could have done, Luke, had you been there. You&amp;rsquo;d have been killed, too, and the droids would be in the hands of the Empire. I want to come with you to Alderaan.</description>
     </item>
     
     <item>
       <title>Recovering from the Wreckage of hues</title>
-      <link>http://example.org/now/may-2018/</link>
+      <link>http://samuel-killermann.netlify.com/now/may-2018/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/now/may-2018/</guid>
+      <guid>http://samuel-killermann.netlify.com/now/may-2018/</guid>
       <description>Kid, I&amp;rsquo;ve flown from one side of this galaxy to the other.
 I&amp;rsquo;ve seen a lot of strange stuff, but I&amp;rsquo;ve never seen anything to make me believe there&amp;rsquo;s one all-powerful force controlling everything. There&amp;rsquo;s no mystical energy field that controls my destiny.
 It&amp;rsquo;s all a lot of simple tricks and nonsense. I suggest you try it again, Luke. This time, let go your conscious self and act on instinct. With the blast shield down, I can&amp;rsquo;t even see.</description>
