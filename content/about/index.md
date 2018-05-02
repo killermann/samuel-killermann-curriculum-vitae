@@ -26,7 +26,11 @@ That last thing is my favorite brag. If you want to read more professional bio s
 
 ## How I Pay Rent
 
-I spend most of my time creating free things for the internet. For the past several years, I primarily earned a living from...
+The question I get asked the most: "You give away everything you make for free... how... do you afford... life?"
+
+It is true that I spend most of my time creating free things for the internet, and that I've uncopyrighted all of my work.
+
+In light of that, for the past several years, I have primarily earned a living from...
 
 - performing [social justice comedy shows](http://itspronouncedmetrosexual.com/campus-programs/);
 - [speaking](http://samtalkto.us) at events; and
@@ -39,7 +43,7 @@ The two main places folks can patronize (?) me are:
 - http://patreon.com/killermann - for general supporters/members, who want to say thanks or get access to exclusive goodies
 - http://patreon.com/itspronouncedmetrosexual - specifically for fans of the IPM site who want to help me pay the (super hefty) hosting bill
 
-## Social Media Accounts &amp; Presence
+## Social Media Profiles &amp; Presence
 
 I don't really use social media. I find it to be a consistent mind-suck, with the occasional feeling of Hellmouth. That said, here are the accounts I keep somewhat active:
 
@@ -48,6 +52,8 @@ I don't really use social media. I find it to be a consistent mind-suck, with th
 - [Facebook/Killermann](http://facebook.com/killermann) - my "personal" profile (but almost everything I post there is public)
 - [Facebook/SamKillermann](http://facebook.com/samkillermann) - my general Facebook fanpage
 - [Facebook/MetroSam](http://facebook.com/metrosam) - the fanpage for "It's Pronounced Metrosexual"
+
+Profiles: plenty. Presence: pitiful.
 
 ## Personal Deets?
 
@@ -60,4 +66,4 @@ People ask about these things a lot, so here they are:
 
 That's all, folks.
 
-Oh, other than one more thing: did you know the 🤗 emoji was supposed to be a hug? I didn't. I thought it was just an overly excited person waving with both hands at once.
+Oh, other than one more thing: did you know the 🤗 emoji was supposed to be a hug? I didn't. I thought it was just an overly excited person waving with both hands at once (AKA me in a nutshell).
