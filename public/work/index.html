@@ -51,6 +51,10 @@
           <a href="/bio/">Bio</a>
         </li>
         
+        <li class="">
+          <a href="http://samkillermann.com">Blog ↗</a>
+        </li>
+        
       </ul>
     </nav>
   </header>
@@ -115,7 +119,7 @@ menuToggle();
 
 function changeHeaderOnScroll() {
     const distanceY = window.pageYOffset || document.documentElement.scrollTop,
-    shrinkOn = 400,
+    shrinkOn = 250,
     headerEl = document.getElementById('main-header');
 
     if (distanceY > shrinkOn) {
