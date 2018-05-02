@@ -11,21 +11,24 @@ command = "hugo"
 [menu]
 
 [[menu.main]]
+identifier = "work"
+name = "Work"
+url = "/work/"
+weight = -120
+
+[[menu.main]]
 identifier = "about"
 name = "About"
-pre = "<span class='emoji'>😎</span>"
 url = "/about/"
 weight = -110
 
 [[menu.main]]
 name = "Now"
-pre = "<span class='emoji'>⌚️</span>"
 url = "/now/"
 weight = -100
 
 [[menu.main]]
 name = "Bio"
-pre = "<span class='emoji'>📜</span>"
 url = "/bio/"
 weight = -90
 
