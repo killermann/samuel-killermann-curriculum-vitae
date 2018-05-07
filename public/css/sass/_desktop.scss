@@ -1,0 +1,18 @@
+#main-header {
+	nav.menu {
+		margin-top:-2px;
+		font-weight:600;
+	}
+}
+.post-entry{
+	transition: all .1s linear;
+
+	&:hover {
+		transform:translateY(-10px);
+		box-shadow: 0 12px 30px -10px rgba(0,0,0,.35);
+	}
+
+	.post-link {
+		cursor: pointer;
+	}
+}
