@@ -4,7 +4,6 @@ author: "Sam Killermann"
 blurb: "How to use this site, how I made this site, and why."
 date: 2018-05-02
 emoji: "📄"
-draft: true
 ---
 Welcome to the seventh version of samuelkillermann.com. At least -- I think that's right. One thing I'm sure of: it's been a linear path of "Each one is better than the last."
 
