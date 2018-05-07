@@ -23,19 +23,23 @@ url = "/about/"
 weight = -110
 
 [[menu.main]]
+identifier = "now"
 name = "Now"
 url = "/now/"
 weight = -100
 
 [[menu.main]]
+identifier = "bio"
 name = "Bio"
 url = "/bio/"
 weight = -90
 
 [[menu.main]]
-name = "Blog ↗"
-url = "http://samkillermann.com"
-weight = -70
+identifier = "links"
+url ="/links/"
+name = "Links"
+weight = -80
+
 
 [context.production.environment]
 HUGO_VERSION = "0.40.1"

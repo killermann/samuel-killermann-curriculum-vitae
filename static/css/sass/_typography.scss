@@ -1,9 +1,3 @@
-:root {
-	--sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-	--serif: "Apple Garamond", "Baskerville", "Times New Roman", "Droid Serif", "Times","Source Serif Pro", serif;
-	--purple: #af6ee2;
-}
-
 body,
 button,
 input,
@@ -11,7 +5,7 @@ select,
 optgroup,
 textarea {
 	font-family:var(--sans-serif);
-	color:#222;
+	color:var(--dark-grey);
 	line-height:1.5;
 	font-size:calc(17px + .3vw);
 	text-rendering: optimizelegibility;

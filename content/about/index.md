@@ -6,9 +6,9 @@ date: 2018-05-01
 kind: "page"
 ---
 
-Let's be honest: about pages are pretty bleh. For a more fun idea, check out the ["now" page](../now/) on this site.
+Let's be honest: "About" pages are pretty bleh. For a more fun idea, check out the ["Now" page](../now/) on this site.
 
-Okay, now that I've gotten that off my chest &mdash; Hi! I'm Sam, and I wear a lot of hats. If you've poked around this site, specifically the [work page](../work/), you've likely already figured that out.
+Okay, now that I've gotten that off my chest &mdash; Hi! I'm Sam, and I wear a lot of hats. If you've poked around this site, specifically the [work list](../work/), you've likely already figured that out.
 
 <!--
 If you're curious about this Site itself -- how to navigate it, how I made it, etc. -- check out TK
