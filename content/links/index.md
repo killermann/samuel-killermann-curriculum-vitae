@@ -1,9 +1,10 @@
 ---
-title: "sK Links"
+title: "Links"
 layout: "single"
 emoji: "🔗"
 date: 2018-05-07
 kind: "page"
+blurb: "A bunch of links to find Sam online, or find his work."
 ---
 
 Click and behold: hypertext transfer protocol at its finest.
