@@ -1,9 +1,11 @@
 {{ partial "header.html" . }}
 {{ if not .IsHome }}
     <header class="list-header">
-      {{ if eq .Data.Singular "tag" }}<span>Tagged in</span>
-          <h1 class="list-title">{{ .Data.Term }}</h1>
-      {{ end }}
+        {{ if eq .Data.Singular "tag" }}<span>Tagged in</span>
+            <h1 class="list-title">{{ .Data.Term }}</h1>
+        {{ else if isset .Params "title"}}
+            <h1 class="list-title">{{ .Params.title }}</h1>
+        {{ end }}
     </header>
 {{ end }}
 {{ $paginator := .Paginate (where .Pages ".Params.type" "!=" "page") (index .Site.Params "paginate" | default 10) }}
@@ -20,7 +22,7 @@
         {{if .Params.emoji}}<span class="emoji">{{ .Params.emoji }}</span>{{end}}
         <h2 class="post-title">{{ .Title }}</h2>
     </header>
-    <p class="post-summary">{{ .Summary | plainify | htmlUnescape }}...</p>
+    <p class="post-summary">{{if isset .Params "blurb"}}{{.Params.blurb}}{{else}}{{ .Summary | plainify | htmlUnescape }}...{{end}}</p>
     <footer class="post-footer">
         <p class="post-meta">
             {{- if or .Params.author .Site.Params.author -}}

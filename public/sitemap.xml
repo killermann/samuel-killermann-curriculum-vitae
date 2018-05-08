@@ -48,14 +48,13 @@
   </url>
   
   <url>
-    <loc>http://samuel-killermann.netlify.com/now/</loc>
-    <lastmod>2018-05-01T00:00:00+00:00</lastmod>
+    <loc>http://samuel-killermann.netlify.com/work/</loc>
+    <lastmod>2018-05-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://samuel-killermann.netlify.com/work/</loc>
-    <lastmod>2018-05-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <loc>http://samuel-killermann.netlify.com/now/</loc>
+    <lastmod>2018-05-01T00:00:00+00:00</lastmod>
   </url>
   
 </urlset>
