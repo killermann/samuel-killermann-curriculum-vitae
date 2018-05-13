@@ -1,24 +1,54 @@
 {{ partial "header.html" . }}
 <article class="post post-view">
-  <header class="post-header">
-    <h1 class="post-title">{{ .Title }}</h1>
-    <p class="post-meta">
-      {{- if or .Params.author .Site.Params.author -}}
-      {{ .Params.author | default .Site.Params.author }} · {{ end }}
-      {{- .Date.Format "January 2006" -}}
-    </p>
-    {{if .Params.emoji}}<span class="emoji">{{ .Params.emoji }}</span>{{end}}
-  </header>
-  <div class="post-content">{{ .Content }}</div>
-  <footer class="post-footer">
-    {{ if .Params.tags }}
-    <ul class="post-tags">
-      {{ range .Params.tags }}
-      <li><a href="{{ `/tags/` }}{{ . | urlize }}/">{{ . }}</a></li>
-      {{ end }}
-    </ul>
-    {{ end }}
-  </footer>
-  <!-- Comments system area -->
+    <header class="post-header">
+        <h1 class="post-title">
+        {{if .Params.link}}
+            <a href="{{ .Params.link }}" target="_blank" alt="{{ .Title }}">{{ .Title }}</a>
+        {{else}}
+            {{ .Title }}
+        {{end}}
+        </h1>
+        <p class="post-meta">
+            {{- if or .Params.author .Site.Params.author -}}
+            {{ .Params.author | default .Site.Params.author }} · {{ end }}
+            {{- .Date.Format "January 2006" -}}
+            {{- if .Params.link -}}
+             · <a href="{{ .Params.link }}" target="_blank" alt="{{ .Title }}">Link</a>
+            {{end}}
+        </p>
+        {{with .Params.emoji}}
+        <span class="emoji">{{ . }}</span>
+        {{end}}
+    </header>
+    <div class="post-content">
+        {{ .Content }}
+    </div>
+    <footer class="post-footer cards">
+        {{ if .Params.tags }}
+        <div class="intro">
+            <h2>Explore</h2>
+            <p>Themes and skills I used to create <strong>{{ .Title }}</strong>, that are links to other similar work</p>
+        </div>
+        <div class="card">
+            <h3 class="title">Content themes</h3>
+            <ul class="post-tags">
+                {{ range .Params.tags }}
+                <li><a href="{{ `/tags/` }}{{ . | urlize }}/">{{ . }}</a></li>
+                {{ end }}
+            </ul>
+        </div>
+        {{ end }}
+        {{ if .Params.skills }}
+        <div class="card">
+            <h3 class="title">Skills I used</h3>
+            <ul class="post-tags">
+                {{ range .Params.skills }}
+                <li><a href="{{ `/skills/` }}{{ . | urlize }}/">{{ . }}</a></li>
+                {{ end }}
+            </ul>
+        </div>
+        {{ end }}
+    </footer>
+    <!-- Comments system area -->
 </article>
 {{ partial "footer.html" . }}
