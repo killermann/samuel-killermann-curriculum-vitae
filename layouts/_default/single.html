@@ -48,6 +48,12 @@
             </thead>
 
             <tbody>
+                {{ with .Params.stats.curriculum_downloads }}
+                <tr>
+                    <td align="left">Educators Using Curriculum</td>
+                    <td align="right">{{ . }}<span>+</span></td>
+                </tr>
+                {{end}}
                 {{ with .Params.stats.downloads }}
                 <tr>
                     <td align="left">Resource Downloads</td>
@@ -56,7 +62,7 @@
                 {{end}}
                 {{ with .Params.stats.monthly_uniques }}
                 <tr>
-                    <td align="left">Montly Unique Viewers</td>
+                    <td align="left">Montly Unique Visitors</td>
                     <td align="right">{{ . }}<span>+</span></td>
                 </tr>
                 {{end }}
@@ -66,10 +72,22 @@
                     <td align="right">{{ . }}<span>+</span></td>
                 </tr>
                 {{end }}
-                {{ with .Params.stats.total_reached }}
+                {{ with .Params.stats.country_count }}
                 <tr>
-                    <td align="left">Total Humans Reached</td>
+                    <td align="left">Countries Reached</td>
                     <td align="right">{{ . }}<span>+</span></td>
+                </tr>
+                {{end }}
+                {{ with .Params.stats.lifetime_reach }}
+                <tr>
+                    <td align="left">Lifetime Reach</td>
+                    <td align="right">{{ . }}<span>+</span></td>
+                </tr>
+                {{end }}
+                {{ if .Params.stats.custom_stat }}
+                <tr>
+                    <td align="left">{{ .Params.stats.custom_stat}}</td>
+                    <td align="right">{{ .Params.stats.custom_count}}</td>
                 </tr>
                 {{end }}
             </tbody>
