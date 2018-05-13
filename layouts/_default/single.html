@@ -66,15 +66,15 @@
                     <td align="right">{{ . }}<span>+</span></td>
                 </tr>
                 {{end }}
-                {{ with .Params.stats.annual_audience }}
-                <tr>
-                    <td align="left">Annual Audience</td>
-                    <td align="right">{{ . }}<span>+</span></td>
-                </tr>
-                {{end }}
                 {{ with .Params.stats.country_count }}
                 <tr>
                     <td align="left">Countries Reached</td>
+                    <td align="right">{{ . }}<span>+</span></td>
+                </tr>
+                {{end }}
+                {{ with .Params.stats.annual_audience }}
+                <tr>
+                    <td align="left">Annual Audience</td>
                     <td align="right">{{ . }}<span>+</span></td>
                 </tr>
                 {{end }}
