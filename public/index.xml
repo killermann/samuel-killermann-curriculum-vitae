@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>All Work on sK</title>
-    <link>http://samuel-killermann.netlify.com/</link>
+    <link>http://samuelkillermann.com/</link>
     <description>Recent content in All Work on sK</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 07 May 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://samuel-killermann.netlify.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://samuelkillermann.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Links</title>
-      <link>http://samuel-killermann.netlify.com/links/</link>
+      <link>http://samuelkillermann.com/links/</link>
       <pubDate>Mon, 07 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://samuel-killermann.netlify.com/links/</guid>
+      <guid>http://samuelkillermann.com/links/</guid>
       <description>Click and behold: hypertext transfer protocol at its finest.
 First, a fancy little list of the things I&amp;rsquo;m guessing most of you are looking for (and maybe some optimistic nudging toward things I want you to be looking for):
 Blog Podcast Patreon Gender Book Facilitation Book The hues Store
@@ -26,10 +26,10 @@ Professional Links (for potential clients, bookings, etc.) Are you looking to&am
     
     <item>
       <title>This Site: Samuel Killermann Curriculum Vitae</title>
-      <link>http://samuel-killermann.netlify.com/work/samuel-killermann-curriculum-vitae/</link>
+      <link>http://samuelkillermann.com/work/samuel-killermann-curriculum-vitae/</link>
       <pubDate>Wed, 02 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://samuel-killermann.netlify.com/work/samuel-killermann-curriculum-vitae/</guid>
+      <guid>http://samuelkillermann.com/work/samuel-killermann-curriculum-vitae/</guid>
       <description>Welcome to the seventh version of samuelkillermann.com. At least &amp;ndash; I think that&amp;rsquo;s right. One thing I&amp;rsquo;m sure of: it&amp;rsquo;s been a linear path of &amp;ldquo;Each one is better than the last.&amp;rdquo;
 Sometimes embarrassingly better. If you&amp;rsquo;re curious about what the old versions of this site looked like, by all means step into the Wayback Machine and take a tour. Don&amp;rsquo;t say I didn&amp;rsquo;t warn you.
 So let&amp;rsquo;s talk about what I&amp;rsquo;ve got going on here.</description>
@@ -37,10 +37,10 @@ So let&amp;rsquo;s talk about what I&amp;rsquo;ve got going on here.</descriptio
     
     <item>
       <title>About Sam Killermann</title>
-      <link>http://samuel-killermann.netlify.com/about/</link>
+      <link>http://samuelkillermann.com/about/</link>
       <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://samuel-killermann.netlify.com/about/</guid>
+      <guid>http://samuelkillermann.com/about/</guid>
       <description>Let&amp;rsquo;s be honest: &amp;ldquo;About&amp;rdquo; pages are pretty bleh. For a more fun idea, check out the &amp;ldquo;Now&amp;rdquo; page on this site.
 Okay, now that I&amp;rsquo;ve gotten that off my chest &amp;mdash; Hi! I&amp;rsquo;m Sam, and I wear a lot of hats. If you&amp;rsquo;ve poked around this site, specifically the work list, you&amp;rsquo;ve likely already figured that out.
 I&amp;rsquo;m not really sure what you want to know about me, so I&amp;rsquo;ll do my best to answer the most common questions I get asked from crowd members and readers.</description>
@@ -48,10 +48,10 @@ I&amp;rsquo;m not really sure what you want to know about me, so I&amp;rsquo;ll 
     
     <item>
       <title>I&#39;m Restructuring Everything</title>
-      <link>http://samuel-killermann.netlify.com/now/may-2018/</link>
+      <link>http://samuelkillermann.com/now/may-2018/</link>
       <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://samuel-killermann.netlify.com/now/may-2018/</guid>
+      <guid>http://samuelkillermann.com/now/may-2018/</guid>
       <description>I&amp;rsquo;m writing from a coffee shop in Austin, TX where I just spent two hours trying to get this site to deploy on Netlify. Annnnd success?
 Success.
 This site is part of a huge life restructuring I&amp;rsquo;m currently undertaking. I wrote about it on my blog, but here&amp;rsquo;s the highlighted version:
@@ -60,20 +60,20 @@ This site is part of a huge life restructuring I&amp;rsquo;m currently undertaki
     
     <item>
       <title>Sam Killermann Biography</title>
-      <link>http://samuel-killermann.netlify.com/bio/</link>
+      <link>http://samuelkillermann.com/bio/</link>
       <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://samuel-killermann.netlify.com/bio/</guid>
+      <guid>http://samuelkillermann.com/bio/</guid>
       <description>Sam Killermann is a comedian, author, and award-winning activist. Sam travels the world performing comedy shows and giving talks on themes of social justice, gender, and sexuality.
 Killermann&amp;rsquo;s work (that he uncopyrighted in 2013) has been downloaded by hundreds of millions of people around the world who utilize it to bolster their educational efforts toward global equity. His versions of the Genderbread Person, a model for understanding and teaching gender and sexual diversity, have been translated into over a dozen languages.</description>
     </item>
     
     <item>
       <title>The Safe Zone Project</title>
-      <link>http://samuel-killermann.netlify.com/work/safe-zone-project/</link>
+      <link>http://samuelkillermann.com/work/safe-zone-project/</link>
       <pubDate>Mon, 15 Jul 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://samuel-killermann.netlify.com/work/safe-zone-project/</guid>
+      <guid>http://samuelkillermann.com/work/safe-zone-project/</guid>
       <description> Meg and I created The Safe Zone Project in 2013 to serve as a free online resource for folks doing LGBTQ awareness and ally trainings (AKA &amp;ldquo;safe zone trainings&amp;rdquo;).
   Fav Stats Updated May 2018
    Statistic Top Count     Educators using 2-Hour Curriculum 23,000+   Countries reached 100+   New users visiting site monthly 7,500+   Total number of people trained No idea    </description>
@@ -81,10 +81,10 @@ Killermann&amp;rsquo;s work (that he uncopyrighted in 2013) has been downloaded 
     
     <item>
       <title>It&#39;s Pronounced Metrosexual</title>
-      <link>http://samuel-killermann.netlify.com/work/its-pronounced-metrosexual/</link>
+      <link>http://samuelkillermann.com/work/its-pronounced-metrosexual/</link>
       <pubDate>Wed, 01 Jun 2011 00:00:00 +0000</pubDate>
       
-      <guid>http://samuel-killermann.netlify.com/work/its-pronounced-metrosexual/</guid>
+      <guid>http://samuelkillermann.com/work/its-pronounced-metrosexual/</guid>
       <description>I wrote the show that became &amp;ldquo;It&amp;rsquo;s Pronounced Metrosexual&amp;rdquo; while I was in grad school.
 It was my &amp;ldquo;Plan B&amp;rdquo; for if I don&amp;rsquo;t find a job in higher education. We were still in a recession, and jobs were tough to come by.
 The online resource aspect of IPM, by about 100-fold the most popular byproduct of the site, was the result of a suggestion by my partner at the time.</description>

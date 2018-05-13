@@ -1,4 +1,4 @@
-baseURL = "http://samuel-killermann.netlify.com/"
+baseURL = "http://samuelkillermann.com/"
 languageCode = "en-us"
 title = "sK"
 theme= "hugo-paper"
