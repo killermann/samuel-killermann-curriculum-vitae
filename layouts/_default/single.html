@@ -22,12 +22,67 @@
     </header>
     <div class="post-content">
         {{ .Content }}
+
+        {{ if isset .Params "stats" }}
+
+        <h2 style="margin-top:3em">Some of My Fav Stats</h2>
+        <p>
+            Calculated using a mix of methods (and generally underrepresented due to limitations), here's what <strong>{{if .Params.link }}<a href="{{ .Params.link }}" alt="{{ .Params.title }}">{{ .Params.title }}</a>{{else}}{{ .Params.title }}{{end}}</strong> looks like by the numbers:
+        </p>
+
+        <table>
+            <thead>
+                <tr>
+                    <th align="left">Statistic</th>
+                    <th align="right">
+                    {{ if isset .Params.stats "updated" }}
+                        <span class="tooltip" data-tooltip="Updated {{ .Params.stats.updated }}">
+                            Last Count
+                        </span>
+                    {{ else }}
+                        Last Count
+                    {{ end}}
+                    </th>
+
+                </tr>
+            </thead>
+
+            <tbody>
+                {{ with .Params.stats.downloads }}
+                <tr>
+                    <td align="left">Resource Downloads</td>
+                    <td align="right">{{ . }}<span>+</span></td>
+                </tr>
+                {{end}}
+                {{ with .Params.stats.monthly_uniques }}
+                <tr>
+                    <td align="left">Montly Unique Viewers</td>
+                    <td align="right">{{ . }}<span>+</span></td>
+                </tr>
+                {{end }}
+                {{ with .Params.stats.annual_audience }}
+                <tr>
+                    <td align="left">Annual Audience</td>
+                    <td align="right">{{ . }}<span>+</span></td>
+                </tr>
+                {{end }}
+                {{ with .Params.stats.total_reached }}
+                <tr>
+                    <td align="left">Total Humans Reached</td>
+                    <td align="right">{{ . }}<span>+</span></td>
+                </tr>
+                {{end }}
+            </tbody>
+        </table>
+
+        {{end}}
+
     </div>
     <footer class="post-footer cards">
         {{ if .Params.tags }}
         <div class="intro">
             <h2>Explore</h2>
-            <p>Themes and skills I used to create <strong>{{ .Title }}</strong>, that are links to other similar work</p>
+            <p>Themes and skills I used to create <strong>{{if .Params.link }}<a href="{{ .Params.link }}" alt="{{ .Params.title }}">{{ .Params.title }}</a>{{else}}{{ .Params.title }}{{end}}</strong>, that are links to other similar work</p>
         </div>
         <div class="card">
             <h3 class="title">Content themes</h3>

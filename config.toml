@@ -1,11 +1,11 @@
 baseURL = "https://samuelkillermann.com/"
 languageCode = "en-us"
-title = "sK"
+title = "Sam Killermann's Curriculum Vitae"
 theme= "hugo-paper"
 
 [params]
 author = "Sam Killermann"
-description = "The curriculum vitae of Sam Killermann, comedian, author, and award-winning activist."
+description = "The collection of life's work from Sam Killermann, comedian, author, and award-winning activist."
 
 [build]
 publish = "public"

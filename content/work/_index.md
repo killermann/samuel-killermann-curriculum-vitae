@@ -1,4 +1,4 @@
 ---
-title: "Timeline of work created (and co-created) by Sam Killermann"
+title: "Timeline of Work"
 description: "The curriculum vitae of Sam Killermann, comedian, author, and award-winning activist."
 ---
