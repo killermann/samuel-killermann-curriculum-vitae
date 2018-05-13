@@ -1,4 +1,4 @@
-baseURL = "http://samuelkillermann.com/"
+baseURL = "https://samuelkillermann.com/"
 languageCode = "en-us"
 title = "sK"
 theme= "hugo-paper"
