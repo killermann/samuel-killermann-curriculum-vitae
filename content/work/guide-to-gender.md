@@ -8,7 +8,6 @@ blurb: "My first book, Amazon Best-Seller"
 link: "http://guidetogender.com"
 tags: []
 skills: []
-draft: true
 stats:
   updated: "May 14 2018"
   copies_gifted: 17093

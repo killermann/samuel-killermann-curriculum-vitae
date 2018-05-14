@@ -8,7 +8,6 @@ blurb: "A book about facilitation with actionable advice and anecdotes"
 link: "http://facilitationmagic.com"
 tags: []
 skills: []
-draft: true
 stats:
   updated: "May 14, 2018"
   curriculum_downloads:
