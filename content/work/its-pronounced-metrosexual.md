@@ -5,9 +5,20 @@ emoji: "💁🏻‍"
 author: "Sam Killermann"
 blurb: "A comedy show and a free online resource about snap judgments, identity, and oppression."
 link: "http://itspronouncedmetrosexual.com"
+stats:
+  updated: "May 14, 2018"
+  downloads: 1000000000
+  monthly_uniques: 203310
+  annual_audience: 2473605
+  country_count: 238
+  custom_stat: "Articles with over 100K Social Shares"
+  custom_count: 6
+
 ---
 I wrote the show that became "It's Pronounced Metrosexual" while I was in grad school.
 
 It was my "Plan B" for if I don't find a job in higher education. We were still in a recession, and jobs were tough to come by.
 
 The online resource aspect of IPM, by about 100-fold the most popular byproduct of the site, was the result of a suggestion by my partner at the time.
+
+Today, I travel to perform the show, and regularly contribute to the online resource by writing articles and doodling edugraphics.

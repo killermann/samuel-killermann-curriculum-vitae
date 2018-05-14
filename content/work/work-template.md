@@ -1,16 +1,21 @@
 ---
 title: ""
-date: 2011-06-01
+date:
 emoji: ""
 author: "Sam Killermann"
 blurb: ""
 link: ""
-tags: ["Sexuality", "Gender", "Free Online Resource", "Facilitation"]
-skills: ["Web Design", "Web Development", "Wordpress"]
+tags: []
+skills: []
 draft: true
 stats:
+  updated:
+  curriculum_downloads:
+  copies_donated:
   downloads:
-  monthly_uniques:
   annual_audience:
-  total_reached:
+  country_count:
+  lifetime_reach:
+  custom_stat:
+  custom_count:
 ---

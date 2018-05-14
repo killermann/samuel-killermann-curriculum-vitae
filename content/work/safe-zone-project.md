@@ -1,15 +1,16 @@
 ---
 title: "The Safe Zone Project"
-date: 2013-07-15
+date: 2013-07-18
 emoji: "🏳️‍🌈"
 author: "Sam Killermann + Meg Bolger"
 blurb: "A free online resource for LGBTQ+ awareness and allyship training workshops"
 link: "http://thesafezoneproject.com"
 stats:
-  curriculum_downloads: 23,679
-  downloads: 72,696
-  annual_audience: 247,105
+  curriculum_downloads: 23679
+  downloads: 72696
+  annual_audience: 247105
   country_count: 100
+  lifetime_reach:
   updated: "May 13, 2018"
   custom_stat: "Total humans trained with SZP resources"
   custom_count: "No idea."

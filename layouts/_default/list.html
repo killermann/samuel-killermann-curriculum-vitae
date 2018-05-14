@@ -2,9 +2,9 @@
 {{ if not .IsHome }}
     <header class="list-header">
         {{ if eq .Data.Singular "tag" }}<span>Tagged in</span>
-            <h1 class="list-title">{{ .Data.Term }}</h1>
+            <h1 class="list-title">{{ humanize .Data.Term }}</h1>
         {{ else if isset .Params "title"}}
-            <h1 class="list-title">{{ .Params.title }}</h1>
+            <h1 class="list-title">{{ humanize .Params.title }}</h1>
         {{ end }}
     </header>
 {{ end }}

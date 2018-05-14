@@ -1,13 +1,17 @@
 {{ partial "header.html" . }}
 <article class="post post-view">
     <header class="post-header">
-        <h1 class="post-title">
+        <h1 class="post-title {{with .Params.subtitle}}with-subtitle{{end}}">
         {{if .Params.link}}
             <a href="{{ .Params.link }}" target="_blank" alt="{{ .Title }}">{{ .Title }}</a>
         {{else}}
             {{ .Title }}
         {{end}}
+        {{with .Params.subtitle}}:{{end}}
         </h1>
+        {{with .Params.subtitle}}
+        <h2 class="post-subtitle">{{ . }}</h2>
+        {{end}}
         <p class="post-meta">
             {{- if or .Params.author .Site.Params.author -}}
             {{ .Params.author | default .Site.Params.author }} · {{ end }}
@@ -41,7 +45,7 @@
                         </span>
                     {{ else }}
                         Last Count
-                    {{ end}}
+                    {{ end }}
                     </th>
 
                 </tr>
@@ -51,37 +55,43 @@
                 {{ with .Params.stats.curriculum_downloads }}
                 <tr>
                     <td align="left">Educators Using Curriculum</td>
-                    <td align="right">{{ . }}<span>+</span></td>
+                    <td align="right">{{ lang.NumFmt 0 . }}<span>+</span></td>
                 </tr>
                 {{end}}
                 {{ with .Params.stats.downloads }}
                 <tr>
                     <td align="left">Resource Downloads</td>
-                    <td align="right">{{ . }}<span>+</span></td>
+                    <td align="right">{{ lang.NumFmt 0 . }}<span>+</span></td>
+                </tr>
+                {{end}}
+                {{ with .Params.stats.copies_gifted }}
+                <tr>
+                    <td align="left">Copies Gifted</td>
+                    <td align="right">{{ lang.NumFmt 0 . }}<span>+</span></td>
                 </tr>
                 {{end}}
                 {{ with .Params.stats.monthly_uniques }}
                 <tr>
                     <td align="left">Montly Unique Visitors</td>
-                    <td align="right">{{ . }}<span>+</span></td>
+                    <td align="right">{{ lang.NumFmt 0 . }}<span>+</span></td>
                 </tr>
                 {{end }}
                 {{ with .Params.stats.country_count }}
                 <tr>
                     <td align="left">Countries Reached</td>
-                    <td align="right">{{ . }}<span>+</span></td>
+                    <td align="right">{{ lang.NumFmt 0 . }}<span>+</span></td>
                 </tr>
                 {{end }}
                 {{ with .Params.stats.annual_audience }}
                 <tr>
                     <td align="left">Annual Audience</td>
-                    <td align="right">{{ . }}<span>+</span></td>
+                    <td align="right">{{ lang.NumFmt 0 . }}<span>+</span></td>
                 </tr>
                 {{end }}
                 {{ with .Params.stats.lifetime_reach }}
                 <tr>
                     <td align="left">Lifetime Reach</td>
-                    <td align="right">{{ . }}<span>+</span></td>
+                    <td align="right">{{ lang.NumFmt 0 . }}<span>+</span></td>
                 </tr>
                 {{end }}
                 {{ if .Params.stats.custom_stat }}
@@ -90,6 +100,7 @@
                     <td align="right">{{ .Params.stats.custom_count}}</td>
                 </tr>
                 {{end }}
+
             </tbody>
         </table>
 
