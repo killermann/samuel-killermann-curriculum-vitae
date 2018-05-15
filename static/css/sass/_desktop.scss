@@ -1,3 +1,67 @@
+
+.home {
+	section#homeBentos {
+		padding:2.5%;
+
+		/* Left Dudes */
+
+		.left {
+			width:33%;
+			max-width:33%;
+			margin:3.5%;
+			float:left;
+		}
+
+		/* Right Dudes */
+		.right {
+			float:right;
+			width:53%;
+			max-width:53%;
+			margin:3.5%;
+			z-index:10;
+		}
+
+		/* Indiv Styles */
+
+		#home--intro {
+			nav ul li {
+				display:block;
+				font-size:1.2em;
+			}
+		}
+
+		#home--email {
+			z-index:1;
+			margin:3.5% 0;
+
+			.fishbowl {
+				position:absolute;
+				width:100vw;
+				margin-left:-2.5vw;
+
+				.fishbowl--inner{
+					text-align:left;
+
+					h2, h3, p, .ck_form_container {
+						text-align:center;
+						max-width:35%;
+						padding-left:2.5%;
+						margin:20px 0;
+					}
+				}
+			}
+		}
+
+		#home--work {
+			margin-bottom:100px;
+		}
+	}
+}
+
+.bento {
+	margin: 3vw;
+}
+
 #main-header {
 	nav.menu {
 		margin-top:-2px;

@@ -16,7 +16,7 @@
             {{- if or .Params.author .Site.Params.author -}}
             {{ .Params.author | default .Site.Params.author }} · {{ end }}
             {{- .Date.Format "January 2006" -}}
-            {{- if .Params.link -}}
+            {{ if .Params.link }}
              · <a href="{{ .Params.link }}" target="_blank" alt="{{ .Title }}">Link</a>
             {{end}}
         </p>

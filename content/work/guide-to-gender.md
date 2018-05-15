@@ -4,9 +4,8 @@ subtitle: "The Social Justice Advocate's Handbook"
 date: 2013-08-01
 emoji: "🍪"
 author: "Sam Killermann"
-blurb: "My first book, Amazon Best-Seller"
+blurb: "My first book and Amazon Best-Seller over 2 editions"
 link: "http://guidetogender.com"
-tags: []
 skills: []
 stats:
   updated: "May 14 2018"
@@ -19,7 +18,7 @@ stats:
 
 "A book about gender with no mention of the word 'hegemony,' but plenty of references to Star Wars, The Matrix, Lord of the Rings, and Star Trek-- with less of a focus on overwhelming scholarship and more of a focus on enjoyable learning." (excerpt from the [book's (first edition) description](https://www.amazon.com/Social-Justice-Advocates-Handbook-Gender/dp/0989760200))
 
-I wrote this book because a lot of people asked me to. It was a synthesis of a lot of the ideas (1) I had been [blogging about](http://itspronouncedmetrosexual.com/all); (2) I'd been [speaking about](http://samtalkto.us); and (3) that helped me better understand _my_ gender, when I first set down the path of understanding.
+I wrote this book because a bunch of people asked me to. It was a synthesis of the ideas (1) I had been [blogging about](http://itspronouncedmetrosexual.com/all); (2) I'd been [speaking about](http://samtalkto.us); and (3) that helped me better understand _my_ gender, when I first set down the path of understanding.
 
 ## Second Edition
 

@@ -1,0 +1,99 @@
+{{ partial "header.html" . }}
+
+<section id="homeBentos" class="clearfix">
+    <article id="home--intro" class="bento left">
+        <header>
+            <h1>
+                Sam<del>uel</del> Killerman<u>n</u>'s<br/>
+                <span>Curriculum Vitae</span>
+            </h1>
+        </header>
+        <nav>
+            <ul>
+                {{ range .Site.Menus.main }}
+                <li class="">
+                    <a href="{{ .URL }}">{{ .Name }}</a>
+                </li>
+                {{ end }}
+            </ul>
+        </nav>
+        <!-- "{{.Content}}" pulls from the markdown content of the corresponding _index.md -->
+        {{.Content}}
+    </article>
+
+    <article id="home--work" class="bento right">
+
+        {{ range first 1 (where .Data.Pages "Section" "work") }}
+            <article class="post first-entry">
+                <header class="post-header">
+                    {{if .Params.emoji}}<span class="emoji">{{ .Params.emoji }}</span>{{end}}
+                    <h2 class="post-title">{{ .Title }}</h2>
+                </header>
+                <p class="post-summary">{{if isset .Params "blurb"}}{{.Params.blurb}}{{else}}{{ .Summary | plainify | htmlUnescape }}...{{end}}</p>
+                <footer class="post-footer">
+                    <p class="post-meta">
+                        {{- if or .Params.author .Site.Params.author -}}
+                        {{ .Params.author | default .Site.Params.author }} · {{ end }}
+                        {{ .Date.Format "January 2006" }}
+                    </p>
+                </footer>
+                <a class="post-link" href="{{ .Permalink }}"></a>
+            </article>
+        {{ end }}
+        {{ range first 3 (after 1 ( where .Data.Pages "Section" "work") ) }}
+            <article class="post post-entry">
+                <header class="post-header">
+                    {{if .Params.emoji}}<span class="emoji">{{ .Params.emoji }}</span>{{end}}
+                    <h2 class="post-title">{{ .Title }}</h2>
+                </header>
+                <p class="post-summary">{{if isset .Params "blurb"}}{{.Params.blurb}}{{else}}{{ .Summary | plainify | htmlUnescape }}...{{end}}</p>
+                <footer class="post-footer">
+                    <p class="post-meta">
+                        {{- if or .Params.author .Site.Params.author -}}
+                        {{ .Params.author | default .Site.Params.author }} · {{ end }}
+                        {{ .Date.Format "January 2006" }}
+                    </p>
+                </footer>
+                <a class="post-link" href="{{ .Permalink }}"></a>
+            </article>
+        {{ end }}
+        <a href="work/" alt="View All Work" id="all-work">View All 👉</a>
+    </article>
+
+    <article id="home--email" class="left">
+        <div class="fishbowl gradient-alt">
+            <div class="fishbowl--inner">
+                <h2>Digging what I'm doing?</h2>
+                <p>Sign up for my list and get an occasional email from me about something I think you'll love.</p>
+                <script async id="_ck_393696" src="https://forms.convertkit.com/393696?v=7"></script>
+            </div>
+        </div>
+    </article>
+
+    <div class="clearfix"></div>
+
+    <article id="home--now">
+        <p class="dropCap">
+            Are you curious what I'm up to right this very moment? Well, I have <em>just the thing for you</em>: my <a href="now/" alt="What I'm up to right now">"Now" page</a>, which is a more-frequently-updated sibling to the "About" page. That said, <strong>here's what I'm up to right now:</strong>
+        </p>
+        {{ range first 1 (where .Data.Pages "Section" "now") }}
+            <article>
+                <header class="post-header">
+                    {{if .Params.emoji}}<span class="emoji">{{ .Params.emoji }}</span>{{end}}
+                    <h2 class="post-title">{{ .Title }}</h2>
+                </header>
+                <p class="post-summary">{{if isset .Params "blurb"}}{{.Params.blurb}}{{else}}{{ .Summary | plainify | htmlUnescape }}...{{end}}</p>
+                <footer class="post-footer">
+                    <p class="post-meta">
+                        Posted {{ .Date.Format "January 2006" }}
+                    </p>
+                </footer>
+                <a class="post-link" href="{{ .Permalink }}"></a>
+            </article>
+        {{ end }}
+    </article>
+
+
+
+</section>
+{{ partial "footer.html" . }}

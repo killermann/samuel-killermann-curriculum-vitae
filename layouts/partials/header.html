@@ -38,7 +38,7 @@
     <!-- RSS -->
     <link rel="alternate" type="application/atom+xml" href="/index.xml" title="{{ .Site.Title }}">
 </head>
-<body class="{{if eq .Kind `page` }}single{{else}}list{{end}}">
+<body class="{{if eq .Kind `page` }}single{{else if eq .Kind `home`}}home{{else}}list{{end}}">
   <header id="main-header" class="header">
     {{ if .IsHome }}
     <h1 class="title"><a href="{{ `/` }}"><span>🎤</span>sK</a></h1>
