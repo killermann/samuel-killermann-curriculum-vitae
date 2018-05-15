@@ -524,8 +524,8 @@ $cubic: cubic-bezier(.64,.09,.08,1);
 
 .post-entry {
 	padding:25px 30px 30px;
-	margin:0 auto;
-	width:calc(100% - 100px);
+	margin:0 25px auto auto;
+	width:calc(100% - 75px);
 	position:relative;
 	z-index:1;
 	@extend .shadow-low;
