@@ -45,10 +45,16 @@ a.button, .post-content a.button {
 	}
 
     &.blue, &.accent{
-        background-color:var(--blue);;
+        background:var(--blue);;
     }
 	&.red {
-		background-color:var(--red);;
+		background:var(--red);;
+	}
+
+	&.seafoam {
+		background:#69e2de;
+		color:#000;
+		text-shadow:0px 1px 1px white;
 	}
 }
 
@@ -159,6 +165,12 @@ $cubic: cubic-bezier(.64,.09,.08,1);
 	.title, .title a{
 		line-height:65px;
 		margin:0;
+		position:relative;
+		z-index:10;
+	}
+
+	nav.menu {
+		z-index:10;
 	}
 }
 
@@ -177,9 +189,256 @@ $cubic: cubic-bezier(.64,.09,.08,1);
     }
 }
 
+
 /**************************
 
 		HOME
+
+**************************/
+
+.home {
+
+	header.header {
+		position:fixed;
+		width:100%;
+		top:0;
+		left:0;
+		z-index:5;
+	}
+
+	section#homeBentos {
+		background:white;
+		position:relative;
+		z-index:100;
+		padding:25px;
+		width:100%;
+	}
+
+	#home--intro {
+		text-align:center;
+		padding:50px 25px 25px;
+
+		h1 {
+			font-size:1em;
+
+			span {
+				font-family:var(--serif);
+				font-size:1.4em;
+			}
+		}
+
+		nav {
+			margin:0;
+			ul {
+				list-style:none;
+				margin:15px 0 0;
+
+				li {
+					display:inline-block;
+
+					a {
+						display:inline-block;
+						font-weight:bold;
+						padding:12px 18px;
+					}
+				}
+			}
+		}
+
+		&:before {
+
+			content:'Welcome!';
+			@extend .gradient;
+		}
+	}
+
+	#home--work {
+		@extend .gradient;
+		margin-bottom:100px;
+
+		&:before {
+			content:"New!";
+			background:#f5a81c;
+		}
+
+		padding-bottom:25px;
+
+		.first-entry {
+			border-radius:12px 12px 0 0;
+			padding:50px 25px 25px;
+			.post-title {
+				font-size:35px;
+			}
+
+			.post-header:before {display:none !important;}
+
+			& > * {
+				padding:0;
+			}
+		}
+
+		.post-entry {
+			margin-right:25px;
+			margin-left:auto;
+			width:calc(100% - 75px);
+		}
+	}
+
+	#all-work {
+		display:inline-block;
+		position:absolute;
+		left:50px;
+		bottom:-65px;
+		font-weight:bold;
+		border-radius:6px;
+		background:#fff;
+		padding:12px 25px;
+		letter-spacing:1px;
+		font-size:16px;
+		z-index:3;
+		@extend .shadow-low;
+
+		&:hover {
+			background:lighten(#af6ee2,1%);
+		}
+
+		&:before {
+			display:block;
+			content:'';
+			border-bottom:4px solid darken(#af6ee2, 10%);
+			width:30px;
+			top:22px;
+			position:absolute;
+			left:-29px;
+			z-index:0;
+			border-radius:0px 0px 0px 3px;
+		}
+
+		&:after {
+			display:block;
+			content:'';
+			border-left:4px solid darken(#af6ee2, 10%);
+			height:48px;
+			position:absolute;
+			left:-29px;
+			top:-26px;
+			z-index:0;
+		}
+	}
+
+	#home--now {
+		width:720px;
+		max-width:90%;
+		margin:50px auto 50px;
+
+		a {
+			color:var(--purple);;
+		}
+
+		p.dropCap {
+			max-width:400px;
+			margin:0 auto 2em;
+		}
+
+		article {
+			position:relative;
+			border-radius:12px;
+			padding:50px 25px 25px;
+			margin:50px auto;
+			text-align:center;
+			@extend .bento;
+
+			.post-title {
+				font-size:35px;
+			}
+
+			.emoji {
+				position:absolute;
+				font-size:40px;
+				width:40px;
+				line-height:1;
+				height:40px;
+				top:-20px;
+				left:50%;
+				margin-left:-20px;
+			}
+
+			.post-link {
+				border-radius:12px;
+			}
+
+			&:hover {
+				color:var(--purple);
+			}
+		}
+	}
+}
+
+.bento {
+	position:relative;
+	max-width:600px;
+	background:#fff;
+	margin:0 auto 30px;
+	border-radius:12px;
+	box-sizing: border-box;
+	@extend .shadow-high;
+
+	&:before {
+		display:inline-block;
+		position:absolute;
+		top:-16px;
+		left:50%;
+		color:#fff;
+		padding:8px;
+		z-index:100;
+		font-size:16px;
+		letter-spacing:1px;
+		text-shadow:0px 1px 1px rgba(0,0,0,.5);
+		border-radius:3px;
+		line-height:1;
+		transform: translate(-50%, 0);
+	}
+}
+
+.fishbowl {
+	margin:0 0 30px -25px;
+	width:calc(100% + 50px);
+
+	.fishbowl--inner{
+		padding:50px;
+		text-align:center;
+		background-image:url(../img/sK-logo-pattern-400.png);
+		background-repeat:repeat;
+		background-position:top left;
+		-webkit-animation: slide 30s linear infinite;
+		color:#fff;
+		text-shadow:0px 1px 3px rgba(0,0,0,.7);
+
+		h1, h2, p, a, .ck_form_container{
+			max-width:420px;
+			margin:.5em auto;
+			font-weight:700;
+		}
+
+		h2, p {
+			line-height:1.2;
+		}
+
+		h2 {
+			font-size:1.8em;
+		}
+
+		.ck_form_container {
+			.ck_form_fields {
+				@extend .shadow-high;
+			}
+		}
+	}
+}
+
+/**************************
+
+		LIST
 
 **************************/
 
@@ -201,18 +460,25 @@ $cubic: cubic-bezier(.64,.09,.08,1);
 
 	header.list-header {
 		background:#fff;
-		width:100%;
+		width:auto;
 		max-width:100%;
-		padding:1em 0;
-		margin:0 auto 25px;
+		padding:0 50px 2em;
+		font-size:1em;
+		margin:-65px auto 0;
 		height:auto;
 		text-align:center;
 		position:relative;
 		z-index:5;
 
 		h1 {
-			max-width:720px;
-			margin:0 auto;
+			margin:-5px auto 0;
+			text-align:center;
+			font-size:1.5em;
+			font-family:var(--serif);
+		}
+
+		span {
+			margin-top:-15px;
 		}
 	}
 }
@@ -235,21 +501,6 @@ $cubic: cubic-bezier(.64,.09,.08,1);
             margin-top:16px;
         }
 
-        &:before {
-            content:'New!';
-            position:absolute;
-            top:0;
-            left:30px;
-            background:#f5a81c;
-            color:#fff;
-            padding:8px;
-            font-size:16px;
-            letter-spacing:1px;
-            text-shadow:0px 1px 1px darken(#f5a81c,30%);
-            border-radius:3px;
-            line-height:1;
-        }
-
 		.emoji {
 			display:block;
 			font-size:80px;
@@ -265,7 +516,7 @@ $cubic: cubic-bezier(.64,.09,.08,1);
 	width:calc(100% - 100px);
 	position:relative;
 	z-index:1;
-	box-shadow: 0 7px 11px -5px rgba(black,0.3);
+	@extend .shadow-low;
 
 	header {
 		display:flex;
@@ -285,7 +536,7 @@ $cubic: cubic-bezier(.64,.09,.08,1);
 			&:after {
 				display:block;
 				content:'';
-				border-top:4px solid darken(#af6ee2, 7%);
+				border-top:4px solid darken(#af6ee2, 10%);
 				position:absolute;
 				width:26px;
 				left:20px;
@@ -299,7 +550,7 @@ $cubic: cubic-bezier(.64,.09,.08,1);
 	&:after {
 		display:block;
 		content:'';
-		border-left:4px solid darken(#af6ee2, 7%);
+		border-left:4px solid darken(#af6ee2, 10%);
 		position:absolute;
 		height:calc(100% + 60px);
 		right:calc(100% + 25px);
@@ -412,6 +663,7 @@ $cubic: cubic-bezier(.64,.09,.08,1);
 					margin-top:.7em;
 					font-weight:600;
 				}
+
 				hr + p:first-letter {
 					color: var(--purple);
 					float: left;
@@ -707,7 +959,7 @@ $cubic: cubic-bezier(.64,.09,.08,1);
 
 footer.footer {
 	@extend .gradient-alt;
-	border-top:4px solid darken(#af6ee2, 7%);
+	border-top:4px solid darken(#af6ee2, 10%);
 	font-size:inherit;
 	color:#fff;
 	margin:0;

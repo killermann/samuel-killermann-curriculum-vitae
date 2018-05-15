@@ -5,7 +5,7 @@ emoji: ""
 author: "Sam Killermann"
 blurb: ""
 link: ""
-tags: []
+tags: ["Test"]
 skills: []
 draft: true
 stats:

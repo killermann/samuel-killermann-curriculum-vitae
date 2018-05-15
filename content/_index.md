@@ -1,3 +1,3 @@
 ---
-title: "All Work"
+title: "Samuel Killermann's Curriculum Vitae"
 ---
