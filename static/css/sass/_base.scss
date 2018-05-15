@@ -160,6 +160,11 @@ $cubic: cubic-bezier(.64,.09,.08,1);
 		line-height:50px;
 
 		.title, .title a {line-height:50px;}
+
+		button.menu-toggle {
+			height:50px;
+			width:50px;
+		}
 	}
 
 	.title, .title a{
