@@ -471,7 +471,7 @@ $cubic: cubic-bezier(.64,.09,.08,1);
 		background:#fff;
 		width:auto;
 		max-width:100%;
-		padding:0 50px 2em;
+		padding:25px 100px 2em;
 		font-size:1em;
 		margin:-65px auto 0;
 		height:auto;
@@ -480,9 +480,10 @@ $cubic: cubic-bezier(.64,.09,.08,1);
 		z-index:5;
 
 		h1 {
-			margin:-5px auto 0;
+			margin:0 auto;
 			text-align:center;
-			font-size:1.5em;
+			font-size:1.3em;
+			line-height:.8;
 			font-family:var(--serif);
 		}
 
@@ -495,7 +496,7 @@ $cubic: cubic-bezier(.64,.09,.08,1);
 
 .first-entry {
 	padding-top:10px;
-	padding-bottom:80px;
+	padding-bottom:40px;
 	margin-bottom:25px;
 	text-align:center;
 	position:relative;
@@ -974,7 +975,7 @@ footer.footer {
 	margin:0;
 	padding:0;
 	position:relative;
-	
+
 	.footer--inner {
 		padding:4em;
 		background-image:url(../img/sK-logo-pattern-400.png);
