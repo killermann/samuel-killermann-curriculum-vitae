@@ -237,7 +237,7 @@ $cubic: cubic-bezier(.64,.09,.08,1);
 		}
 
 		nav {
-			margin:0;
+			margin:0 10px;
 			ul {
 				list-style:none;
 				margin:15px 0 0;
@@ -248,7 +248,15 @@ $cubic: cubic-bezier(.64,.09,.08,1);
 					a {
 						display:inline-block;
 						font-weight:bold;
-						padding:12px 18px;
+						padding:.5em 1em;
+						border-radius:6px;
+						line-height:1;
+						transition:all .1s linear;
+
+						&:hover, &:focus {
+							box-shadow:0px 3px 9px rgba(0,0,0,.2);
+							transform:scale(1.1);
+						}
 					}
 				}
 			}
@@ -349,7 +357,7 @@ $cubic: cubic-bezier(.64,.09,.08,1);
 		article {
 			position:relative;
 			border-radius:12px;
-			padding:50px 25px 25px;
+			padding:30px 25px 25px;
 			margin:50px auto;
 			text-align:center;
 			@extend .bento;
@@ -431,9 +439,13 @@ $cubic: cubic-bezier(.64,.09,.08,1);
 		}
 
 		h2 {
-			font-size:1.8em;
+			font-size:calc(18px + 1vw);
+			margin-bottom:24px;
 		}
 
+		p {
+			margin-bottom:24px;
+		}
 		.ck_form_container {
 			.ck_form_fields {
 				@extend .shadow-high;
@@ -681,7 +693,7 @@ $cubic: cubic-bezier(.64,.09,.08,1);
 					color: var(--purple);
 					float: left;
 					font-family: var(--serif);
-					font-size: 4em;
+					font-size: 3.8em;
 					font-weight:600;
 					line-height: 1;
 					padding-top: .1em;

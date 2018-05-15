@@ -26,7 +26,9 @@
 		#home--intro {
 			nav ul li {
 				display:block;
-				font-size:1.2em;
+				font-size:calc(1em + .5vw);
+				
+				a{display:block;}
 			}
 		}
 
