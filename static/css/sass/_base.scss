@@ -219,7 +219,7 @@ $cubic: cubic-bezier(.64,.09,.08,1);
 		background:white;
 		position:relative;
 		z-index:100;
-		padding:25px;
+		padding:25px 11px;
 		width:100%;
 	}
 
@@ -266,7 +266,7 @@ $cubic: cubic-bezier(.64,.09,.08,1);
 		margin-bottom:100px;
 
 		&:before {
-			content:"New!";
+			content:"Latest Work";
 			background:#f5a81c;
 		}
 
@@ -275,9 +275,6 @@ $cubic: cubic-bezier(.64,.09,.08,1);
 		.first-entry {
 			border-radius:12px 12px 0 0;
 			padding:50px 25px 25px;
-			.post-title {
-				font-size:35px;
-			}
 
 			.post-header:before {display:none !important;}
 
@@ -410,8 +407,8 @@ $cubic: cubic-bezier(.64,.09,.08,1);
 }
 
 .fishbowl {
-	margin:0 0 30px -25px;
-	width:calc(100% + 50px);
+	margin:0 0 30px -12px;
+	width:100.2vw;
 
 	.fishbowl--inner{
 		padding:50px;
@@ -510,7 +507,7 @@ $cubic: cubic-bezier(.64,.09,.08,1);
 
         .post-title {
             margin-top:16px;
-			font-size:calc(30px + 1.5vw);
+			font-size:calc(1.2em + 1.5vw);
         }
 
 		.emoji {
@@ -523,7 +520,7 @@ $cubic: cubic-bezier(.64,.09,.08,1);
 }
 
 .post-entry {
-	padding:25px 30px 30px;
+	padding:25px;
 	margin:0 25px auto auto;
 	width:calc(100% - 75px);
 	position:relative;
@@ -534,15 +531,18 @@ $cubic: cubic-bezier(.64,.09,.08,1);
 		display:flex;
 		align-items: center;
 
+		.post-title {
+			font-size:calc(18px + 1vw);
+		}
+
 		.emoji {
 			font-size:35px;
+			position:absolute;
 			display:inline-block;
 			text-align: center;
 			line-height:40px;
-			margin:10px 36px 10px 0;
+			margin:10px 31px 10px -71px;
 			width:40px;
-			margin-left:-76px;
-			position:relative;
 			z-index:5;
 
 			&:after {
@@ -550,8 +550,8 @@ $cubic: cubic-bezier(.64,.09,.08,1);
 				content:'';
 				border-top:4px solid darken(#af6ee2, 10%);
 				position:absolute;
-				width:26px;
-				left:20px;
+				width:21px;
+				left:25px;
 				top:50%;
 				margin-top:-2px;
 				z-index:-2;
@@ -575,9 +575,10 @@ $cubic: cubic-bezier(.64,.09,.08,1);
 	overflow: hidden;
 	text-overflow: ellipsis;
 	display: -webkit-box;
+	font-size:1em;
 	color:rgba(0,0,0,.6);
+	margin-bottom:.5em;
 	-webkit-box-orient: vertical;
-	margin-bottom:1em;
 	-webkit-line-clamp: 2; /* number of lines to show */
 	line-height: 1.3;        /* fallback */
 	max-height:3.9em;
