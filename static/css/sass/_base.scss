@@ -488,7 +488,8 @@ $cubic: cubic-bezier(.64,.09,.08,1);
 		}
 
 		span {
-			margin-top:-15px;
+			margin-top:-17px;
+			display:block;
 		}
 	}
 }
@@ -509,6 +510,7 @@ $cubic: cubic-bezier(.64,.09,.08,1);
 
         .post-title {
             margin-top:16px;
+			font-size:calc(30px + 1.5vw);
         }
 
 		.emoji {
@@ -974,6 +976,7 @@ footer.footer {
 	color:#fff;
 	margin:0;
 	padding:0;
+	z-index:1;
 	position:relative;
 
 	.footer--inner {
