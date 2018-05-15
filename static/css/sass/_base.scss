@@ -163,7 +163,7 @@ $cubic: cubic-bezier(.64,.09,.08,1);
 
 		button.menu-toggle {
 			height:50px;
-			width:50px;
+			width:60px;
 		}
 	}
 
@@ -172,6 +172,10 @@ $cubic: cubic-bezier(.64,.09,.08,1);
 		margin:0;
 		position:relative;
 		z-index:10;
+	}
+
+	button.menu-toggle {
+		width:60px;
 	}
 
 	nav.menu {
