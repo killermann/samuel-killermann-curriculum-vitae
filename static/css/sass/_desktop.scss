@@ -27,8 +27,30 @@
 			nav ul li {
 				display:block;
 				font-size:calc(1em + .5vw);
-				
-				a{display:block;}
+
+				a{
+					display:block;
+					overflow:hidden;
+					position:relative;
+
+					&:after {
+						position:absolute;
+						right:.5em;
+						top:.5em;
+						display:none;
+					}
+
+					&:hover:after {
+						display:block;
+					}
+				}
+
+				&:nth-of-type(1) a:after{content:'💼';}
+				&:nth-of-type(2) a:after{content:'🤗';}
+				&:nth-of-type(3) a:after{content:'📆';}
+				&:nth-of-type(4) a:after{content:'⌛️';}
+				&:nth-of-type(5) a:after{content:'🔗';}
+
 			}
 		}
 
