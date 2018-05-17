@@ -30,7 +30,7 @@ It's generally hard to describe myself beyond that, because I do so many differe
 - I code/develop all my own websites, full-stack;
 - I'm a facilitator and gender/sexuality educator;
 - I advise non-profits and social good organizers;
-- and I'm an activist, lifelong, for justice, peace, and a more beautiful world;
+- and I'm a lifelong activist for justice, peace, and a more beautiful world.
 
 ## How I Pay Rent
 
