@@ -10,9 +10,7 @@ Let's be honest: "About" pages are pretty bleh. For a more fun idea, check out t
 
 Okay, now that I've gotten that off my chest &mdash; Hi! I'm Sam, and I wear a lot of hats. If you've poked around this site, specifically the [work list](../work/), you've likely already figured that out.
 
-<!--
-If you're curious about this Site itself -- how to navigate it, how I made it, etc. -- check out TK
--->
+If you're curious about this site itself -- how to navigate it, how I made it, etc. -- check out [this post](https://samuelkillermann.com/work/samuel-killermann-curriculum-vitae/).
 
 I'm not really sure what you want to know about me, so I'll do my best to answer the most common questions I get asked from crowd members and readers.
 
@@ -23,6 +21,14 @@ Here's how I describe myself on [Twitter](http://twitter.com/killermann) (at the
 > Activist / Social justice comedian. Author. Storyteller. Sexuality & Gender Educator. "He’s perfectly O.K. with being known as the toilet sign guy." -@NYTimes
 
 That last thing is my favorite brag. If you want to read more professional bio stuff and work brags, click over to [my bio](../bio).
+
+It's generally hard to describe myself beyond that, because I do so many different things:
+
+- I'm an author of blogs, books, and chapters to books;
+- I doodle, illustrate, and design;
+- I'm a stand up comedian, speaker, and storyteller;
+- I code all my own websites, full-stack;
+- and I'm an activist, lifelong, for justice, peace, and a more beautiful world;
 
 ## How I Pay Rent
 
@@ -60,9 +66,10 @@ Profiles: plenty. Presence: pitiful.
 People ask about these things a lot, so here they are:
 
 - **Born** in Chicago on July 21, 1987 (but I only lived there until I was 2)
-- **Lived** in more homes than I can count, from the Midwest to the Midwest
+- **Lived** in more homes than I can count, from the Midwest to the Wild West
 - **Live** in Austin, TX. The best city in the US
 - **Went to college** at Purdue University, and **grad school** at Bowling Green State University
+- Yes, my real (i.e., familial, on my birth certificate) name is "Killermann."
 
 That's all, folks.
 

@@ -160,6 +160,11 @@ $cubic: cubic-bezier(.64,.09,.08,1);
 		line-height:50px;
 
 		.title, .title a {line-height:50px;}
+
+		button.menu-toggle {
+			height:50px;
+			width:60px;
+		}
 	}
 
 	.title, .title a{
@@ -167,6 +172,10 @@ $cubic: cubic-bezier(.64,.09,.08,1);
 		margin:0;
 		position:relative;
 		z-index:10;
+	}
+
+	button.menu-toggle {
+		width:60px;
 	}
 
 	nav.menu {
@@ -210,7 +219,7 @@ $cubic: cubic-bezier(.64,.09,.08,1);
 		background:white;
 		position:relative;
 		z-index:100;
-		padding:25px;
+		padding:25px 11px;
 		width:100%;
 	}
 
@@ -228,7 +237,7 @@ $cubic: cubic-bezier(.64,.09,.08,1);
 		}
 
 		nav {
-			margin:0;
+			margin:0 10px;
 			ul {
 				list-style:none;
 				margin:15px 0 0;
@@ -239,7 +248,15 @@ $cubic: cubic-bezier(.64,.09,.08,1);
 					a {
 						display:inline-block;
 						font-weight:bold;
-						padding:12px 18px;
+						padding:.5em 1em;
+						border-radius:6px;
+						line-height:1;
+						transition:all .1s linear;
+
+						&:hover, &:focus {
+							box-shadow:0px 3px 9px rgba(0,0,0,.2);
+							transform:scale(1.1);
+						}
 					}
 				}
 			}
@@ -257,7 +274,7 @@ $cubic: cubic-bezier(.64,.09,.08,1);
 		margin-bottom:100px;
 
 		&:before {
-			content:"New!";
+			content:"Latest Work";
 			background:#f5a81c;
 		}
 
@@ -266,9 +283,6 @@ $cubic: cubic-bezier(.64,.09,.08,1);
 		.first-entry {
 			border-radius:12px 12px 0 0;
 			padding:50px 25px 25px;
-			.post-title {
-				font-size:35px;
-			}
 
 			.post-header:before {display:none !important;}
 
@@ -343,7 +357,7 @@ $cubic: cubic-bezier(.64,.09,.08,1);
 		article {
 			position:relative;
 			border-radius:12px;
-			padding:50px 25px 25px;
+			padding:30px 25px 25px;
 			margin:50px auto;
 			text-align:center;
 			@extend .bento;
@@ -401,8 +415,8 @@ $cubic: cubic-bezier(.64,.09,.08,1);
 }
 
 .fishbowl {
-	margin:0 0 30px -25px;
-	width:calc(100% + 50px);
+	margin:0 0 30px -12px;
+	width:100.2vw;
 
 	.fishbowl--inner{
 		padding:50px;
@@ -425,9 +439,13 @@ $cubic: cubic-bezier(.64,.09,.08,1);
 		}
 
 		h2 {
-			font-size:1.8em;
+			font-size:calc(18px + 1vw);
+			margin-bottom:24px;
 		}
 
+		p {
+			margin-bottom:24px;
+		}
 		.ck_form_container {
 			.ck_form_fields {
 				@extend .shadow-high;
@@ -462,7 +480,7 @@ $cubic: cubic-bezier(.64,.09,.08,1);
 		background:#fff;
 		width:auto;
 		max-width:100%;
-		padding:0 50px 2em;
+		padding:25px 100px 2em;
 		font-size:1em;
 		margin:-65px auto 0;
 		height:auto;
@@ -471,14 +489,16 @@ $cubic: cubic-bezier(.64,.09,.08,1);
 		z-index:5;
 
 		h1 {
-			margin:-5px auto 0;
+			margin:0 auto;
 			text-align:center;
-			font-size:1.5em;
+			font-size:1.3em;
+			line-height:.8;
 			font-family:var(--serif);
 		}
 
 		span {
-			margin-top:-15px;
+			margin-top:-17px;
+			display:block;
 		}
 	}
 }
@@ -486,7 +506,7 @@ $cubic: cubic-bezier(.64,.09,.08,1);
 
 .first-entry {
 	padding-top:10px;
-	padding-bottom:80px;
+	padding-bottom:40px;
 	margin-bottom:25px;
 	text-align:center;
 	position:relative;
@@ -499,6 +519,7 @@ $cubic: cubic-bezier(.64,.09,.08,1);
 
         .post-title {
             margin-top:16px;
+			font-size:calc(1.2em + 1.5vw);
         }
 
 		.emoji {
@@ -511,9 +532,9 @@ $cubic: cubic-bezier(.64,.09,.08,1);
 }
 
 .post-entry {
-	padding:25px 30px 30px;
-	margin:0 auto;
-	width:calc(100% - 100px);
+	padding:25px;
+	margin:0 25px auto auto;
+	width:calc(100% - 75px);
 	position:relative;
 	z-index:1;
 	@extend .shadow-low;
@@ -522,15 +543,18 @@ $cubic: cubic-bezier(.64,.09,.08,1);
 		display:flex;
 		align-items: center;
 
+		.post-title {
+			font-size:calc(18px + 1vw);
+		}
+
 		.emoji {
 			font-size:35px;
+			position:absolute;
 			display:inline-block;
 			text-align: center;
 			line-height:40px;
-			margin:10px 36px 10px 0;
+			margin:10px 31px 10px -71px;
 			width:40px;
-			margin-left:-76px;
-			position:relative;
 			z-index:5;
 
 			&:after {
@@ -538,8 +562,8 @@ $cubic: cubic-bezier(.64,.09,.08,1);
 				content:'';
 				border-top:4px solid darken(#af6ee2, 10%);
 				position:absolute;
-				width:26px;
-				left:20px;
+				width:21px;
+				left:25px;
 				top:50%;
 				margin-top:-2px;
 				z-index:-2;
@@ -563,9 +587,10 @@ $cubic: cubic-bezier(.64,.09,.08,1);
 	overflow: hidden;
 	text-overflow: ellipsis;
 	display: -webkit-box;
+	font-size:1em;
 	color:rgba(0,0,0,.6);
+	margin-bottom:.5em;
 	-webkit-box-orient: vertical;
-	margin-bottom:1em;
 	-webkit-line-clamp: 2; /* number of lines to show */
 	line-height: 1.3;        /* fallback */
 	max-height:3.9em;
@@ -668,7 +693,7 @@ $cubic: cubic-bezier(.64,.09,.08,1);
 					color: var(--purple);
 					float: left;
 					font-family: var(--serif);
-					font-size: 4em;
+					font-size: 3.8em;
 					font-weight:600;
 					line-height: 1;
 					padding-top: .1em;
@@ -964,9 +989,8 @@ footer.footer {
 	color:#fff;
 	margin:0;
 	padding:0;
+	z-index:1;
 	position:relative;
-	z-index:5;
-
 
 	.footer--inner {
 		padding:4em;
