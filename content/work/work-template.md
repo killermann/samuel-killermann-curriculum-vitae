@@ -1,11 +1,11 @@
 ---
 title: ""
-date:
+date: 2018-05
 emoji: ""
 author: "Sam Killermann"
 blurb: ""
 link: ""
-tags: ["Test"]
+tags: []
 skills: []
 draft: true
 stats:
