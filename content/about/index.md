@@ -27,7 +27,9 @@ It's generally hard to describe myself beyond that, because I do so many differe
 - I'm an author of blogs, books, and chapters to books;
 - I doodle, illustrate, and design;
 - I'm a stand up comedian, speaker, and storyteller;
-- I code all my own websites, full-stack;
+- I code/develop all my own websites, full-stack;
+- I'm a facilitator and gender/sexuality educator;
+- I advise non-profits and social good organizers;
 - and I'm an activist, lifelong, for justice, peace, and a more beautiful world;
 
 ## How I Pay Rent
