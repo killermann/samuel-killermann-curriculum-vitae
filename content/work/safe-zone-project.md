@@ -5,6 +5,8 @@ emoji: "🏳️‍🌈"
 author: "Sam Killermann + Meg Bolger"
 blurb: "A free online resource for LGBTQ+ awareness and allyship training workshops"
 link: "http://thesafezoneproject.com"
+tags: ["Gender", "Sexuality", "Social Justice", "Free Online Resource"]
+skills: ["Curriculum Writer", "Facilitator", "Educator", "Designer", "Website Developer"]
 stats:
   curriculum_downloads: 23679
   downloads: 72696

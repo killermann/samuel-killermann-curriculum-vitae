@@ -6,15 +6,15 @@ emoji: "🌟"
 author: "Sam Killermann + Meg Bolger"
 blurb: "A book about facilitation with actionable advice and anecdotes"
 link: "http://facilitationmagic.com"
-tags: []
-skills: []
+tags: ["Facilitation", "Book"]
+skills: ["Author", "Facilitator", "Designer", "Website Developer", "Public Thinker"]
 stats:
   updated: "May 14, 2018"
   curriculum_downloads:
   copies_gifted: 3154
   country_count: 48
-  custom_stat: "Assigned Reading in Syllabi"
-  custom_count: "23 (that we know of)"
+  custom_stat: "Assigned Reading in Syllabi (that we know of)"
+  custom_count: "23"
 ---
 
 "Have you ever been in a training and marveled at how quickly the time flew by?

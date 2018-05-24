@@ -4,3 +4,12 @@
 .post-entry {
 	margin:0 auto;
 }
+
+.work--sample {
+	&.edugraphic {
+		img {
+			max-width:calc(100% + 120px);
+			margin-left:-60px;
+		}
+	}
+}

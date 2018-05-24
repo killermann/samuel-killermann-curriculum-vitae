@@ -5,8 +5,8 @@ emoji: "🔮"
 author: "Sam Killermann + Meg Bolger + Kaleigh Cornelison"
 blurb: "A free online resource for all facilitators with articles, videos, and downloads"
 link: "http://facilitating.xyz"
-tags: []
-skills: []
+tags: ["Facilitation", "Free Online Resource"]
+skills: ["Facilitator", "Blogger", "Designer", "Website Developer"]
 ---
 
 "When many of us start facilitating, we find ourselves learning a new skill without a lot of guidance or direction. We are passionate about the information and content that we are communicating, but we’re often less versed in tips and techniques regarding how to communicate that information.

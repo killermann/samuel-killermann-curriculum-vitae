@@ -5,6 +5,8 @@ emoji: "💁🏻‍"
 author: "Sam Killermann"
 blurb: "A comedy show and a free online resource about snap judgments, identity, and oppression."
 link: "http://itspronouncedmetrosexual.com"
+tags: ["Gender", "Sexuality", "Social Justice", "Activism", "Free Online Resource", "Comedy Show"]
+skills: ["Blogger", "Educator", "Performer", "Illustrator", "Designer", "Website Developer", "Public Thinker"]
 stats:
   updated: "May 14, 2018"
   downloads: 1000000000

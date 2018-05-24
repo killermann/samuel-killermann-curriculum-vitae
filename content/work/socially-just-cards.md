@@ -5,8 +5,8 @@ emoji: "🎄"
 author: "Sam Killermann"
 blurb: "Handmade greeting cards for the socially conscious, all in the gift economy"
 link: "http://sociallyjustcards.com"
-tags: []
-skills: []
+tags: ["Merch", "Gift Experiment", "Activism", "Social Justice"]
+skills: ["Illustrator", "Copywriter", "Designer", "Website Developer"]
 ---
 
 An experiment in gift economy and social justice, SJC is where I serve as Head Elf.

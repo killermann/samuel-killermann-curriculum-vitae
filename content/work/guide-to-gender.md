@@ -6,7 +6,8 @@ emoji: "🍪"
 author: "Sam Killermann"
 blurb: "My first book and Amazon Best-Seller over 2 editions"
 link: "http://guidetogender.com"
-skills: []
+tags: ["Gender", "Social Justice", "Activism", "Book"]
+skills: ["Author", "Educator", "Illustrator", "Designer", "Website Developer", "Public Thinker"]
 stats:
   updated: "May 14 2018"
   copies_gifted: 17093

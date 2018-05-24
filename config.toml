@@ -43,6 +43,9 @@ url ="/links/"
 name = "Links"
 weight = -80
 
+[taxonomies]
+  skills = "skills"
+  tags = "tags"
 
 [context.production.environment]
 HUGO_VERSION = "0.40.1"

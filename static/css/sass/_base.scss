@@ -690,6 +690,7 @@ $cubic: cubic-bezier(.64,.09,.08,1);
 		span {
 			margin-top:-17px;
 			display:block;
+			color:#555;
 		}
 	}
 }
@@ -1165,6 +1166,15 @@ $cubic: cubic-bezier(.64,.09,.08,1);
             filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4dffffff', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
         }
     }
+
+	&.edugraphic {
+		margin:2em auto 3em;
+		img {
+			margin-left:-25px;
+			max-width:calc(100% + 50px);
+			@extend .shadow-high;
+		}
+	}
 }
 
 /**************************

@@ -111,10 +111,10 @@
         {{ if .Params.tags }}
         <div class="intro">
             <h2>Explore</h2>
-            <p>Themes and skills I used to create <strong>{{if .Params.link }}<a href="{{ .Params.link }}" alt="{{ .Params.title }}">{{ .Params.title }}</a>{{else}}{{ .Params.title }}{{end}}</strong>, that are links to other similar work</p>
+            <p>Themes and skills I used to create <strong>{{if .Params.link }}<a href="{{ .Params.link }}" alt="{{ .Params.title }}">{{ .Params.title }}</a>{{else}}{{ .Params.title }}{{end}}</strong>, that are clickable links to similar work</p>
         </div>
         <div class="card">
-            <h3 class="title">Content themes</h3>
+            <h3 class="title">🏷 Content themes</h3>
             <ul class="post-tags">
                 {{ range .Params.tags }}
                 <li><a href="{{ `/tags/` }}{{ . | urlize }}/">{{ . }}</a></li>
@@ -124,7 +124,7 @@
         {{ end }}
         {{ if .Params.skills }}
         <div class="card">
-            <h3 class="title">Skills I used</h3>
+            <h3 class="title">🎩 Hats I wore</h3>
             <ul class="post-tags">
                 {{ range .Params.skills }}
                 <li><a href="{{ `/skills/` }}{{ . | urlize }}/">{{ . }}</a></li>

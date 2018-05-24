@@ -5,8 +5,8 @@ emoji: "✊"
 author: "Sam Killermann"
 blurb: "Shirts, stencils, and prints that bring the protest to your everyday."
 link: "http://everyshirtispolitical.com"
-tags: []
-skills: []
+tags: ["Merch", "Gift Experiment", "Activism", "Social Justice"]
+skills: ["Designer", "Website Developer", "Copywriter"]
 ---
 
 "Every shirt is political. It’s not just about what a shirt says on the front; it’s about what you’re saying when you buy it or wear it.
