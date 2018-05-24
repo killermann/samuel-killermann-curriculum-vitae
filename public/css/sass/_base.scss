@@ -8,6 +8,167 @@
     --dark-grey: #191F23;
 }
 
+/* Convert Kit Default Styles */
+
+  .ck_form.ck_naked {
+  /* divider image */
+	background: transparent;
+	line-height: 1.5em;
+	overflow: hidden;
+	color: #191f23;
+	font-size: 16px;
+	border: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	clear: both;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.ck_form.ck_naked p {
+	padding: 0px;
+}
+
+.ck_form, .ck_form * {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.ck_form.ck_naked .ck_form_fields {
+	width: 100%;
+	float: left;
+	padding: 5%;
+}
+/* Form fields */
+
+.ck_errorArea {
+	display: none; /* temporary */
+}
+
+#ck_success_msg {
+	padding: 10px 10px 0px;
+	border: solid 1px #ddd;
+	background: #eee;
+}
+
+.ck_form.ck_naked input[type="text"], .ck_form.ck_naked input[type="email"] {
+	font-size: 18px;
+	padding: 10px 8px;
+	width: 34%;
+	border: 1px solid #d6d6d6; /* stroke */
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	border-radius: 0px; /* border radius */
+	background-color: #fff; /* layer fill content */
+	margin-bottom: 5px;
+	height: auto;
+	float: left;
+	margin: 0px;
+	margin-right: 1%;
+	height: 42px;
+}
+
+.ck_form input[type="text"]:focus, .ck_form input[type="email"]:focus {
+	outline: none;
+	border-color: #aaa;
+}
+
+.ck_form.ck_naked .ck_subscribe_button {
+    width: 100%;
+    color: #fff;
+    margin: 0px;
+    padding:  9px 0px;
+    font-size: 18px;
+    background: #af6ee2;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px; /* border radius */
+    cursor: pointer;
+    border: none;
+    text-shadow: none;
+    width: 30%;
+    float: left;
+    height: 42px;
+  }
+
+
+.ck_converted_content {
+  display: none;
+	padding: 5%;
+	background: #fff;
+}
+
+/* max width 500 */
+
+	.ck_form.ck_naked.width500 .ck_subscribe_button {
+		width: 100%;
+		float: none;
+		margin-top: 5px;
+	}
+
+	.ck_form.ck_naked.width500 input[type="text"], .ck_form.ck_naked.width500 input[type="email"] {
+		width: 49%;
+	}
+
+	.ck_form.ck_naked.width500 input[type="email"] {
+		margin-right: 0px;
+		width: 50%;
+	}
+
+/* max width 400 */
+
+	.ck_form.ck_naked.width400 .ck_subscribe_button, .ck_form.ck_naked.width400 input[type="text"], .ck_form.ck_naked.width400 input[type="email"] {
+		width: 100%;
+		float: none;
+		margin-top: 5px;
+	}
+
+.ck_slide_up, .ck_modal, .ck_slide_up .ck_naked, .ck_modal .ck_naked  {
+	min-width: 400px;
+}
+
+.page .ck_form.ck_naked {
+	margin: 50px auto;
+	max-width: 700px;
+}
+
+
+/* v6 */
+
+.ck_slide_up.ck_form_v6, .ck_modal.ck_form_v6, .ck_slide_up.ck_form_v6 .ck_naked, .ck_modal.ck_form_v6 .ck_naked {
+  min-width: 0 !important;
+}
+
+.ck_form_v6 #ck_success_msg {
+	padding: 0px 10px;
+}
+
+@media all and (max-width: 403px) {
+  .ck_form_v6.ck_modal .ck_naked {
+    padding-top: 30px;
+  }
+}
+
+@media all and (max-width: 499px) {
+  .ck_form_v6.ck_modal .ck_naked + .ck_close_link {
+    color: #fff;
+    top: 10px;
+  }
+}
+
+.ck_form_v6.ck_slide_up .ck_naked + .ck_close_link {
+  right: 10px;
+  top: -5px;
+}
+
+@media all and (min-width: 600px) {
+  .ck_form_v6.ck_slide_up .ck_naked + .ck_close_link {
+    right: 35px;
+  }
+}
+
 /**************************
 
 		GENERAL
@@ -19,7 +180,7 @@
     background: var(--purple);
 }
 
-a.button, .post-content a.button {
+.button, a.button, .post-content a.button {
     color:#fff;
     border:0px;
     display:inline-block;
@@ -34,6 +195,7 @@ a.button, .post-content a.button {
 	font-weight:900;
 	letter-spacing:.1em;
 	line-height:1.1;
+	transition:all .1s linear;
 	text-transform:uppercase;
 	font-size:.7em;
 
@@ -446,9 +608,38 @@ $cubic: cubic-bezier(.64,.09,.08,1);
 		p {
 			margin-bottom:24px;
 		}
+
 		.ck_form_container {
+
 			.ck_form_fields {
+				background-color:#fff !important;
 				@extend .shadow-high;
+				padding:5%;
+				border-radius:6px !important;
+
+				.ck_email_field_group {
+					display:flex;
+					flex-wrap:nowrap;
+
+					input {
+						font-size:18px;
+						width:49%;
+						margin:1%;
+						border-radius:3px !important;
+						padding:.3em;
+						border:1px solid #d6d6d6;
+
+						&:focus {
+							border-color:var(--purple);
+						}
+					}
+				}
+			}
+			button {
+				@extend .button;
+				border-radius:3px !important;
+				width:98% !important;
+				margin:1% 1% 0 !important;
 			}
 		}
 	}
@@ -499,6 +690,7 @@ $cubic: cubic-bezier(.64,.09,.08,1);
 		span {
 			margin-top:-17px;
 			display:block;
+			color:#555;
 		}
 	}
 }
@@ -974,6 +1166,15 @@ $cubic: cubic-bezier(.64,.09,.08,1);
             filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4dffffff', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
         }
     }
+
+	&.edugraphic {
+		margin:2em auto 3em;
+		img {
+			margin-left:-25px;
+			max-width:calc(100% + 50px);
+			@extend .shadow-high;
+		}
+	}
 }
 
 /**************************

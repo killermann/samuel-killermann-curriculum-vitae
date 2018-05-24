@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Curriculum Writer on Sam Killermann&#39;s Curriculum Vitae</title>
+    <link>https://samuelkillermann.com/skills/curriculum-writer/</link>
+    <description>Recent content in Curriculum Writer on Sam Killermann&#39;s Curriculum Vitae</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 18 Jul 2013 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://samuelkillermann.com/skills/curriculum-writer/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The Safe Zone Project</title>
+      <link>https://samuelkillermann.com/work/safe-zone-project/</link>
+      <pubDate>Thu, 18 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://samuelkillermann.com/work/safe-zone-project/</guid>
+      <description>Meg and I created The Safe Zone Project in 2013 to serve as a free online resource for folks doing LGBTQ awareness and ally trainings (AKA &amp;ldquo;safe zone trainings&amp;rdquo;).
+  </description>
+    </item>
+    
+  </channel>
+</rss>

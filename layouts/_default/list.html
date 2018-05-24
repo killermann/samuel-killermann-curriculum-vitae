@@ -10,7 +10,7 @@
         {{ end }}
     </header>
 {{ end }}
-{{ $paginator := .Paginate (where .Pages ".Params.type" "!=" "page") (index .Site.Params "paginate" | default 10) }}
+{{ $paginator := .Paginate (where .Pages ".Params.type" "!=" "page") (index .Site.Params "paginate" | default 100) }}
 {{ if gt $paginator.TotalPages 0 }}
     {{ range $index, $page := $paginator.Pages }}
     {{ if and (eq $paginator.PageNumber 1) (eq $index 0) }}
@@ -40,10 +40,10 @@
 <footer class="list-footer">
   <nav class="pagination">
     {{ if $paginator.HasPrev }}
-    <a class="pagination-prev" href="{{ $paginator.Prev.URL }}">← 上一页</a>
+    <a class="pagination-prev" href="{{ $paginator.Prev.URL }}">← Prev</a>
     {{ end }}
     {{ if $paginator.HasNext }}
-    <a class="pagination-next" href="{{ $paginator.Next.URL }}">下一页 →</a>
+    <a class="pagination-next" href="{{ $paginator.Next.URL }}">Next →</a>
     {{ end }}
   </nav>
 </footer>
