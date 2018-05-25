@@ -31,7 +31,7 @@
 	box-shadow:0px 12px 65px -12px rgba(0,0,0,.5);
 }
 
-@-webkit-keyframes slide {
+@keyframes slide {
     from { background-position: 0 0; }
     to { background-position: -400px -400px; }
 }
