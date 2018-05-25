@@ -965,23 +965,25 @@ $cubic: cubic-bezier(.64,.09,.08,1);
     }
 
 	table {
-		background: #fff;
 	    border-radius: 6px;
-		box-shadow:0 3px 11px -3px rgba(0, 0, 0, 0.3);
+		@extend .shadow-high;
+		@extend .gradient-alt;
 
 		thead {
-			@extend .gradient-alt;
+			background:none;
 			border-radius:6px 6px 0 0;
 			color:#fff;
 
-			td, th {border-color:var(--purple);}
+			td, th {border-color:var(--purple);background:none;}
 
 			tr th {
 				border-radius:6px 0px 0 0;
+				background:none;
 			}
 
 			tr th:last-child {
 				text-align:right;
+				background:none;
 				border-radius:0px 6px 0 0;
 			}
 		}
@@ -996,8 +998,12 @@ $cubic: cubic-bezier(.64,.09,.08,1);
 
 		tbody {
 
+			tr {
+				background:#fff;
+			}
+
 			tr:nth-child(even){
-				background:#f2f2f2;
+				background:#f0f0f0;
 			}
 
 			tr:last-child {
