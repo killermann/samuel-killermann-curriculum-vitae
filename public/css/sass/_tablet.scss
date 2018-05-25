@@ -6,9 +6,10 @@
 }
 
 .work--sample {
-	img.ultra-wide {
-		width:calc(100% + 120px);
-		max-width:calc(100% + 120px);
-		margin-left:-60px;
+	&.edugraphic {
+		img {
+			max-width:calc(100% + 120px);
+			margin-left:-60px;
+		}
 	}
 }
