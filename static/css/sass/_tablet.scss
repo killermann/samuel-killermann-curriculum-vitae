@@ -6,7 +6,7 @@
 }
 
 .work--sample {
-	img.ultra-wide {
+	.ultra-wide, &.ultra-wide {
 		max-width:calc(100% + 120px);
 		width:calc(100% + 120px);
 		margin-left:-60px;

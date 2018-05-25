@@ -48,6 +48,11 @@
   </url>
   
   <url>
+    <loc>https://samuelkillermann.com/work/ted-x-talk-do-the-work/</loc>
+    <lastmod>2015-03-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://samuelkillermann.com/work/socially-just-cards/</loc>
     <lastmod>2014-12-01T00:00:00+00:00</lastmod>
   </url>
@@ -63,8 +68,18 @@
   </url>
   
   <url>
+    <loc>https://samuelkillermann.com/work/ted-x-talk-understanding-the-complexities-of-gender/</loc>
+    <lastmod>2013-04-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://samuelkillermann.com/work/genderbread-person/</loc>
     <lastmod>2011-11-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://samuelkillermann.com/work/ted-x-talk-cost-of-dreams/</loc>
+    <lastmod>2011-09-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -122,7 +137,7 @@
   
   <url>
     <loc>https://samuelkillermann.com/skills/performer/</loc>
-    <lastmod>2011-06-01T00:00:00+00:00</lastmod>
+    <lastmod>2015-03-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -157,6 +172,12 @@
   <url>
     <loc>https://samuelkillermann.com/now/</loc>
     <lastmod>2018-05-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://samuelkillermann.com/skills/writer/</loc>
+    <lastmod>2015-03-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
 </urlset>

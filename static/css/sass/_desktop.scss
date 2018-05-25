@@ -86,6 +86,16 @@
 	margin: 3vw;
 }
 
+
+.work--sample {
+	.ultra-wide, &.ultra-wide {
+		max-width:calc(100% + 340px);
+		width:calc(100% + 340px);
+		margin-left:-170px;
+	}
+}
+
+
 #main-header {
 	nav.menu {
 		margin-top:-2px;

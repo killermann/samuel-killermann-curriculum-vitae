@@ -1181,14 +1181,20 @@ $cubic: cubic-bezier(.64,.09,.08,1);
 		}
 	}
 
-	img.ultra-wide {
+	&.video {
+		background:#000;
+		border-radius:3px;
+		padding:3px;
+	}
+
+	.ultra-wide, &.ultra-wide {
 		margin-left:-25px;
 		max-width:calc(100% + 50px);
 		width:calc(100% + 50px);
 		height:auto;
 	}
 
-	img.full-width {
+	.full-width {
 		width:100%;
 		height:auto;
 	}
