@@ -7,7 +7,6 @@ blurb: "My first version of the Genderbread Person model, a tool for understandi
 link: "http://itspronouncedmetrosexual.com/2011/11/breaking-through-the-binary-gender-explained-using-continuums/"
 tags: ["Gender", "Sexuality", "Social Justice"]
 skills: ["Educator", "Designer"]
-draft: true
 stats:
   updated: "May 24, 2018"
   curriculum_downloads:
