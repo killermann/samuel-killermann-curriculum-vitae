@@ -5,7 +5,8 @@ theme= "hugo-paper"
 
 [params]
 author = "Sam Killermann"
-description = "The collection of life's work from Sam Killermann, comedian, author, and award-winning activist."
+description = "Sam's curriculum vitae, featuring his books, comedy shows, TEDxTalks, edugraphics, free online resources, and blogs."
+og_image = "/img/sK-Social-Card-2018.png"
 
 [build]
 publish = "public"

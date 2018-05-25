@@ -8,12 +8,15 @@
     <!-- Title -->
     <title>
     {{- if not .IsHome }}
-    {{- if eq .Kind "page" }}{{ .Title }}
-    {{- else if eq .Data.Singular "tag" }}{{ .Data.Term }}
-    {{- else if isset .Params "title" }}{{.Title}}
-    {{- else }}Posts
-    {{- end }} - {{ end }}
-    {{- .Site.Title -}}
+        {{- if eq .Kind "page" }}{{ .Title }}
+        {{- else if eq .Data.Singular "tag" }}{{ .Data.Term }}
+        {{- else if isset .Params "title" }}{{.Title}}
+        {{- else }}Posts
+        {{- end }} - {{ .Site.Title -}}
+    {{- else -}}
+    Sam Killermann: Author, Comedian, Gender/Sexuality Educator, and Award-Winning Activist
+    {{- end -}}
+
     </title>
     <!-- Meta -->
     {{- if eq .Kind "page" }}
@@ -33,6 +36,21 @@
     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#af6ee2">
     <meta name="msapplication-TileColor" content="#af6ee2">
     <meta name="theme-color" content="#af6ee2">
+
+    <!-- Social Meta -->
+    {{- if .Params.og_image -}}
+    <meta property="og:image" content="http://samuelkillermann.com{{ .Params.og_image | relURL }}"/>
+    <meta property="og:image:secure_url" content="{{ .Params.og_image | absURL }}"/>
+    {{ else }}
+    <meta property="og:image" content="http://samuelkillermann.com{{ .Site.Params.og_image | relURL }}"/>
+    <meta property="og:image:secure_url" content="{{ .Site.Params.og_image | absURL }}"/>
+    {{- end }}
+    {{ if .Params.blurb -}}
+    <meta property="og:description" content="{{ .Params.blurb }}"/>
+    {{ else }}
+    <meta property="og:description" content="{{ .Site.Params.description }}"/>
+    {{- end }}
+
     <!-- Generator -->
     <meta name="generator" content="Hugo {{ .Hugo.Version }}">
     <!-- RSS -->
