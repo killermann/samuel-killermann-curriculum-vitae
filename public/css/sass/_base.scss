@@ -1170,10 +1170,20 @@ $cubic: cubic-bezier(.64,.09,.08,1);
 	&.edugraphic {
 		margin:2em auto 3em;
 		img {
-			margin-left:-25px;
-			max-width:calc(100% + 50px);
 			@extend .shadow-high;
 		}
+	}
+
+	img.ultra-wide {
+		margin-left:-25px;
+		max-width:calc(100% + 50px);
+		width:calc(100% + 50px);
+		height:auto;
+	}
+
+	img.full-width {
+		width:100%;
+		height:auto;
 	}
 }
 
