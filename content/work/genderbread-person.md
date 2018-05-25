@@ -1,5 +1,5 @@
 ---
-title: "Genderbread Person (Version 1)"
+title: "The Genderbread Person"
 date: 2011-11-07
 emoji: "🙂"
 author: "Sam Killermann"
