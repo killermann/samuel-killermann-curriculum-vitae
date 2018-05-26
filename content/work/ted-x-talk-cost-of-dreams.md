@@ -5,7 +5,7 @@ emoji: "🛌"
 author: "Sam Killermann"
 blurb: "What are you risking by chasing your dreams? What are you risking by not?"
 link: ""
-tags: ["Activism"]
+tags: ["Activism", "TED"]
 skills: ["Performer", "Writer"]
 ---
 My first TEDxTalk, about the ideas of chasing your dreams, what's at stake, and what we have to lose.
