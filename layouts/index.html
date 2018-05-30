@@ -21,7 +21,7 @@
         {{.Content}}
     </article>
 
-    <article id="home--work" class="bento right">
+    <article id="home--work" class="bento reveal right">
 
         {{ range first 1 (where .Data.Pages "Section" "work") }}
             <article class="post first-entry">
@@ -117,7 +117,7 @@
             Are you curious what I'm up to right this very moment? Well, I have <em>just the thing for you</em>: my <a href="now/" alt="What I'm up to right now">"Now" page</a>, which is a more-frequently-updated sibling to the <a href="about/" alt="About Sam Killermann">"About" page</a>. That said, <strong>here's what I'm up to right now:</strong>
         </p>
         {{ range first 1 (where .Data.Pages "Section" "now") }}
-            <article>
+            <article class="reveal">
                 <header class="post-header">
                     {{if .Params.emoji}}<span class="emoji">{{ .Params.emoji }}</span>{{end}}
                     <h2 class="post-title">{{ .Title }}</h2>
