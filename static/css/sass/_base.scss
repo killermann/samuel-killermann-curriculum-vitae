@@ -1215,23 +1215,41 @@ footer.footer {
 	padding:0;
 	z-index:1;
 	position:relative;
+	text-align: left;
 
 	.footer--inner {
-		padding:4em;
+		padding:2em;
 		background-image:url(../img/sK-logo-pattern-400.png);
 		background-repeat:repeat;
 		background-position:top left;
 		-webkit-animation: slide 30s linear infinite;
-
-		a {font-weight:bold;}
 	}
 
 	p {
 		max-width:720px;
 		margin:0 auto;
 
+		a {font-weight:bold; text-decoration: underline;}
+
 		& + p {
 			margin-bottom:1em;
+		}
+	}
+
+	ul {
+		list-style: none;
+		li {
+			margin-bottom:.2em;
+			a {
+				display:block;
+				padding:.2em 0;
+			}
+		}
+	}
+
+	.grid {
+		.unit {
+			padding:2em;
 		}
 	}
 
