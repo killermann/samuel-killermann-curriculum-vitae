@@ -9,7 +9,6 @@ link: "http://itspronouncedmetrosexual.com/2014/07/how-the-gender-neutral-bathro
 og_image: "/img/work/2014-all-gender-restroom-sign-toilet-by-sam-killermann.jpg"
 tags: ["Social Justice", "Gender"]
 skills: ["Designer", "Illustrator", "Public Thinker", "Blogger"]
-draft: true
 stats:
   updated: "June 5, 2018"
   curriculum_downloads:
