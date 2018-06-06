@@ -46,7 +46,6 @@
     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#af6ee2">
     <meta name="msapplication-TileColor" content="#af6ee2">
     <meta name="theme-color" content="#af6ee2">
-
     <!-- Social Meta -->
     {{- if .Params.og_image -}}
     <meta property="og:image" content="http://samuelkillermann.com{{ .Params.og_image | relURL }}"/>
@@ -59,7 +58,15 @@
     <meta property="og:description" content="{{ .Params.blurb }}"/>
     {{ else }}
     <meta property="og:description" content="{{ .Site.Params.description }}"/>
-    {{- end }}
+    {{ end -}}
+    {{- if not .IsHome -}}
+    <meta property="og:type" content="article" />
+    {{ if .Params.og_author -}}
+    <meta property="article:author" content="{{ .Params.og_author }}"/>
+    {{ else -}}
+    <meta property="article:author" content="13727505"/>
+    {{ end -}}
+    {{ end -}}
 
     <!-- Generator -->
     <meta name="generator" content="Hugo {{ .Hugo.Version }}">
