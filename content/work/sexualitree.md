@@ -6,6 +6,7 @@ emoji: "🌳"
 author: "Sam Killermann + Karen Rayne"
 blurb: "An approachable way to look at something we all experience — and all the different ways we do."
 link: "http://sexualitree.org/"
+og_image: "/img/work/2016-sexualitree-poster.jpg"
 tags: ["Sexuality", "Free Online Resource"]
 skills: ["Educator", "Designer", "Website Developer"]
 stats:

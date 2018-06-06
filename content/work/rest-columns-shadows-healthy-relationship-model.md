@@ -5,6 +5,7 @@ emoji: "👭"
 author: "Sam Killermann + Karen Rayne"
 blurb: "Visualizing the components of a healthy relationship (respect, equality, safety, and trust) as columns and shadows."
 link: "http://itspronouncedmetrosexual.com/2016/11/rest-columns-shadows-healthy-relationship-model/"
+og_image: "/img/work/2016-Columns-and-Shadows-Model-V1-by-Sam-Killermann-Karen-Rayne.jpg"
 tags: ["Sexuality", "Social Justice"]
 skills: ["Educator", "Designer", "Copywriter"]
 stats:
