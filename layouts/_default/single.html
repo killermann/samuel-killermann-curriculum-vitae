@@ -97,7 +97,7 @@
                 {{ if .Params.stats.custom_stat }}
                 <tr>
                     <td align="left">{{ .Params.stats.custom_stat}}</td>
-                    <td align="right">{{ .Params.stats.custom_count}}</td>
+                    <td align="right">{{ lang.NumFmt 0 .Params.stats.custom_count}}</td>
                 </tr>
                 {{end }}
 

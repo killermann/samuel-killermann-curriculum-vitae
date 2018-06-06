@@ -14,8 +14,8 @@ stats:
   country_count: 100
   lifetime_reach:
   updated: "May 13, 2018"
-  custom_stat: "Total humans trained with SZP resources"
-  custom_count: "No idea."
+  custom_stat: "Birthday Party releases"
+  custom_count: 3
 ---
 Meg and I created The Safe Zone Project in 2013 to serve as a free online resource for folks doing LGBTQ awareness and ally trainings (AKA "safe zone trainings").
 

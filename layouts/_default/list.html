@@ -28,8 +28,9 @@
     <footer class="post-footer">
         <p class="post-meta">
             {{- if or .Params.author .Site.Params.author -}}
-            {{ .Params.author | default .Site.Params.author }} · {{ end }}
-            {{ .Date.Format "January 2006" }}
+            {{ .Date.Format "January 2006" }} ·
+            {{ .Params.author | default .Site.Params.author }}
+            {{ end }}
         </p>
     </footer>
     <a class="post-link" href="{{ .Permalink }}"></a>

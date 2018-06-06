@@ -99,7 +99,14 @@
 #main-header {
 	nav.menu {
 		margin-top:-2px;
-		font-weight:600;
+
+		ul {
+			li {
+				a {
+					text-shadow:none;
+				}
+			}
+		}
 	}
 }
 .post-entry{
