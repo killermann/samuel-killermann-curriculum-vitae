@@ -261,6 +261,21 @@
 	}
 }
 
+.badge {
+	position:absolute;
+	top:-16px;
+	left:50%;
+	color:#fff;
+	padding:8px;
+	z-index:100;
+	font-size:16px;
+	letter-spacing:1px;
+	text-shadow:0px 1px 1px rgba(0,0,0,.5);
+	border-radius:3px;
+	line-height:1;
+	transform: translate(-50%, 0);
+}
+
 .main {
 	min-height: inherit;
 }
@@ -435,7 +450,6 @@ $cubic: cubic-bezier(.64,.09,.08,1);
 		}
 
 		&:before {
-
 			content:'Welcome!';
 			@extend .gradient;
 		}
@@ -1071,13 +1085,37 @@ $cubic: cubic-bezier(.64,.09,.08,1);
 
 .now.first-entry {
     padding-top:30px;
+	padding-bottom:60px;
+	margin-bottom:0;
 
     header:before {display:none;}
 }
 
+#thens {
+	position:relative;
+	padding:25px 0 0;
 
+	&:before {
+		content:"Older Nows (AKA Thens)";
+		display:inline-block;
+		background:#f5a81c;
+		position:absolute;
+		top:-16px;
+		left:50%;
+		color:#fff;
+		padding:8px;
+		z-index:100;
+		font-size:16px;
+		letter-spacing:1px;
+		text-shadow:0px 1px 1px rgba(0,0,0,.5);
+		border-radius:3px;
+		line-height:1;
+		transform: translate(-50%, 0);
+	}
+
+	.post-entry:first-child {margin-top:0;}
+}
 .now {
-
     .post-title {
         span.date {
             font-size:.5em;

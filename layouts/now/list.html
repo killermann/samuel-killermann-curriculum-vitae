@@ -2,46 +2,45 @@
 <header class="now-header">
      <h1 class="now-title">What I'm up to right meow 😽 (a page/idea inspired by Derek Sivers's <a href="https://nownownow.com/about" alt="Derek Sivers Now Now Now">/now)</a></h1>
 </header>
-{{ $paginator := .Paginate (where .Pages ".Params.type" "!=" "page") (index .Site.Params "paginate" | default 10) }}
-{{ if gt $paginator.TotalPages 0 }}
-    {{ range $index, $page := $paginator.Pages }}
-    {{ if and (eq $paginator.PageNumber 1) (eq $index 0) }}
-        {{ .Scratch.Set "postClass" "first-entry" }}
-        {{ else }}
-        {{ .Scratch.Set "postClass" "post-entry" }}
-    {{ end }}
-
-    <article class="now post {{ .Scratch.Get `postClass` }}">
+{{ range first 1 (where .Data.Pages "Section" "now") }}
+<article class="now post first-entry">
+    <header class="post-header">
+        {{if .Params.emoji}}<span class="emoji">{{ .Params.emoji }}</span>{{end}}
+        <h2 class="post-title">
+            <a href="{{ .Permalink }}">
+                <span class="date">{{ .Date.Format "January 2006" }}</span>
+                {{- .Title -}}
+            </a>
+        </h2>
+    </header>
+    <section class="post-content">{{ .Content }}</section>
+    <footer class="post-footer">
+        <p class="post-meta">
+            {{- if or .Params.author .Site.Params.author -}}
+            {{ .Params.author | default .Site.Params.author }} · {{ end }}
+            <a href="{{ .Permalink }}">Permalink 🔗</a>
+        </p>
+    </footer>
+</article>
+{{ end }}
+<section id="thens">
+{{ range first 9 (after 1 ( where .Data.Pages "Section" "now") ) }}
+    <article class="post post-entry">
         <header class="post-header">
             {{if .Params.emoji}}<span class="emoji">{{ .Params.emoji }}</span>{{end}}
-            <h2 class="post-title">
-                <a href="{{ .Permalink }}">
-                    <span class="date">{{ .Date.Format "January 2006" }}</span>
-                    {{ .Title }}
-                </a>
-            </h2>
+            <h2 class="post-title">{{ .Title }}</h2>
         </header>
-        <section class="post-content">{{ .Content }}</section>
+        <p class="post-summary">{{if isset .Params "blurb"}}{{.Params.blurb}}{{else}}{{ .Summary | plainify | htmlUnescape }}...{{end}}</p>
         <footer class="post-footer">
             <p class="post-meta">
                 {{- if or .Params.author .Site.Params.author -}}
-                {{ .Params.author | default .Site.Params.author }} · {{ end }}
-                <a href="{{ .Permalink }}">Permalink 🔗</a>
+                {{ .Date.Format "January 2006" }} ·
+                {{ .Params.author | default .Site.Params.author }}
+                {{ end }}
             </p>
         </footer>
+        <a class="post-link" href="{{ .Permalink }}"></a>
     </article>
-    {{ end }}
 {{ end }}
-{{ if gt $paginator.TotalPages 1 }}
-<footer class="list-footer">
-  <nav class="pagination">
-    {{ if $paginator.HasPrev }}
-    <a class="pagination-prev" href="{{ $paginator.Prev.URL }}">← 上一页</a>
-    {{ end }}
-    {{ if $paginator.HasNext }}
-    <a class="pagination-next" href="{{ $paginator.Next.URL }}">下一页 →</a>
-    {{ end }}
-  </nav>
-</footer>
-{{ end }}
+</section>
 {{ partial "footer.html" . }}
