@@ -16,4 +16,10 @@ Sam is the author of several books, including [A Guide to Gender](http://www.gui
 
 Sam is the co-creator of [TheSafeZoneProject.com](http://thesafezoneproject.com), a free online resource for LGBTQ and Ally training materials. The open source curriculum they published is being used by over 17,000 educators in at least 100 countries.
 
-Outside of his key initiatives, Sam is a frequent keynote speaker, makes political shirts for [EveryShirtIsPolitical](http://everyshirtispolitical.com), co-facilitates [FaciltiatingXYZ](http://facilitating.xyz),  was named a "Person We Love" by Yes! Magazine, Austin "Changemaker,"  and is always dreaming up new social good projects. When he's not on the road, he likes to spend at least a few hours a day bicycling around sunny Austin, TX, where he counts himself lucky to live.
+Outside of his key initiatives, Sam is a frequent keynote speaker, makes political shirts for [EveryShirtIsPolitical](http://everyshirtispolitical.com), co-facilitates [FacilitatingXYZ](http://facilitating.xyz),  was named a "Person We Love" by Yes! Magazine, Austin "Changemaker,"  and is always dreaming up new social good projects. When he's not on the road, he likes to spend at least a few hours a day bicycling around sunny Austin, TX, where he counts himself lucky to live.
+
+## Sam Killermann Headshots
+Here are the most recent headshots for Sam Killermann. The images are uncopyrighted (photographed by Sam) and may be used for event promotion.
+
+<figure class="work--sample edugraphic"><img title="Sam Killermann Black and White Headshot from 2016 - photograph by Sam Killermann" alt="Sam Killermann Black and White Headshot from 2016 - photograph by Sam Killermann" src="/img/sam-killermann-2016-headshot-bw-1200.jpg" class="ultra-wide"></figure>
+<figure class="work--sample edugraphic"><img title="Sam Killermann Headshot from 2016 - photograph by Sam Killermann" alt="Sam Killermann Headshot from 2016 - photograph by Sam Killermann" src="/img/sam-killermann-2016-headshot-1200.jpg" class="ultra-wide"></figure>

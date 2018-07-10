@@ -1,3 +1,40 @@
+.home {
+
+	section#hero {
+		min-height:100vh;
+		display:flex;
+		z-index:1;
+		padding-top:105px;
+		align-items:center;
+		justify-content: center;
+		flex-direction:column;
+
+		h2 {
+			line-height:98px;
+			width:700px;
+			max-width:700px;
+			height:98px;
+			margin:0 auto;
+
+			span {
+				width:700px;
+				max-width:700px;
+				height:98px;
+				background-image:url(../img/heading-gender-sexuality-social-justice.jpg);
+			}
+		}
+
+		article {
+			width:700px;
+			max-width:700px;
+			margin:0 auto;
+			p {
+				max-width:75%;
+				font-size:calc(1em + .2vw);
+			}
+		}
+	}
+}
 /*New Post Flag */
 .first-entry header:before {left:0px;}
 

@@ -25,7 +25,7 @@ That last thing is my favorite brag. If you want to read more professional bio s
 It's generally hard to describe myself beyond that, because I do so many different things:
 
 - I'm an author of blogs, books, and chapters to books;
-- I doodle, illustrate, and design;
+- I doodle, illustrate, photograph, and design;
 - I'm a stand up comedian, speaker, and storyteller;
 - I code/develop all my own websites, full-stack;
 - I'm a facilitator and gender/sexuality educator;
@@ -50,6 +50,9 @@ The two main places folks can patronize (?) me are:
 
 - http://patreon.com/killermann - for general supporters/members, who want to say thanks or get access to exclusive goodies
 - http://patreon.com/itspronouncedmetrosexual - specifically for fans of the IPM site who want to help me pay the (super hefty) hosting bill
+
+<figure class="work--sample edugraphic"><img title="Sam Killermann Headshot from 2016 - photograph by Sam Killermann" alt="Sam Killermann Headshot from 2016 - photograph by Sam Killermann" src="/img/sam-killermann-2016-headshot-1200.jpg" class="ultra-wide"></figure>
+<figure class="work--sample edugraphic"><img title="Sam Killermann Black and White Headshot from 2016 - photograph by Sam Killermann" alt="Sam Killermann Black and White Headshot from 2016 - photograph by Sam Killermann" src="/img/sam-killermann-2016-headshot-bw-1200.jpg" class="ultra-wide"></figure>
 
 ## Social Media Profiles &amp; Presence
 
