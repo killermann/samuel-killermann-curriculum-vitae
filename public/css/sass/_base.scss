@@ -327,7 +327,6 @@ $cubic: cubic-bezier(.64,.09,.08,1);
 	padding:0 15px;
 	line-height:65px;
 	z-index:5;
-	background:white;
 	transition:all .5s ease-out;
 
 	&.scrolled {
@@ -407,6 +406,7 @@ $cubic: cubic-bezier(.64,.09,.08,1);
 		background:var(--purple);
 		z-index:100;
 		width:100%;
+		min-height:100vh;
 		padding:50px 25px;
 
 		position:relative;
@@ -420,6 +420,21 @@ $cubic: cubic-bezier(.64,.09,.08,1);
 
 				& + p {
 					margin-top:1.2em;
+				}
+
+				&.scrollLink {
+					text-align:center;
+					font-size:.8em;
+					a {
+						color:#fff;
+						display:inline-block;
+						transition:.1s all ease-out;
+
+						&:hover, &:focus {
+							transform:translateX(0px) translateY(3px);
+							text-shadow:0px -3px 3px rgba(black,.3);
+						}
+					}
 				}
 			}
 		}
