@@ -2,6 +2,9 @@
 
 	section#hero {
 		display:flex;
+		background-image:url(../img/sam-killermann-ted-x-youth-purple.jpg);
+		background-size:cover;
+		background-position: top right;
 		z-index:1;
 		padding-top:105px;
 		align-items:center;
@@ -13,20 +16,23 @@
 			width:700px;
 			max-width:700px;
 			height:98px;
-			margin:0 auto;
-
+			margin:0 auto 0 5%;
+			text-indent: 100%;
+			white-space: nowrap;
+			overflow: hidden;
 			span {
 				width:700px;
 				max-width:700px;
 				height:98px;
-				background-image:url(../img/heading-gender-sexuality-social-justice.jpg);
+				background-image:url(../img/heading-gender-sexuality-social-justice.svg);
 			}
 		}
 
 		article {
 			width:700px;
 			max-width:700px;
-			margin:0 auto;
+			margin:0 auto 0 5%;
+			color:#f5e9ff;
 			p {
 				max-width:75%;
 				font-size:calc(1em + .2vw);
