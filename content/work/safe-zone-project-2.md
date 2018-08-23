@@ -8,14 +8,14 @@ link: "https://thesafezoneproject.com"
 tags: ["Gender", "Sexuality", "Social Justice", "Free Online Resource"]
 skills: ["Curriculum Writer", "Facilitator", "Educator", "Designer", "Website Developer"]
 stats:
-  curriculum_downloads: 26518
+  curriculum\_downloads: 26518
   downloads: 72696
-  annual_audience: 247105
-  country_count: 102
-  lifetime_reach:
+  annual\_audience: 247105
+  country\_count: 102
+  lifetime\_reach:
   updated: "August 21, 2018"
-  custom_stat: "Matriculated Students"
-  custom_count: 85
+  custom\_stat: "Matriculated Students"
+  custom\_count: 85
 ---
 
 The Safe Zone Project 2.0 is what Meg &amp; I have been saying to refer to the revamp of the online resource, so that's what I'll call it here.
@@ -25,7 +25,7 @@ Highlights of Version 2.0:
 - Online courses, with a seamlessly integrated learning management system
 - A clearinghouse of resources for launching your own Safe Zone program (called the Train-the-Trainer Toolkit)
 - Improved accessibility, site structure, usability, and site speed
-- A new record for curriculum downloads in a month: 1,432 (our old record was around 6)
+- A new record for curriculum downloads in a month: 1,432 (our old record was 690)
 
 <figure class="work--sample desktop"><img title="The Safe Zone Project 2.0 Website Desktop View" src="/img/work/2018-safe-zone-project-desktop.jpg" class="full-width"></figure>
 
