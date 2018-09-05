@@ -8,14 +8,14 @@ link: "https://thesafezoneproject.com"
 tags: ["Gender", "Sexuality", "Social Justice", "Free Online Resource"]
 skills: ["Curriculum Writer", "Facilitator", "Educator", "Designer", "Website Developer"]
 stats:
-  curriculum\_downloads: 26518
-  downloads: 72696
-  annual\_audience: 247105
-  country\_count: 102
-  lifetime\_reach:
-  updated: "August 21, 2018"
-  custom\_stat: "Matriculated Students"
-  custom\_count: 85
+  curriculum_downloads: 26927
+  downloads: 76410
+  annual_audience: 247105
+  country_count: 102
+  lifetime_reach:
+  updated: "September 5, 2018"
+  custom_stat: "Matriculated Students"
+  custom_count: 130
 ---
 
 The Safe Zone Project 2.0 is what Meg &amp; I have been saying to refer to the revamp of the online resource, so that's what I'll call it here.
