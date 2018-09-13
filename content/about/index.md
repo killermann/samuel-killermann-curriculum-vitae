@@ -32,6 +32,25 @@ It's generally hard to describe myself beyond that, because I do so many differe
 - I advise non-profits and social good organizers;
 - and I'm a lifelong activist for justice, peace, and a more beautiful world.
 
+## Me, in Bullets
+Was that not short enough? Who doesn't like being distilled down into a few easy to misinterpret and misconstrue bullet points? Oh, me. But this might be helpful to help you get a better sense of where I'm coming from, identity-lenses-wise. Consider this my <a href="https://samuelkillermann.com/work/you-soup/">YouSoup Recipe</a>, in no particular order:
+
+- Sam
+- White
+- Man
+- Non-disabled
+- No religion (atheist)
+- Romantically and sexually attracted to women
+- Spiritually attracted to hummus
+- Plant eater
+- (E/I)NF(J/P)
+- Lower-class working poor upbringing (still am, but now often perceived as middle/middle-upper class)
+- Third child, two older sisters, one littler brother, divorced parents
+- Educated: high school, bachelor's, and master's degrees
+- Liberal/progressive-leaning, politically-unaffiliated
+- Parent (of a dog -- and a total, unapologetic, obsessed <a href="https://www.instagram.com/p/BkgEtu2no8W/?taken-by=killermann" title="My puppy on instagram">#dogmom</a>)
+
+
 ## How I Pay Rent
 
 The question I get asked the most: "You give away everything you make for free... how... do you afford... life?"
@@ -66,7 +85,7 @@ I don't really use social media. I find it to be a consistent mind-suck, with th
 
 Profiles: plenty. Presence: pitiful.
 
-## Personal Deets?
+## More Personal Deets?
 
 People ask about these things a lot, so here they are:
 
@@ -74,8 +93,8 @@ People ask about these things a lot, so here they are:
 - **Lived** in more homes than I can count, from the Midwest to the Wild West
 - **Live** in Austin, TX. The best city in the US
 - **Went to college** at Purdue University, and **grad school** at Bowling Green State University
-- Yes, my real (i.e., familial, on my birth certificate) name is "Killermann."
+- Yes, my "real" (i.e., familial, on my birth certificate from day one) surname is "Killermann"
 
-That's all, folks.
+## That's all, folks.
 
 Oh, other than one more thing: did you know the 🤗 emoji was supposed to be a hug? I didn't. I thought it was just an overly excited person waving with both hands at once (AKA me in a nutshell).
