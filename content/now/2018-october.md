@@ -38,7 +38,7 @@ There are other things about which I am certain.
 
 I'm certain that [uncopyrighting my work in 2013](http://itspronouncedmetrosexual.com/2013/11/uncopyright/) was the right decision. That continuing to endeavor to remove barriers of all kinds is worthwhile. I _know_, somehow, deep within my bones, that we need to adopt computer science's "[open source](https://en.wikipedia.org/wiki/Open-source_model)" in Social Justice Land.
 
-To that end I've been working to open-source all my social justice projects (like the [Safe Zone Project](https://github.com/killermann/szp), and [IPM](https://github.com/killermann/ipm4)). I'm also finding ways to bring social justice to Open Source Land, like releasing [this Wordpress plugin that I created to thank my supporters](https://wordpress.org/plugins/members-only-shop-for-patreon-woocommerce/).
+To that end I've been working to open-source all my social justice projects (like the [Safe Zone Project](https://github.com/killermann/szp), and [IPM](https://github.com/killermann/ipm4)). I'm also finding ways to bring social justice to Open Source Land, like releasing [this Wordpress plugin](https://wordpress.org/plugins/members-only-shop-for-patreon-woocommerce/) that I created to [thank my supporters](https://hues.xyz/members).
 
 I'm certain that I'm head-over-heels in love with my [puppy](https://www.instagram.com/stories/highlights/17893812646215292/) and my partner/puppy-co-parent. And this season. The air. The smells.
 
