@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://samuelkillermann.com/work/be-my-bosses/</loc>
+    <lastmod>2018-12-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://samuelkillermann.com/now/2018-october/</loc>
     <lastmod>2018-10-11T00:00:00+00:00</lastmod>
   </url>
@@ -177,7 +182,7 @@
   
   <url>
     <loc>https://samuelkillermann.com/skills/designer/</loc>
-    <lastmod>2018-09-01T00:00:00+00:00</lastmod>
+    <lastmod>2018-12-31T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -213,7 +218,7 @@
   
   <url>
     <loc>https://samuelkillermann.com/tags/gift-experiment/</loc>
-    <lastmod>2017-02-01T00:00:00+00:00</lastmod>
+    <lastmod>2018-12-31T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -243,13 +248,13 @@
   
   <url>
     <loc>https://samuelkillermann.com/skills/public-thinker/</loc>
-    <lastmod>2018-09-01T00:00:00+00:00</lastmod>
+    <lastmod>2018-12-31T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://samuelkillermann.com/</loc>
-    <lastmod>2018-10-11T00:00:00+00:00</lastmod>
+    <lastmod>2018-12-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -290,12 +295,18 @@
   
   <url>
     <loc>https://samuelkillermann.com/work/</loc>
-    <lastmod>2018-09-01T00:00:00+00:00</lastmod>
+    <lastmod>2018-12-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://samuelkillermann.com/skills/videographer/</loc>
+    <lastmod>2018-12-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://samuelkillermann.com/skills/website-developer/</loc>
-    <lastmod>2018-09-01T00:00:00+00:00</lastmod>
+    <lastmod>2018-12-31T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -306,7 +317,7 @@
   
   <url>
     <loc>https://samuelkillermann.com/skills/writer/</loc>
-    <lastmod>2018-09-01T00:00:00+00:00</lastmod>
+    <lastmod>2018-12-31T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
