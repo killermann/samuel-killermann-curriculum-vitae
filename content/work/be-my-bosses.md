@@ -3,7 +3,7 @@ title: "Be My Boss(es)"
 date: 2018-12-31
 emoji: "📝‍"
 author: "Sam Killermann"
-blurb: "A podcast about the social justice movement and the unwritten rules that underpin (and may undermine) it."
+blurb: "A new experiment in funding my work, directly via patronage "
 link: "https://bemyboss.es"
 tags: ["Gift Experiment"]
 skills: ["Public Thinker", "Writer", "Designer", "Videographer", "Website Developer"]
