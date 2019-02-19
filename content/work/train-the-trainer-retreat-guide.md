@@ -9,7 +9,7 @@ tags: ["Gender", "Sexuality", "Social Justice", "Free Online Resource"]
 skills: ["Curriculum Writer", "Facilitator", "Educator", "Designer"]
 stats:
   curriculum_downloads: 29
-  country_count: 102
+  country_count: 10
   updated: "February 19, 2019"
   custom_stat: "Word Count"
   custom_count: "20239"
