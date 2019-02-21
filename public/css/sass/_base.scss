@@ -1303,8 +1303,9 @@ $cubic: cubic-bezier(.64,.09,.08,1);
         }
     }
 
-	&.edugraphic {
+	&.work-shadow {
 		margin:2em auto 3em;
+
 		img {
 			@extend .shadow-high;
 		}

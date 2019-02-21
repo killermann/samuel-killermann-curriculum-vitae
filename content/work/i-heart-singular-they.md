@@ -11,7 +11,7 @@ skills: ["Illustrator", "Author", "Website Developer", "Animator"]
 
 This adorable, shareable, and oh-so-subtly-activist love poem was inspired by Everyone in the 90s’ experience in high school.
 
-<figure class="work--sample edugraphic"><a href="http://iheartsingularthey.com" alt="I heart Singular They"><img alt="The Singular They is Inclusive" src="/img/work/2016-ihst-social-inclusive.gif" class="ultra-wide"></a></figure>
+<figure class="work--sample work-shadow"><a href="http://iheartsingularthey.com" alt="I heart Singular They"><img alt="The Singular They is Inclusive" src="/img/work/2016-ihst-social-inclusive.gif" class="ultra-wide"></a></figure>
 
 “Writing with non-gender-neutral pronouns is a serious pain. Some prefer the Frankenword “s/he,” while others rack their brain. Some stick with a particular pronoun for one paragraph or chapter, then swap out the one they’re using; thers alternate “he” and “she” by sentence, or use a plural adapter, but that all sounds confusing.” (from [the poem](http://iheartsingularthey.com))
 

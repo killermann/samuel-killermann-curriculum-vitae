@@ -31,4 +31,4 @@ Both.
 
 [Read all about that, and You Soup, here](http://itspronouncedmetrosexual.com/2012/10/individual-difference-and-group-similiarity/).
 
-<figure class="work--sample edugraphic"><a href="http://itspronouncedmetrosexual.com/2012/10/individual-difference-and-group-similiarity/" alt="Downloadable version on IPM"><img alt="You Soup Model" src="/img/work/2012-you-soup-intersectionality-model.jpg" class="ultra-wide"></a></figure>
+<figure class="work--sample work-shadow"><a href="http://itspronouncedmetrosexual.com/2012/10/individual-difference-and-group-similiarity/" alt="Downloadable version on IPM"><img alt="You Soup Model" src="/img/work/2012-you-soup-intersectionality-model.jpg" class="ultra-wide"></a></figure>

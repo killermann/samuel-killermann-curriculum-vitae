@@ -25,7 +25,7 @@ This is the project that led to The New York Times publishing "[Killermann is] p
 
 Damn right I am, New York Times! Nothing would make me happier.
 
-<figure class="work--sample edugraphic"><img alt="My Toilet turned All-Gender Restroom Sign" src="/img/work/2014-all-gender-restroom-sign-toilet-by-sam-killermann.jpg" class="ultra-wide"></figure>
+<figure class="work--sample work-shadow"><img alt="My Toilet turned All-Gender Restroom Sign" src="/img/work/2014-all-gender-restroom-sign-toilet-by-sam-killermann.jpg" class="ultra-wide"></figure>
 
 You can read all about [how this sign came to be on It's Pronounced Metrosexual](http://itspronouncedmetrosexual.com/2014/07/how-the-gender-neutral-bathroom-sign-i-made-is-being-manufactured-and-donated-to-colleges/), and I won't repeat myself here. What I'll say instead are a few things that I don't think I've written:
 

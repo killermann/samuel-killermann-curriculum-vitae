@@ -27,7 +27,7 @@ From the [About page](http://sexualitree.org/about/):
 
 > "The Sexualitree is a way to see how we experience sexuality in different ways. Sexuality affects us on different levels of our lives, and each person uniquely."
 
-<figure class="work--sample edugraphic"><a href="http://sexualitree.org" alt="The Sexualitree Poster"><img alt="The basic Sexualitree Poster" src="/img/work/2016-sexualitree-poster.jpg" class="ultra-wide"></a></figure>
+<figure class="work--sample work-shadow"><a href="http://sexualitree.org" alt="The Sexualitree Poster"><img alt="The basic Sexualitree Poster" src="/img/work/2016-sexualitree-poster.jpg" class="ultra-wide"></a></figure>
 
 We've created supplemental materials to help educators use the model, and it's been implemented in dozens of curricula. As examples, check out:
 
