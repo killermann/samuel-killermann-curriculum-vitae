@@ -18,6 +18,12 @@ command = "hugo"
 identifier = "work"
 name = "Work"
 url = "/work/"
+weight = -130
+
+[[menu.main]]
+identifier = "Blog"
+name = "Blog"
+url = "https://www.samkillermann.com/"
 weight = -120
 
 [[menu.main]]

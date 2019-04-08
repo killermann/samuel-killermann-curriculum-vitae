@@ -1,6 +1,6 @@
 {{ partial "header.html" . }}
-<header class="now-header">
-     <h1 class="now-title">What I'm up to right meow 😽 (a page/idea inspired by Derek Sivers's <a href="https://nownownow.com/about" alt="Derek Sivers Now Now Now">/now)</a></h1>
+<header class="list-header">
+     <h1 class="now-title">What I'm up to right now</a></h1>
 </header>
 {{ range first 1 (where .Data.Pages "Section" "now") }}
 <article class="now post first-entry">
@@ -25,7 +25,7 @@
 {{ end }}
 <section id="thens">
 {{ range first 9 (after 1 ( where .Data.Pages "Section" "now") ) }}
-    <article class="post post-entry">
+    <article class="post post-entry list-header">
         <header class="post-header">
             {{if .Params.emoji}}<span class="emoji">{{ .Params.emoji }}</span>{{end}}
             <h2 class="post-title">{{ .Title }}</h2>

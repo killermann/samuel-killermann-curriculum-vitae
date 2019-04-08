@@ -36,7 +36,7 @@ But, then again, nobody is really [self-employed](https://samkillermann.com/self
 
 Time to give oranges a taste,
 
-&mdash; sK
+<3 sK
 
 🎧 : [Listening To](https://open.spotify.com/track/7b1PDaZvnxGParUPi9ViRJ?si=YjqCEavHSRGDvBvw_QgaIg)
 

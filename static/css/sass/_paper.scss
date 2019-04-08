@@ -25,6 +25,7 @@ body {
   font-size: 17px;
   line-height: 1.7;
 }
+
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 0;
@@ -66,15 +67,7 @@ pre, code {
 }
 /* Header
 ============================================================= */
-.header {
-  display: flex;
-  justify-content: space-between;
-  height: 65px;
-  padding-left: 30px;
-  padding-right: 30px;
-  line-height: 65px;
-  background: #fff;
-}
+
 .title a {
   display: block;
   margin-top: 17px;
@@ -167,9 +160,7 @@ pre, code {
 }
 /* Main
 ======================================================================= */
-.list {
-  background: #fafafa;
-}
+
 /* Main
 ------------------------------ */
 .main {
@@ -192,10 +183,7 @@ pre, code {
   padding-left: 30px;
   padding-right: 30px;
 }
-.list-header {
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
+
 .list-footer {
   margin-top: 30px;
 }
@@ -225,7 +213,6 @@ pre, code {
 /* List header
 ------------------------------ */
 .list-header span {
-  color: rgba(0, 0, 0, .4);
   font-size: 12px;
   letter-spacing: 2px;
   text-transform: uppercase;

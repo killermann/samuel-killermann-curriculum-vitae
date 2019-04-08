@@ -46,4 +46,4 @@ I'm certain that I have work to do. In ever sense of the word. And that I need i
 
 And I'm certain that I've shared more than enough, for now.
 
-&mdash; sK
+<3 sK
