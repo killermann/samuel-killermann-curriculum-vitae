@@ -4,7 +4,8 @@ layout: "single"
 emoji: "🔗"
 date: 2018-05-07
 kind: "page"
-blurb: "A bunch of links to find Sam online, or find his work."
+blurb: "A bunch of links to find sK (and his work) online"
+hide_meta: true
 ---
 
 Click and behold: hypertext transfer protocol at its finest.

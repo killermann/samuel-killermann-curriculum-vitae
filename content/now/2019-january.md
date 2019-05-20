@@ -3,6 +3,7 @@ title: "Getting bossed around."
 date: 2019-01-01
 emoji: "🍊"
 blurb: "I'm starting a new experiment: trying to be employed directly for the work I do online."
+color: "#ff8b3d"
 ---
 > "In most cases being a good boss means hiring talented people and then getting out of their way."
 

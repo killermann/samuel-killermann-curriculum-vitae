@@ -1,40 +1,37 @@
 {{ partial "header.html" . }}
 {{ if not .IsHome }}
     <header class="list-header">
-        {{ if eq .Data.Singular "tags" }}<span>🏷Tagged:</span>
-            <h1 class="list-title">{{ humanize .Data.Term }}</h1>
-        {{ else if eq .Data.Singular "skills" }}<span>🎩Hat worn:</span>
-            <h1 class="list-title">{{ humanize .Data.Term }}</h1>
-        {{ else if isset .Params "title"}}
-            <h1 class="list-title">{{ humanize .Params.title }}</h1>
-        {{ end }}
-    </header>
-{{ end }}
-{{ $paginator := .Paginate (where .Pages ".Params.type" "!=" "page") (index .Site.Params "paginate" | default 100) }}
-{{ if gt $paginator.TotalPages 0 }}
-    {{ range $index, $page := $paginator.Pages }}
-    {{ if and (eq $paginator.PageNumber 1) (eq $index 0) }}
-    {{ .Scratch.Set "postClass" "first-entry" }}
-{{ end }}
-
-<article class="post post-entry {{ .Scratch.Get `postClass` }}">
-    <header class="post-header">
-        {{if .Params.emoji}}<span class="emoji">{{ .Params.emoji }}</span>{{end}}
-        <h2 class="post-title L f-900">{{ .Title }}</h2>
-    </header>
-    <p class="post-summary M f-900 grey-700">{{if isset .Params "blurb"}}{{.Params.blurb}}{{else}}{{ .Summary | plainify | htmlUnescape }}...{{end}}</p>
-    <footer class="post-footer">
-        <p class="post-meta">
-            {{- if or .Params.author .Site.Params.author -}}
-            {{ .Date.Format "January 2006" }} ·
-            {{ .Params.author | default .Site.Params.author }}
+        <div class="header-text">
+            {{ if eq .Data.Singular "tags" }}
+                <h1 class="list-title f-900 XL">
+                    {{ humanize .Data.Term }}
+                    <span class="purple-500 f-900">projects by sK</span>
+                </h1>
+            {{ else if eq .Data.Singular "skills" }}
+                <h1 class="list-title f-900 XL">
+                    <span class="purple-500 f-900">Projects where sK wore the</span>
+                    {{ .Data.Term }} <span class="purple-500 f-900">hat.</span>
+                </h1>
+            {{ else if isset .Params "title"}}
+                <h1 class="list-title f-900 XL">{{ .Params.title }} <span class="purple-500 f-900">created by sK</span></h1>
             {{ end }}
-        </p>
-    </footer>
-    <a class="post-link" href="{{ .Permalink }}"></a>
-</article>
+        </div>
+    </header>
 {{ end }}
-{{ end }}
+<section class="list-wrap">
+    <div class="list-contents shadow-high">
+        {{ $paginator := .Paginate (where .Pages ".Params.type" "!=" "page") (index .Site.Params "paginate" | default 100) }}
+        {{ if gt $paginator.TotalPages 0 }}
+            {{ range $index, $page := $paginator.Pages }}
+            {{ if and (eq $paginator.PageNumber 1) (eq $index 0) }}
+            {{ .Scratch.Set "postClass" "first-entry" }}
+        {{ end }}
+            {{ partial "featured-post.html" . }}
+        {{ end }}
+        {{ end }}
+    </div>
+</section>
+
 {{ if gt $paginator.TotalPages 1 }}
 <footer class="list-footer">
   <nav class="pagination">

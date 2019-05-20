@@ -84,14 +84,33 @@
     <button class="menu-toggle" type="button">
     </button>
     <nav class="menu bigpad">
-      <ul class="site-nav">
-        {{ $currentPage := . }}
-        {{ range .Site.Menus.main }}
-        <li class="site-nav-item {{ if $currentPage.IsMenuCurrent `main` . }}active{{ end }}">
-          <a href="{{ .URL }}">{{ .Name }}</a>
-        </li>
-        {{ end }}
-      </ul>
+        <div id="nav-featured-projects" class="site-nav-wrap">
+            <h3 class="XS grey-500 serif">Featured Projects</h3>
+            <ul class="site-nav">
+                {{ range where .Site.Pages "Section" "work"  }}
+                    {{ if .Params.featured }}
+                        <li class="site-nav-item lh-title">
+                            <a href="{{ .Permalink }}" title="{{ .Title }}">
+                                <div class="f-900 M">{{ .Title }}</div>
+                                <span class="XS grey-500 f-900">{{ .Params.blurb }}</span>
+                                <div class="project-color" style="background: {{ .Params.color }}"></div>
+
+                            </a>
+                        </li>
+                    {{ end }}
+                {{ end }}
+            </ul>
+        </div>
+        <div id="nav-site-pages">
+            <ul class="site-nav">
+                {{ $currentPage := . }}
+                {{ range .Site.Menus.main }}
+                <li class="site-nav-item {{ if $currentPage.IsMenuCurrent `main` . }}active{{ end }}">
+                    <a class="f-900" href="{{ .URL }}">{{ .Name }}</a>
+                </li>
+                {{ end }}
+            </ul>
+        </div>
     </nav>
   </header>
   <main class="main">

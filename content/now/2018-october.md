@@ -3,6 +3,7 @@ title: "Heresy."
 date: 2018-10-11
 emoji: "🦇"
 blurb: "Creating, podcasting, public thinking, throwing my 'career' under the bus. Driving the bus."
+color: "#ab7064"
 ---
 > “Progress is born of doubt and inquiry. The Church never doubts, never inquires. To doubt is heresy, to inquire is to admit that you do not know—the Church does neither.”
 

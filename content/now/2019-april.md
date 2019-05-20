@@ -3,9 +3,11 @@ title: "Social Justice, Minus Dogma + Facilitator Cards"
 date: 2019-04-08
 emoji: "🃏"
 blurb: "Two new big projects that are over halfway complete."
+color: "#67C2E7"
+
 ---
 
-I'm in the process of creating two big new projects. Both are well underway, with lots of things you can check out right now.
+<p class="dropCap">I am in the process of creating two big new projects. Both are well underway, with lots of things you can check out right now.</p>
 
 One is a **Social Justice, Minus Dogma Online Course &amp; Community**, which lives at [www.sjmd.space](https://www.sjmd.space).
 

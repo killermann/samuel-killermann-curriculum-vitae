@@ -10,6 +10,18 @@
 .menu-toggle {
 	width: 6vw;
 }
+
+.menu {
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+
+.noscroll {
+	.menu {
+		padding: 75px 6vw 6vw;
+	}
+}
 /* Header */
 
 .site-logo {
@@ -71,13 +83,11 @@
 	}
 }
 
-#more-work {
-	.vertical-header {
-		top: 6vw;
-	}
+.carousel {
+	padding: 6vw;
 
-	.carousel {
-		padding: 6vw;
+	.vertical-header {
+		top: calc(6vw + 20px);
 	}
 }
 
@@ -137,5 +147,47 @@
 	.intro, .card {
 		width: 320px;
 		margin: 3vw;
+	}
+}
+
+/**************************
+
+		LIST
+
+**************************/
+
+.list-header {
+	padding: 6vw 6vw 0;
+
+	.header-text {
+		padding: 6vw;
+	}
+}
+
+
+.list-wrap {
+	padding: 0 6vw 6vw;
+
+	.list-contents {
+		padding: 6vw;
+	}
+}
+
+
+.list-contents {
+	.featured-entry {
+		.post-summary {
+			p {
+				width: 51.666vw;
+			}
+		}
+	}
+}
+
+.now {
+	padding: 6vw;
+
+	.post-content {
+		padding: 6vw;
 	}
 }

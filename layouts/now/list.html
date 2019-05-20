@@ -1,46 +1,39 @@
 {{ partial "header.html" . }}
 <header class="list-header">
-     <h1 class="now-title">What I'm up to right now</a></h1>
+    <div class="bigpad header-text">
+        <h1 class="list-title f-900 XL">
+            <span class="purple-500 f-900">What am I working on</span> right now?
+        </h1>
+    </div>
 </header>
-{{ range first 1 (where .Data.Pages "Section" "now") }}
-<article class="now post first-entry">
-    <header class="post-header">
-        {{if .Params.emoji}}<span class="emoji">{{ .Params.emoji }}</span>{{end}}
-        <h2 class="post-title">
-            <a href="{{ .Permalink }}">
-                <span class="date">{{ .Date.Format "January 2006" }}</span>
-                {{- .Title -}}
-            </a>
-        </h2>
-    </header>
-    <section class="post-content">{{ .Content }}</section>
-    <footer class="post-footer">
-        <p class="post-meta">
-            {{- if or .Params.author .Site.Params.author -}}
-            {{ .Params.author | default .Site.Params.author }} · {{ end }}
-            <a href="{{ .Permalink }}">Permalink 🔗</a>
-        </p>
-    </footer>
-</article>
-{{ end }}
-<section id="thens">
-{{ range first 9 (after 1 ( where .Data.Pages "Section" "now") ) }}
-    <article class="post post-entry list-header">
-        <header class="post-header">
-            {{if .Params.emoji}}<span class="emoji">{{ .Params.emoji }}</span>{{end}}
-            <h2 class="post-title">{{ .Title }}</h2>
-        </header>
-        <p class="post-summary">{{if isset .Params "blurb"}}{{.Params.blurb}}{{else}}{{ .Summary | plainify | htmlUnescape }}...{{end}}</p>
-        <footer class="post-footer">
-            <p class="post-meta">
-                {{- if or .Params.author .Site.Params.author -}}
-                {{ .Date.Format "January 2006" }} ·
-                {{ .Params.author | default .Site.Params.author }}
+
+<section class="list-wrap">
+    <div class="shadow-high now-list-contents">
+        {{ range first 1 (where .Data.Pages "Section" "now") }}
+        <article class="now post first-entry">
+
+            {{if .Params.emoji}}<div class="emoji XXL">{{ .Params.emoji }}</div>{{end}}
+
+            <header class="post-header">
+
+                <h2 class="XL f-900 post-title">
+                    <a href="{{ .Permalink }}">
+                        {{ .Title }} <span class="grey-500">{{ .Date.Format "January 2006" }} Update by Sam Killermann</span>
+                    </a>
+                </h2>
+            </header>
+            <section class="post-content wrap">{{ .Content }}</section>
+
+        </article>
+        {{ end }}
+        <section id="thens" class="bg-grey-100">
+            <div class="carousel">
+                <h2 class="vertical-header S serif lh-title">Older Nows (AKA Thens)</h2>
+                {{ range first 9 (after 1 ( where .Data.Pages "Section" "now") ) }}
+                    {{ partial "card-post.html" . }}
                 {{ end }}
-            </p>
-        </footer>
-        <a class="post-link" href="{{ .Permalink }}"></a>
-    </article>
-{{ end }}
+            </div>
+        </section>
+    </div>
 </section>
 {{ partial "footer.html" . }}

@@ -4,6 +4,7 @@ layout: "single"
 emoji: "⌛️"
 date: "2018-05-01"
 kind: "page"
+hide_meta: true
 ---
 
 Sam Killermann is a comedian, author, and award-winning activist. Sam travels the world performing comedy shows and giving talks on themes of social justice, gender, and sexuality.

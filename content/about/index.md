@@ -1,9 +1,10 @@
 ---
 title: "About Sam Killermann"
+blurb: "Employed by the collective to create for global justice."
 layout: "single"
 emoji: "🤗"
 date: 2018-05-01
-kind: "page"
+hide_meta: true
 ---
 
 Let's be honest: "About" pages are pretty bleh. For a more fun idea, check out the ["Now" page](../now/) on this site.

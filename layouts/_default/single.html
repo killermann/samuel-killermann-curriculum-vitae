@@ -3,23 +3,23 @@
     <header class="post-header" style="background: {{ .Params.color }}">
         <div class="header-text bigpad wrap">
 
-            <h1 class="page-title XXL {{with .Params.subtitle}}with-subtitle{{end}}">
+            <h1 class="page-title lh-title XXL {{with .Params.subtitle}}with-subtitle{{end}}">
             {{ if .Params.link }}<a href="{{ .Params.link }}" target="_blank" alt="{{ .Title }}">{{ .Title }}</a>{{else}}{{ .Title }}{{end }}{{ with .Params.subtitle}}: <span class="page-sub-title">{{ . }}</span>{{end}}
             </h1>
 
-
-            <p class="post-meta XS">
-                {{- if or .Params.author .Site.Params.author -}} By
-                {{ .Params.author | default .Site.Params.author }}, published {{ end }}
-                {{- .Date.Format "January 2006" -}}
-                {{ if .Params.link }}
-                 · <a href="{{ .Params.link }}" target="_blank" alt="{{ .Title }}">Link</a>
-                {{end}}
-            </p>
-            <p class="post-blurb M lh-title">
+            {{ if not .Params.hide_meta }}
+                <p class="post-meta XS">
+                    {{- if or .Params.author .Site.Params.author -}} By
+                    {{ .Params.author | default .Site.Params.author }}, published {{ end }}
+                    {{- .Date.Format "January 2006" -}}
+                    {{ if .Params.link }}
+                     · <a href="{{ .Params.link }}" target="_blank" alt="{{ .Title }}">Link</a>
+                    {{end}}
+                </p>
+            {{ end }}
+            <p class="post-blurb M f-900 lh-title">
                 {{ .Params.blurb }}
             </p>
-
 
         </div>
         {{with .Params.emoji}}
