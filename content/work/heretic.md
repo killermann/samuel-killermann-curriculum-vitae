@@ -3,8 +3,9 @@ title: "Heretic: Social Justice, Minus Dogma"
 date: 2018-09-01
 emoji: "🎧‍"
 author: "Sam Killermann"
-blurb: "A podcast about the social justice movement and the unwritten rules that underpin (and may undermine) it."
+blurb: "A podcast about the social justice movement and the unwritten rules that underpin it"
 link: "https://thesafezoneproject.com"
+color: "#67C2E7"
 tags: ["Social Justice", "Podcast"]
 skills: ["Public Thinker", "Speaker", "Facilitator", "Writer", "Designer", "Illustrator", "Website Developer"]
 ---

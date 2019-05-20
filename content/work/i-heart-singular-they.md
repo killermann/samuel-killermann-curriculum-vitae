@@ -5,6 +5,7 @@ emoji: "❤️"
 author: "Sam Killermann"
 blurb: "An animated love poem to a pronoun"
 link: "http://iheartsingularthey.com"
+color: "#ed145b"
 tags: ["Social Justice", "Gender", "Activism"]
 skills: ["Illustrator", "Author", "Website Developer", "Animator"]
 ---

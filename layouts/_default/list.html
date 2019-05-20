@@ -15,16 +15,14 @@
     {{ range $index, $page := $paginator.Pages }}
     {{ if and (eq $paginator.PageNumber 1) (eq $index 0) }}
     {{ .Scratch.Set "postClass" "first-entry" }}
-    {{ else }}
-    {{ .Scratch.Set "postClass" "post-entry" }}
 {{ end }}
 
-<article class="post {{ .Scratch.Get `postClass` }}">
+<article class="post post-entry {{ .Scratch.Get `postClass` }}">
     <header class="post-header">
         {{if .Params.emoji}}<span class="emoji">{{ .Params.emoji }}</span>{{end}}
-        <h2 class="post-title">{{ .Title }}</h2>
+        <h2 class="post-title L f-900">{{ .Title }}</h2>
     </header>
-    <p class="post-summary">{{if isset .Params "blurb"}}{{.Params.blurb}}{{else}}{{ .Summary | plainify | htmlUnescape }}...{{end}}</p>
+    <p class="post-summary M f-900 grey-700">{{if isset .Params "blurb"}}{{.Params.blurb}}{{else}}{{ .Summary | plainify | htmlUnescape }}...{{end}}</p>
     <footer class="post-footer">
         <p class="post-meta">
             {{- if or .Params.author .Site.Params.author -}}

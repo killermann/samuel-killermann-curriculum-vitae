@@ -4,6 +4,7 @@ date: 2015-03-29
 emoji: "💪"
 author: "Sam Killermann"
 blurb: "A unified theory of social justice and how we can 'do the work.'"
+color: "#e62b1e"
 tags: ["Social Justice", "TED"]
 skills: ["Performer", "Writer"]
 ---

@@ -5,6 +5,10 @@
     clear: both;
 }
 
+.rounded {
+    border-radius: 20px;
+}
+
 .gradient {
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#af6ee2+0,e479f7+100 */
 	background: #af6ee2; /* Old browsers */
@@ -28,10 +32,64 @@
 }
 
 .shadow-high {
-	box-shadow:0px 12px 65px -12px rgba(0,0,0,.5);
+	box-shadow:0px 12px 65px -12px rgba(0,0,0,.3);
+}
+
+/* Color Classes */
+
+.purple-100 {
+    color: #DAB2FA;
+}
+
+.purple-300 {
+    color: #AF6EE2;
+}
+
+.purple-500 {
+    color: #843ABE;
+}
+
+.purple-700 {
+    color: #581A89;
+}
+
+.purple-900 {
+    color: #2D084A;
+}
+
+.grey-500 {
+    color: #888888;
+}
+
+.grey-700 {
+    color: #636363;
+}
+
+.bg-grey-100 {
+    background-color: #efefef;
 }
 
 @keyframes slide {
     from { background-position: 0 0; }
     to { background-position: -400px -400px; }
+}
+
+/* Layout Classes */
+
+.pad {
+    padding: 10px;
+}
+
+.bigpad {
+    padding: 30px;
+}
+
+.pad-h {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.bigpad-h {
+    padding-left: 30px;
+    padding-right: 30px;
 }

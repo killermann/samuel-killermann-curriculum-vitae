@@ -6,6 +6,7 @@ emoji: "🌟"
 author: "Sam Killermann + Meg Bolger"
 blurb: "A book about facilitation with actionable advice and anecdotes"
 link: "http://facilitationmagic.com"
+color: "#7e2fc3"
 tags: ["Facilitation", "Book"]
 skills: ["Author", "Facilitator", "Designer", "Website Developer", "Public Thinker"]
 stats:

@@ -7,6 +7,7 @@ blurb: "A free online resource for all facilitators with articles, videos, and d
 link: "http://facilitating.xyz"
 tags: ["Facilitation", "Free Online Resource"]
 skills: ["Facilitator", "Blogger", "Designer", "Website Developer"]
+color: "#24828b"
 ---
 
 "When many of us start facilitating, we find ourselves learning a new skill without a lot of guidance or direction. We are passionate about the information and content that we are communicating, but we’re often less versed in tips and techniques regarding how to communicate that information.

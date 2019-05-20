@@ -5,6 +5,7 @@ emoji: "🛌"
 author: "Sam Killermann"
 blurb: "What are you risking by chasing your dreams? What are you risking by not?"
 link: ""
+color: "#e62b1e"
 tags: ["Activism", "TED"]
 skills: ["Performer", "Writer"]
 ---

@@ -7,15 +7,16 @@ blurb: "A [totally revamped] free online resource for LGBTQ+ awareness and allys
 link: "https://thesafezoneproject.com"
 tags: ["Gender", "Sexuality", "Social Justice", "Free Online Resource"]
 skills: ["Curriculum Writer", "Facilitator", "Educator", "Designer", "Website Developer"]
+color: "#3FA9F5"
 stats:
-  curriculum_downloads: 26927
+  curriculum_downloads: 33321
   downloads: 76410
-  annual_audience: 247105
+  annual_audience: 308616
   country_count: 102
   lifetime_reach:
-  updated: "September 5, 2018"
-  custom_stat: "Matriculated Students"
-  custom_count: 130
+  updated: "May 19, 2019"
+  custom_stat: "Online Course Students"
+  custom_count: 779
 ---
 
 The Safe Zone Project 2.0 is what Meg &amp; I have been saying to refer to the revamp of the online resource, so that's what I'll call it here.

@@ -4,11 +4,13 @@ subtitle: "AKA my doodle of a toilet that became A Thing"
 date: 2014-04-17
 emoji: "🚽"
 author: "Sam Killermann"
-blurb: "Why The New York Times said I'm perfectly O.K. with being known as the toilet sign guy."
+blurb: "Why The New York Times said I'm perfectly O.K. with being known as the toilet sign guy"
 link: "http://itspronouncedmetrosexual.com/2014/07/how-the-gender-neutral-bathroom-sign-i-made-is-being-manufactured-and-donated-to-colleges/"
 og_image: "/img/work/2014-all-gender-restroom-sign-toilet-by-sam-killermann.jpg"
 tags: ["Social Justice", "Gender"]
 skills: ["Designer", "Illustrator", "Public Thinker", "Blogger"]
+featured: true
+color: "#222"
 stats:
   updated: "June 5, 2018"
   curriculum_downloads:

@@ -7,11 +7,11 @@ textarea {
 	font-family:var(--sans-serif);
 	color:var(--dark-grey);
 	line-height:1.5;
-	font-size:calc(17px + .3vw);
+	font-size:calc(14px + .5vw);
 	text-rendering: optimizelegibility;
 }
 
-h1, h2, h3, h4, h5, h6 {line-height:1.2;}
+h1, h2, h3, h4, h5, h6 {line-height:1.1;}
 
 h1, .h1, .post-view .post-title {font-size: calc(2.4em + .6vw);}
 
@@ -35,4 +35,44 @@ p.dropCap:first-letter {
 	padding-top: .1em;
 	padding-right:.2em;
 	padding-left: .1em;
+}
+
+.serif {
+	font-family: var(--serif);
+}
+
+.XXL {
+	font-size: 3.4em;
+}
+
+.XL {
+	font-size: 2.6em;
+}
+
+.L {
+	font-size: 2em;
+}
+
+.M {
+	font-size: 1.4em;
+}
+
+.S {
+	font-size: 1em;
+}
+
+.XS {
+	font-size: .8em;
+}
+
+.lh-title {
+	line-height: 1.1;
+}
+
+.lh-short {
+	line-height: 1.3;
+}
+
+.f-900 {
+	font-weight: 900;
 }

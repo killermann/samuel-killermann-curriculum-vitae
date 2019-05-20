@@ -1,18 +1,53 @@
 {{ partial "header.html" . }}
 
-<section id="hero">
-    <h2>Gender. Sexuality. Social Justice.<span></span></h2>
-    <article>
-        <p>Gender. Sexuality. Social justice. These themes shape the stories in all of my work &mdash; the books I write, the keynotes I deliver, the comedy shows I perform.</p>
-        <p>I'm an activist. Education is my tool of choice. And the needle on my compass points toward a world where everyone is healthy, understood, educated, and safe.</p>
-        <p>&mdash; sK</p>
-        <p class="scrollLink">
-            <a href="#WelcomeFriend">More down there 👇</a>
+<header id="home-welcome" class="hero bigpad">
+    <div class="header-text">
+        <h1 class="page-title XXL">Sam<br/> Killermann</h1>
+        <h2 class="page-sub-title L purple-300">Activist. Artist. Author.</h2>
+        <p class="page-blurb lh-short M purple-500">
+            I create art, tools, and resources for global justice.
         </p>
-    </article>
+    </div>
+    <div id="TEDxTalk">
+        <div class="youtube rounded" data-embed="NRcPXtqdKjE">
+            <div class="play-button purple-300">
+                <svg aria-hidden="true" data-prefix="fal" data-icon="play-circle" class="svg-inline--fa fa-play-circle fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 504c137 0 248-111 248-248S393 8 256 8 8 119 8 256s111 248 248 248zM40 256c0-118.7 96.1-216 216-216 118.7 0 216 96.1 216 216 0 118.7-96.1 216-216 216-118.7 0-216-96.1-216-216zm331.7-18l-176-107c-15.8-8.8-35.7 2.5-35.7 21v208c0 18.4 19.8 29.8 35.7 21l176-101c16.4-9.1 16.4-32.8 0-42zM192 335.8V176.9c0-4.7 5.1-7.6 9.1-5.1l134.5 81.7c3.9 2.4 3.8 8.1-.1 10.3L201 341c-4 2.3-9-.6-9-5.2z"></path></svg>
+            </div>
+        </div>
+    </div>
+</header>
+<section id="home-brief" class="bg-grey-100 rounded overlapper">
+    <p class="M f-900 lh-title">
+        My life's work is <span class="grey-700">websites, books, curricula, edugraphics, comics, courses, keynotes, and comedy shows that teach people about social justice, gender, and sexuality.</span>
+    </p>
+    <div class="fishbowl mobileHide">
+        <div class="fishbowl--inner"></div>
+    </div>
 </section>
-<a id="WelcomeFriend"></a>
-<section id="homeBentos" class="clearfix">
+<section id="featured-work" class="relative bigpad">
+    <h2 class="vertical-header S serif mobileHide">💼 &nbsp;&nbsp;Featured Work</h2>
+    {{ range where .Data.Pages "Section" "work"  }}
+        {{ if .Params.featured }}
+            {{ partial "featured-post.html" . }}
+        {{ end }}
+    {{ end }}
+</section>
+<section id="more-work" class="relative bg-grey-100">
+    <div class="carousel">
+        <h2 class="vertical-header S serif lh-title">Recent Work</h2>
+        {{ range first 10 (where .Data.Pages "Section" "work" ) }}
+            {{ if not ( .Params.featured ) }}
+                {{ partial "card-post.html" . }}
+            {{ end }}
+        {{ end }}
+        <article class="bigpad view-all serif">
+            <a href="{{ `/` }}work" title="View all Work"><strong>View all work &xrarr;</strong></a>
+        </article>
+    </div>
+</section>
+
+
+<!-- <section id="homeBentos" class="clearfix">
     <article id="home--intro" class="bento left">
         <header>
             <h1>
@@ -29,7 +64,6 @@
                 {{ end }}
             </ul>
         </nav>
-        <!-- "{{.Content}}" pulls from the markdown content of the corresponding _index.md -->
         {{.Content}}
     </article>
 
@@ -86,7 +120,6 @@
                       <p>Got it. Look for an email from sK@hues.xyz in the coming months. I&#39;m excited to have you on the list!</p>
                     </div>
 
-                        <!--  Form starts here  -->
                         <form id="ck_subscribe_form" class="ck_subscribe_form" action="https://app.convertkit.com/landing_pages/393696/subscribe" data-remote="true">
                             <input type="hidden" value="{&quot;form_style&quot;:&quot;naked&quot;,&quot;converted_behavior&quot;:&quot;custom&quot;,&quot;days_no_show&quot;:&quot;15&quot;,&quot;delay_seconds&quot;:&quot;10&quot;,&quot;display_devices&quot;:&quot;all&quot;,&quot;display_position&quot;:&quot;br&quot;,&quot;embed_style&quot;:&quot;inline&quot;,&quot;embed_trigger&quot;:&quot;scroll_percentage&quot;,&quot;scroll_percentage&quot;:&quot;99&quot;}" id="ck_form_options">
                             <input type="hidden" name="id" value="393696" id="landing_page_id">
@@ -117,9 +150,8 @@
                     </div>
 
                 </div>
-                <!--  Form Ends here  -->
 
-            </div><!--/ck_form_container-->
+            </div>
         </div>
     </article>
 
@@ -148,5 +180,5 @@
 
 
 
-</section>
+</section> -->
 {{ partial "footer.html" . }}

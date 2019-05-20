@@ -7,13 +7,15 @@ blurb: "A free online resource for LGBTQ+ awareness and allyship training worksh
 link: "http://thesafezoneproject.com"
 tags: ["Gender", "Sexuality", "Social Justice", "Free Online Resource"]
 skills: ["Curriculum Writer", "Facilitator", "Educator", "Designer", "Website Developer"]
+featured: true
+color: "#3FA9F5"
 stats:
-  curriculum_downloads: 23679
+  curriculum_downloads: 33321
   downloads: 72696
-  annual_audience: 247105
-  country_count: 100
+  annual_audience: 308616
+  country_count: 102
   lifetime_reach:
-  updated: "May 13, 2018"
+  updated: "May 19, 2019"
   custom_stat: "Birthday Party releases"
   custom_count: 3
 ---

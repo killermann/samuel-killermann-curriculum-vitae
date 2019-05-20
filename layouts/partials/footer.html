@@ -1,5 +1,4 @@
 </main>
-<script async id="_ck_387510" src="https://forms.convertkit.com/387510?v=7"></script>
 <footer class="footer">
     <div class="footer--inner">
         <div class="grid centered">
@@ -122,6 +121,7 @@
     </div>
 </footer>
 <script src="https://cdn.bootcss.com/instantclick/3.0.1/instantclick.min.js" data-no-instant></script>
+<script src="{{ "js/scripts.js" | absURL }}" async></script>
 <script data-no-instant>InstantClick.init();</script>
 <script data-no-instant>
 menuToggle();
@@ -146,13 +146,14 @@ menuToggle();
 
 function changeHeaderOnScroll() {
     const distanceY = window.pageYOffset || document.documentElement.scrollTop,
-    shrinkOn = 250,
+    shrinkOn = 60,
+    body = document.body,
     headerEl = document.getElementById('main-header');
 
     if (distanceY > shrinkOn) {
-        headerEl.classList.add("scrolled");
+        body.classList.add("scrolled");
     } else {
-        headerEl.classList.remove("scrolled");
+        body.classList.remove("scrolled");
     }
 }
 

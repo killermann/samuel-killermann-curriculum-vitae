@@ -8,6 +8,7 @@ blurb: "My first book and Amazon Best-Seller over 2 editions"
 link: "http://guidetogender.com"
 tags: ["Gender", "Social Justice", "Activism", "Book"]
 skills: ["Author", "Educator", "Illustrator", "Designer", "Website Developer", "Public Thinker"]
+color: "#ECC41C"
 stats:
   updated: "May 14 2018"
   copies_gifted: 17093

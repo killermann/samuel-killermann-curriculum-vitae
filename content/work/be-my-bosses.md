@@ -5,6 +5,7 @@ emoji: "📝‍"
 author: "Sam Killermann"
 blurb: "A new experiment in funding my work, directly via patronage "
 link: "https://bemyboss.es"
+color: "#84DCC6"
 tags: ["Gift Experiment"]
 skills: ["Public Thinker", "Writer", "Designer", "Videographer", "Website Developer"]
 ---

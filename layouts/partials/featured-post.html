@@ -1,0 +1,35 @@
+<article class="post featured-entry reveal">
+    <header class="post-header">
+        <div class="hats-worn XS grey-500 f-900">
+            {{ range $i, $e := .Params.skills }}{{ if $i }}, {{ end }}{{ $e }}{{ end }}
+        </div>
+        <h3 class="f-900 post-title L">
+            <a href="{{ .Permalink }}" title="Read about {{ .Title }}">{{ .Title }}</a>
+        </h3>
+    </header>
+    <section class="post-body lh-short">
+        {{if .Params.emoji}}
+        <div class="emoji reveal">
+            <a href="{{ .Permalink }}" title="Read about {{ .Title }}">{{ .Params.emoji }}</a>
+        </div>
+        {{end}}
+        <div class="post-summary">
+            <p class="M f-900 grey-700">{{ .Params.blurb }}</p>
+        </div>
+        <div class="post-statistics">
+            <p class="S grey-500">
+                {{- with .Params.stats.annual_audience }}Over {{ lang.NumFmt 0 . }} annual audience. {{end -}}
+                {{- with .Params.stats.downloads }}Over {{ lang.NumFmt 0 . }} downloads. {{end}}
+                {{- with .Params.stats.country_count }}In over {{ lang.NumFmt 0 . }} countries. {{ end -}}
+            </p>
+        </div>
+    </section>
+
+    <footer class="post-footer">
+        <p class="post-meta S">
+            <a href="{{ .Permalink }}" title="Read about {{ .Title }}" rel="bookmark" class="purple-500">Read More</a>
+            <a href="{{ .Params.link }}" title="Visit the {{ .Title }} site" rel="bookmark" class="purple-300">Visit the Site &xrarr;</a>
+        </p>
+    </footer>
+    <div class="work-color" style="background-color: {{ .Params.color }}"></div>
+</article>

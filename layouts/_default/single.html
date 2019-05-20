@@ -1,30 +1,33 @@
 {{ partial "header.html" . }}
 <article class="post post-view">
-    <header class="post-header">
-        <h1 class="post-title {{with .Params.subtitle}}with-subtitle{{end}}">
-        {{if .Params.link}}
-            <a href="{{ .Params.link }}" target="_blank" alt="{{ .Title }}">{{ .Title }}</a>
-        {{else}}
-            {{ .Title }}
-        {{end}}
-        {{with .Params.subtitle}}:{{end}}
-        </h1>
-        {{with .Params.subtitle}}
-        <h2 class="post-subtitle">{{ . }}</h2>
-        {{end}}
-        <p class="post-meta">
-            {{- if or .Params.author .Site.Params.author -}}
-            {{ .Params.author | default .Site.Params.author }} · {{ end }}
-            {{- .Date.Format "January 2006" -}}
-            {{ if .Params.link }}
-             · <a href="{{ .Params.link }}" target="_blank" alt="{{ .Title }}">Link</a>
-            {{end}}
-        </p>
+    <header class="post-header" style="background: {{ .Params.color }}">
+        <div class="header-text bigpad wrap">
+
+            <h1 class="page-title XXL {{with .Params.subtitle}}with-subtitle{{end}}">
+            {{ if .Params.link }}<a href="{{ .Params.link }}" target="_blank" alt="{{ .Title }}">{{ .Title }}</a>{{else}}{{ .Title }}{{end }}{{ with .Params.subtitle}}: <span class="page-sub-title">{{ . }}</span>{{end}}
+            </h1>
+
+
+            <p class="post-meta XS">
+                {{- if or .Params.author .Site.Params.author -}} By
+                {{ .Params.author | default .Site.Params.author }}, published {{ end }}
+                {{- .Date.Format "January 2006" -}}
+                {{ if .Params.link }}
+                 · <a href="{{ .Params.link }}" target="_blank" alt="{{ .Title }}">Link</a>
+                {{end}}
+            </p>
+            <p class="post-blurb M lh-title">
+                {{ .Params.blurb }}
+            </p>
+
+
+        </div>
         {{with .Params.emoji}}
-        <span class="emoji">{{ . }}</span>
+        <span class="XXL emoji lh-title">{{ . }}</span>
         {{end}}
     </header>
-    <div class="post-content">
+
+    <div class="post-content wrap bigpad">
         {{ .Content }}
 
         {{ if isset .Params "stats" }}
@@ -107,14 +110,14 @@
         {{end}}
 
     </div>
-    <footer class="post-footer cards">
+    <footer class="post-footer bigpad cards">
         {{ if .Params.tags }}
         <div class="intro">
-            <h2>Explore</h2>
+            <h2 class="M f-900 title">Explore</h2>
             <p>Themes and skills I used to create <strong>{{if .Params.link }}<a href="{{ .Params.link }}" alt="{{ .Params.title }}">{{ .Params.title }}</a>{{else}}{{ .Params.title }}{{end}}</strong>, that are clickable links to similar work</p>
         </div>
         <div class="card">
-            <h3 class="title">🏷 Content themes</h3>
+            <h3 class="title S">🏷 Content themes</h3>
             <ul class="post-tags">
                 {{ range .Params.tags }}
                 <li><a href="{{ `/tags/` }}{{ . | urlize }}/">{{ . }}</a></li>
@@ -124,7 +127,7 @@
         {{ end }}
         {{ if .Params.skills }}
         <div class="card">
-            <h3 class="title">🎩 Hats I wore</h3>
+            <h3 class="title S">🎩 Hats I wore</h3>
             <ul class="post-tags">
                 {{ range .Params.skills }}
                 <li><a href="{{ `/skills/` }}{{ . | urlize }}/">{{ . }}</a></li>

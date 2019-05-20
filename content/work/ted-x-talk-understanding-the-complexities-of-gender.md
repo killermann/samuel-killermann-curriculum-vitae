@@ -3,8 +3,9 @@ title: "TEDxTalk: Understanding the Complexities of Gender"
 date: 2013-04-12
 emoji: "🐛"
 author: "Sam Killermann"
-blurb: "Disentangling gender identity, expression, and sex in a fun and sometimes-rhyming way."
+blurb: "Disentangling gender identity, expression, and sex in a fun and sometimes-rhyming way"
 link: ""
+color: "#e62b1e"
 tags: ["Gender", "TED"]
 skills: ["Performer", "Writer"]
 stats:

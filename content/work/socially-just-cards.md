@@ -5,6 +5,7 @@ emoji: "🎄"
 author: "Sam Killermann"
 blurb: "Handmade greeting cards for the socially conscious, all in the gift economy"
 link: "http://sociallyjustcards.com"
+color: "#F1505A"
 tags: ["Merch", "Gift Experiment", "Activism", "Social Justice"]
 skills: ["Illustrator", "Copywriter", "Designer", "Website Developer"]
 ---

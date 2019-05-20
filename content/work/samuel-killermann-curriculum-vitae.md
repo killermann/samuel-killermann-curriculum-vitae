@@ -4,6 +4,7 @@ author: "Sam Killermann"
 blurb: "How to use this site, how I made this site, and why."
 date: 2018-05-02
 emoji: "📄"
+color: "#AF6EE2"
 tags: ["Free Online Resource"]
 skills: ["Designer","Website Developer"]
 ---

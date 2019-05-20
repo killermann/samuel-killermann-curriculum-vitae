@@ -3,11 +3,13 @@ title: "The Genderbread Person"
 date: 2011-11-07
 emoji: "🙂"
 author: "Sam Killermann"
-blurb: "My first version of the Genderbread Person model, a tool for understanding the complexity of gender."
+blurb: "A tool that’s helped millions of people understand the complexity of gender"
 link: "http://itspronouncedmetrosexual.com/2011/11/breaking-through-the-binary-gender-explained-using-continuums/"
 og_image: "/img/work/2011-genderbread-person-sam-killermann-version-1.jpg"
 tags: ["Gender", "Sexuality", "Social Justice"]
-skills: ["Educator", "Designer"]
+skills: ["Educator", "Designer", "Public Thinker", "Illustrator"]
+featured: true
+color: "#ECC41C"
 stats:
   updated: "May 24, 2018"
   curriculum_downloads:

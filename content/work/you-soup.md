@@ -6,6 +6,7 @@ emoji: "🍲"
 author: "Sam Killermann"
 blurb: "A model for understanding diversity and the intersections of identity"
 link: "http://itspronouncedmetrosexual.com/2012/10/individual-difference-and-group-similiarity/"
+color: "#63595d"
 og_image: "/img/work/2012-you-soup-intersectionality-model.jpg"
 tags: ["Social Justice"]
 skills: ["Educator", "Designer", "Illustrator"]

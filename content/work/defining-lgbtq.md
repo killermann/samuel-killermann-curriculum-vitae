@@ -7,6 +7,7 @@ blurb: "A Guide to Gender & Sexuality Terminology"
 link: "https://gum.co/defininglgbtq"
 tags: ["Book", Gender", "Sexuality", "Social Justice", "Free Online Resource"]
 skills: ["Author", "Educator", "Designer"]
+color: "#D833AF"
 stats:
   updated: "February 19, 2019"
   custom_stat: "Word Count"
