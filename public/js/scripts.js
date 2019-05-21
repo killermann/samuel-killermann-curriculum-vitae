@@ -1,3 +1,7 @@
+//@prepros-prepend instantclick.min.js
+//@prepros-prepend convertkit.min.js
+//@prepros-prepend scrollreveal.min.js
+
 /* Lazyload Youtube https://webdesign.tutsplus.com/tutorials/how-to-lazy-load-embedded-youtube-videos--cms-26743 */
 (function() {
 
@@ -24,46 +28,59 @@
 
             this.innerHTML = "";
             this.appendChild( iframe );
-            
+
         } );
 
     };
 
 } )();
 
-$( document ).ready(function() {
+// Initialize instantclick
 
-    // Animate SVG Icons
+InstantClick.init();
 
-    $.fn.isInViewport = function() {
-        var elementTop = $(this).offset().top;
-        var elementBottom = elementTop + $(this).outerHeight();
-        var viewportTop = $(window).scrollTop();
-        var viewportBottom = viewportTop + $(window).height();
-        return elementBottom > viewportTop && elementTop < viewportBottom;
-    };
+// Clicky Menu Action
 
-    var path = document.querySelector('.animated-svg path');
-    var length = path.getTotalLength();
-    // Clear any previous transition
-    path.style.transition = path.style.WebkitTransition =
-      'none';
-    // Set up the starting positions
-    path.style.strokeDasharray = length + ' ' + length;
-    path.style.strokeDashoffset = length;
-    // Trigger a layout so styles are calculated & the browser
-    // picks up the starting position before animating
-    path.getBoundingClientRect();
-    // Define our transition
-    path.style.transition = path.style.WebkitTransition =
-      'stroke-dashoffset 1.2s ease-in-out, color 6s linear';
-
-    $(window).on('resize scroll', function() {
-
-        if($('#heart-sK').isInViewport()){
-            // Go!
-            path.style.strokeDashoffset = '0';
+menuToggle();
+    InstantClick.on('change', function() {
+        var blocks = document.querySelectorAll('pre code');
+        for (var i = 0; i < blocks.length; i++) {
+        hljs.highlightBlock(blocks[i]);
         }
+        menuToggle();
     });
+    function menuToggle() {
+        var $toggle = document.querySelector('.menu-toggle');
+        if (!$toggle.offsetParent) {
+            return;
+        }
+        var $body = document.querySelector('body');
+        $toggle.addEventListener('click', function() {
+            $body.classList.toggle('noscroll');
+        }, false
+    );
+}
 
-});
+// Scrolly Header Action
+
+function changeHeaderOnScroll() {
+    const distanceY = window.pageYOffset || document.documentElement.scrollTop,
+    shrinkOn = 60,
+    body = document.body,
+    headerEl = document.getElementById('main-header');
+
+    if (distanceY > shrinkOn) {
+        body.classList.add("scrolled");
+    } else {
+        body.classList.remove("scrolled");
+    }
+}
+
+// Scrolly Revealy Action
+
+window.addEventListener('scroll', changeHeaderOnScroll);
+window.sr = ScrollReveal();
+sr.reveal('.reveal', { duration: 800,});
+sr.reveal('.reveal-2', { duration: 800, delay: 200,});
+sr.reveal('.reveal-3', { duration: 800, delay: 400,});
+sr.reveal('.reveal-4', { duration: 800, delay: 600,});

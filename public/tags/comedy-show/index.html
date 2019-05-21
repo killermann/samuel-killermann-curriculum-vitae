@@ -21,7 +21,7 @@
     <meta name="description" content="Sam&#39;s internet house! A curriculum vitae featuring Killermann&#39;s work -- books, comedy shows, TEDxTalks, edugraphics, free online resources, podcasts, videos, blogs, and merch -- that has reached hundreds of millions of people in over 238 countries.">
     <meta name="author" content="Sam Killermann">
     
-    <link href="/css/style.css" rel="stylesheet">
+    <link href="https://samuelkillermann.com/css/style.css" rel="stylesheet">
     
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -268,7 +268,7 @@
     <footer class="post-footer">
         <p class="post-meta S">
             <a href="https://samuelkillermann.com/work/its-pronounced-metrosexual/" title="Read about It&#39;s Pronounced Metrosexual" rel="bookmark" class="purple-500">Read More</a>
-            <a href="http://itspronouncedmetrosexual.com" title="Visit the It&#39;s Pronounced Metrosexual site" rel="bookmark" class="purple-300">Visit the Site &xrarr;</a>
+            <a href="http://itspronouncedmetrosexual.com" title="Visit the Site" rel="bookmark" class="purple-300">Visit the Site &xrarr;</a>
         </p>
     </footer>
     <div class="work-color" style="background-color: #eb366e"></div>
@@ -398,53 +398,7 @@
         
     </div>
 </footer>
-<script src="https://cdn.bootcss.com/instantclick/3.0.1/instantclick.min.js" data-no-instant></script>
-<script src="https://samuelkillermann.com/js/scripts.js" async></script>
-<script data-no-instant>InstantClick.init();</script>
-<script data-no-instant>
-menuToggle();
-    InstantClick.on('change', function() {
-        var blocks = document.querySelectorAll('pre code');
-        for (var i = 0; i < blocks.length; i++) {
-        hljs.highlightBlock(blocks[i]);
-        }
-        menuToggle();
-    });
-    function menuToggle() {
-        var $toggle = document.querySelector('.menu-toggle');
-        if (!$toggle.offsetParent) {
-            return;
-        }
-        var $body = document.querySelector('body');
-        $toggle.addEventListener('click', function() {
-            $body.classList.toggle('noscroll');
-        }, false
-    );
-}
-
-function changeHeaderOnScroll() {
-    const distanceY = window.pageYOffset || document.documentElement.scrollTop,
-    shrinkOn = 60,
-    body = document.body,
-    headerEl = document.getElementById('main-header');
-
-    if (distanceY > shrinkOn) {
-        body.classList.add("scrolled");
-    } else {
-        body.classList.remove("scrolled");
-    }
-}
-
-window.addEventListener('scroll', changeHeaderOnScroll);
-</script>
-<script data-no-instant src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
-<script data-no-instant>
-    window.sr = ScrollReveal();
-    sr.reveal('.reveal', { duration: 800,});
-    sr.reveal('.reveal-2', { duration: 800, delay: 200,});
-    sr.reveal('.reveal-3', { duration: 800, delay: 400,});
-    sr.reveal('.reveal-4', { duration: 800, delay: 600,});
-</script>
+<script src="https://samuelkillermann.com/js/scripts-dist.js"></script>
 </body>
 </html>
 

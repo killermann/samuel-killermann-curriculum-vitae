@@ -23,39 +23,7 @@
 	margin-left: auto;
 }
 
-/* Convert Kit Default Styles */
 
-  .ck_form.ck_naked {
-  /* divider image */
-	background: transparent;
-	line-height: 1.5em;
-	overflow: hidden;
-	color: #191f23;
-	font-size: 16px;
-	border: none;
-	-webkit-box-shadow: none;
-	-moz-box-shadow: none;
-	box-shadow: none;
-	clear: both;
-	margin: 20px 0px;
-	text-align: center;
-}
-
-.ck_form.ck_naked p {
-	padding: 0px;
-}
-
-.ck_form, .ck_form * {
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-}
-
-.ck_form.ck_naked .ck_form_fields {
-	width: 100%;
-	float: left;
-	padding: 5%;
-}
 /* Form fields */
 
 .ck_errorArea {
@@ -63,56 +31,15 @@
 }
 
 #ck_success_msg {
-	padding: 10px 10px 0px;
-	border: solid 1px #ddd;
-	background: #eee;
+	padding: 30px;
+	border: none;
+	background: #fff;
+	border-radius: 20px;
+	color: black;
 }
-
-.ck_form.ck_naked input[type="text"], .ck_form.ck_naked input[type="email"] {
-	font-size: 18px;
-	padding: 10px 8px;
-	width: 34%;
-	border: 1px solid #d6d6d6; /* stroke */
-	-moz-border-radius: 0px;
-	-webkit-border-radius: 0px;
-	border-radius: 0px; /* border radius */
-	background-color: #fff; /* layer fill content */
-	margin-bottom: 5px;
-	height: auto;
-	float: left;
-	margin: 0px;
-	margin-right: 1%;
-	height: 42px;
-}
-
-.ck_form input[type="text"]:focus, .ck_form input[type="email"]:focus {
-	outline: none;
-	border-color: #aaa;
-}
-
-.ck_form.ck_naked .ck_subscribe_button {
-    width: 100%;
-    color: #fff;
-    margin: 0px;
-    padding:  9px 0px;
-    font-size: 18px;
-    background: #af6ee2;
-    -moz-border-radius: 0px;
-    -webkit-border-radius: 0px;
-    border-radius: 0px; /* border radius */
-    cursor: pointer;
-    border: none;
-    text-shadow: none;
-    width: 30%;
-    float: left;
-    height: 42px;
-  }
-
 
 .ck_converted_content {
-  display: none;
-	padding: 5%;
-	background: #fff;
+  	display: none;
 }
 
 /* max width 500 */
@@ -249,6 +176,7 @@
     color:#fff;
     border:0px;
     display:inline-block;
+	text-decoration: none;
     padding:1em 1.3em;
 	margin:auto .75em .75em auto;
 	position:relative;
@@ -370,7 +298,7 @@ $cubic: cubic-bezier(.64,.09,.08,1);
 		background-repeat:repeat;
 		background-position:top left;
 		animation: slide 18s linear infinite;
-		color:#fff;
+		color: white;
 
 		h1, h2, p, a, .ck_form_container{
 			max-width:540px;
@@ -383,10 +311,11 @@ $cubic: cubic-bezier(.64,.09,.08,1);
 
 		h2, p {
 			line-height:1.2;
-			margin-bottom: 2rem;
+			margin: 0 auto 2rem;
 		}
 
 		.ck_form_container {
+			color: white;
 
 			.ck_form_fields {
 				background: none !important;
@@ -397,17 +326,19 @@ $cubic: cubic-bezier(.64,.09,.08,1);
 					flex-wrap:nowrap;
 
 					input {
-						font-size:18px;
-						width:48% !important;
-						margin:0%  !important;
-						border-radius:10px !important;
+						width:48%;
+						margin:0% ;
+						background: rgba(white,.85);
+						border-radius:10px;
+						border: 2px solid transparent;
 						padding: .7em 0 .7em 1em;
-						border: none !important;
-						height: auto !important;
-						box-shadow:  0px 2px 4px rgba(0,0,0, .3) !important;
+						border: none;
+						height: auto;
+						box-shadow:  0px 2px 4px rgba(0,0,0, .3);
 
 						&:focus {
 							border-color:var(--purple);
+							background: white;
 						}
 
 						& + input {
@@ -416,16 +347,17 @@ $cubic: cubic-bezier(.64,.09,.08,1);
 					}
 				}
 			}
-			button {
-				border-radius:10px !important;
-				margin-top: 4% !important;
-				height: auto !important;
-				width: 100% !important;
+			.button {
+				border-radius:10px;
+				margin-top: 4%;
+				height: auto;
+				width: 100%;
 				text-shadow: 0px 1px 1px black;
 				font-weight: 900;
 				padding: .7em 1em;
-				background: #05ABE0 !important;
-				box-shadow:  0px 2px 4px rgba(0,0,0, .3) !important;
+				color: white;
+				background: #05ABE0;
+				box-shadow:  0px 2px 4px rgba(0,0,0, .3);
 			}
 		}
 		.ck_converted_content {
@@ -433,8 +365,11 @@ $cubic: cubic-bezier(.64,.09,.08,1);
 			padding: 30px;
 
 			a {
-				@extend .purple-500;
 				text-decoration: underline;
+
+				&.button {
+					text-decoration: none;
+				}
 			}
 		}
 	}
