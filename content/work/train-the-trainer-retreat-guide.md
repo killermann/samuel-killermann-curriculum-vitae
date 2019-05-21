@@ -3,7 +3,7 @@ title: "Safe Zone Train-the-Trainer Retreat Guide"
 date: 2019-02-14
 emoji: "🗺"
 author: "Sam Killermann + Meg Bolger"
-blurb: "A comprehensive walkthrough for planning a two-day train-the-trainer retreat"
+blurb: "A detailed walkthrough for planning a two-day train-the-trainer retreat"
 link: "https://thesafezoneproject.com/ttt/"
 tags: ["Gender", "Sexuality", "Social Justice", "Free Online Resource"]
 skills: ["Curriculum Writer", "Facilitator", "Educator", "Designer"]

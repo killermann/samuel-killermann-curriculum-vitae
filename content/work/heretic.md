@@ -1,5 +1,6 @@
 ---
-title: "Heretic: Social Justice, Minus Dogma"
+title: "The Heretic Podcast"
+subtitle: "Social Justice, Minus Dogma"
 date: 2018-09-01
 emoji: "🎧‍"
 author: "Sam Killermann"
