@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Writer on Sam Killermann&#39;s Curriculum Vitae</title>
+    <link>https://samuelkillermann.com/skills/writer/</link>
+    <description>Recent content in Writer on Sam Killermann&#39;s Curriculum Vitae</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 31 Dec 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://samuelkillermann.com/skills/writer/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Be My Boss(es)</title>
+      <link>https://samuelkillermann.com/work/be-my-bosses/</link>
+      <pubDate>Mon, 31 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://samuelkillermann.com/work/be-my-bosses/</guid>
+      <description>Be My Boss(es) is a splash page for my Patreon profile, explaining how I am doing Patreon, and patronage, for anyone who wants to employ me.
+I built it with Hugo and it&amp;rsquo;s being served up with Netlify &amp;ndash; just like this site you&amp;rsquo;re reading this on.
+  </description>
+    </item>
+    
+    <item>
+      <title>Heretic: Social Justice, Minus Dogma</title>
+      <link>https://samuelkillermann.com/work/heretic/</link>
+      <pubDate>Sat, 01 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://samuelkillermann.com/work/heretic/</guid>
+      <description>With guest activists, authors, and artists who have who have been pushed to the fringes by the movement, spent their lives fighting for social justice, or fighting against it, Heretic is a light conversation about the darkness in society.
+It&amp;rsquo;s also the scariest thing I&amp;rsquo;ve ever done.
+I started writing about The Social Justice Dogma on It&amp;rsquo;s Pronounced Metrosexual in December of 2017.
+Visual Design + Identity The branding of Heretic is sunny day at the beach meets Da Vinci Code.</description>
+    </item>
+    
+    <item>
+      <title>TEDxTalk: Do the W.O.R.K.</title>
+      <link>https://samuelkillermann.com/work/ted-x-talk-do-the-work/</link>
+      <pubDate>Sun, 29 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://samuelkillermann.com/work/ted-x-talk-do-the-work/</guid>
+      <description>My third (and final) TEDxTalk, where I present a sort of unified theory of social justice, explaining what it means to &amp;ldquo;do the work,&amp;rdquo; and how we can do it.
+I performed this talk at TEDxYouth in San Diego for the theme &amp;ldquo;We Can&amp;rsquo;t Wait.&amp;rdquo; I combined theories from some of my favorite thinkers to create a road map for aspiring social justice advocates.
+Unfortunately, due to technical difficulties, video from the event didn&amp;rsquo;t make it to TED&amp;rsquo;s site or YouTube.</description>
+    </item>
+    
+    <item>
+      <title>TEDxTalk: Understanding the Complexities of Gender</title>
+      <link>https://samuelkillermann.com/work/ted-x-talk-understanding-the-complexities-of-gender/</link>
+      <pubDate>Fri, 12 Apr 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://samuelkillermann.com/work/ted-x-talk-understanding-the-complexities-of-gender/</guid>
+      <description>My second TEDxTalk, disentangling gender identity, expression, and sex in a fun and sometimes-rhyming way.
+   </description>
+    </item>
+    
+    <item>
+      <title>TEDxTalk: The Cost of Dreams</title>
+      <link>https://samuelkillermann.com/work/ted-x-talk-cost-of-dreams/</link>
+      <pubDate>Fri, 16 Sep 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://samuelkillermann.com/work/ted-x-talk-cost-of-dreams/</guid>
+      <description>My first TEDxTalk, about the ideas of chasing your dreams, what&amp;rsquo;s at stake, and what we have to lose.
+   </description>
+    </item>
+    
+  </channel>
+</rss>

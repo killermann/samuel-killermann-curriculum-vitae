@@ -1,0 +1,99 @@
+
+.clearfix:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.rounded {
+    border-radius: 20px;
+}
+
+.gradient {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#af6ee2+0,e479f7+100 */
+	background: #af6ee2; /* Old browsers */
+	background-image: linear-gradient(155deg, #af6ee2 0%,darken(#af6ee2,5%) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#af6ee2', endColorstr='darken(#af6ee2,5%)',GradientType=1 ); /*
+	 IE6-9 fallback on horizontal gradient */
+    background-repeat:no-repeat;
+}
+
+.gradient-alt {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#af6ee2+0,05abe0+100 */
+
+	background: rgb(175,110,226); /* Old browsers */
+	background-image: linear-gradient(135deg, rgba(175,110,226,1) 0%,rgba(5,171,224,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#af6ee2', endColorstr='#05abe0',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    background-repeat:no-repeat;
+}
+
+.shadow-low {
+	box-shadow: 0 7px 11px -5px rgba(0,0,0,0.5);
+}
+
+.shadow-high {
+	box-shadow:0px 12px 65px -12px rgba(0,0,0,.3);
+}
+
+/* Color Classes */
+
+.purple-100 {
+    color: #DAB2FA;
+}
+
+.purple-300 {
+    color: #AF6EE2;
+}
+
+.purple-500 {
+    color: #843ABE;
+}
+
+.purple-700 {
+    color: #581A89;
+}
+
+.purple-900 {
+    color: #2D084A;
+}
+
+.grey-500 {
+    color: #888888;
+}
+
+.grey-700 {
+    color: #636363;
+}
+
+.bg-grey-100 {
+    background-color: #efefef;
+}
+
+.bg-purple-100 {
+    background-color: #DAB2FA;
+}
+
+@keyframes slide {
+    from { background-position: 0 0; }
+    to { background-position: -400px -400px; }
+}
+
+/* Layout Classes */
+
+.pad {
+    padding: 10px;
+}
+
+.bigpad {
+    padding: 30px;
+}
+
+.pad-h {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.bigpad-h {
+    padding-left: 30px;
+    padding-right: 30px;
+}

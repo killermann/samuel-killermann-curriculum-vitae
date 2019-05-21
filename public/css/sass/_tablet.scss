@@ -1,0 +1,206 @@
+.mobileHide {
+	display: block;
+}
+
+.vertical-header {
+	line-height: 6vw;
+	margin: 0;
+}
+
+.menu-toggle {
+	width: 6vw;
+}
+
+.menu {
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	align-items: flex-start;
+}
+
+.site-nav-wrap {
+	max-width: 44vw;
+	.S {
+		font-size: calc( 1.2em + .5vw);
+	}
+}
+
+.noscroll {
+	.menu {
+		padding: 80px 6vw 6vw;
+	}
+}
+
+/* Header */
+
+.site-logo {
+	padding: 10px;
+
+	#heart-sK {
+		height: 40px;
+		width: 80px;
+	}
+}
+
+.hero {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#TEDxTalk {
+	flex-basis: 75%;
+	min-width: 75%;
+	margin-left: -200px;
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+
+#home-welcome {
+	padding-bottom: 140px;
+}
+
+#home-brief {
+	display:flex;
+	align-items: stretch;
+	justify-content: center;
+
+	.fishbowl {
+		min-width: 33.333%;
+	}
+}
+
+.overlapper {
+	margin: 0 6vw;
+	overflow:hidden;
+
+	p {
+		padding: 4vw 2vw 4vw 6vw;
+	}
+
+	.fishbowl {
+		position: relative;
+		margin: 0;
+
+		.fishbowl--inner {
+			position: absolute;
+			left: 0;
+			top:0;
+			right:0;
+			bottom:0;
+		}
+	}
+}
+
+.carousel {
+	padding: 6vw;
+
+	.vertical-header {
+		top: calc(6vw + 20px);
+	}
+}
+
+/* Layout Classes */
+
+.pad {
+	padding: 3vw;
+}
+
+.bigpad {
+    padding: 6vw;
+}
+
+/* Loop Styles */
+
+.featured-entry {
+	padding: 0 0 0 6vw;
+
+	.post-body {
+		display: flex;
+	}
+
+	.post-summary {
+		margin-right: 3vw;
+
+		p {
+			width: 63.666vw;
+		}
+	}
+
+	.work-color {
+		width: 6vw;
+	}
+
+	& + .featured-entry {
+		margin-top: 12vw;
+	}
+
+	.emoji {
+		font-size: 6vw;
+		left: -3vw;
+	}
+}
+
+.card-entry {
+	.emoji {
+		font-size: 5vw;
+	}
+}
+
+/* Single Post */
+
+.page-title {
+	hyphens: none;
+}
+
+.cards {
+	display: flex;
+	justify-content: space-evenly;
+
+	.intro, .card {
+		width: 320px;
+		margin: 3vw;
+	}
+}
+
+/**************************
+
+		LIST
+
+**************************/
+
+.list-header {
+	padding: 6vw 6vw 0;
+
+	.header-text {
+		padding: 6vw;
+	}
+}
+
+
+.list-wrap {
+	padding: 0 6vw 6vw;
+
+	.list-contents {
+		padding: 6vw;
+	}
+}
+
+
+.list-contents {
+	.featured-entry {
+		.post-summary {
+			p {
+				width: 51.666vw;
+			}
+		}
+	}
+}
+
+.now {
+	padding: 6vw 6vw 0;
+
+	.post-content {
+		padding: 6vw 6vw 0;
+	}
+}

@@ -1,0 +1,115 @@
+#main-header {
+	position: absolute;
+}
+
+#home-welcome {
+	padding-top: 3vw;
+}
+
+.home {
+	section#homeBentos {
+		padding:2.5%;
+
+		/* Left Dudes */
+
+		.left {
+			width:33%;
+			max-width:33%;
+			margin:3.5%;
+			float:left;
+		}
+
+		/* Right Dudes */
+		.right {
+			float:right;
+			width:53%;
+			max-width:53%;
+			margin:3.5%;
+			z-index:10;
+		}
+
+		/* Indiv Styles */
+
+		#home--intro {
+			nav ul li {
+				display:block;
+				font-size:calc(1em + .5vw);
+
+				a{
+					display:block;
+					overflow:hidden;
+					position:relative;
+
+					&:after {
+						position:absolute;
+						right:.5em;
+						top:.5em;
+						display:none;
+					}
+
+					&:hover:after {
+						display:block;
+					}
+				}
+
+				&:nth-of-type(1) a:after{content:'💼';}
+				&:nth-of-type(2) a:after{content:'🤗';}
+				&:nth-of-type(3) a:after{content:'📆';}
+				&:nth-of-type(4) a:after{content:'⌛️';}
+				&:nth-of-type(5) a:after{content:'🔗';}
+
+			}
+		}
+
+		#home--email {
+			z-index:1;
+			margin:3.5% 0;
+
+			.fishbowl {
+				position:absolute;
+				width:100vw;
+				margin-left:-2.5vw;
+
+				.fishbowl--inner{
+					text-align:left;
+
+					h2, h3, p, .ck_form_container {
+						text-align:center;
+						max-width:35%;
+						padding-left:2.5%;
+						margin:20px 0;
+					}
+				}
+			}
+		}
+
+		#home--work {
+			margin-bottom:100px;
+		}
+	}
+}
+
+.bento {
+	margin: 3vw;
+}
+
+.work--sample {
+	.ultra-wide, &.ultra-wide {
+		max-width:calc(100% + 340px);
+		width:calc(100% + 340px);
+		margin-left:-170px;
+	}
+}
+
+.post-entry{
+	transition: all .1s linear;
+
+	&:hover {
+		transform:translateY(-10px);
+		box-shadow: 0 12px 30px -10px rgba(0,0,0,.35);
+	}
+
+	.post-link {
+		cursor: pointer;
+	}
+}
