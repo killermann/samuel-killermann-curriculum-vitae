@@ -330,15 +330,16 @@ $cubic: cubic-bezier(.64,.09,.08,1);
 						margin:0% ;
 						background: rgba(white,.85);
 						border-radius:10px;
-						border: 2px solid transparent;
 						padding: .7em 0 .7em 1em;
 						border: none;
 						height: auto;
+						line-height: 1.4;
 						box-shadow:  0px 2px 4px rgba(0,0,0, .3);
 
 						&:focus {
 							border-color:var(--purple);
 							background: white;
+							box-shadow:  0px 0px 0px 3px var(--purple);
 						}
 
 						& + input {
@@ -355,11 +356,13 @@ $cubic: cubic-bezier(.64,.09,.08,1);
 				text-shadow: 0px 1px 1px black;
 				font-weight: 900;
 				padding: .7em 1em;
+				line-height: 1.4;
 				color: white;
 				background: #05ABE0;
 				box-shadow:  0px 2px 4px rgba(0,0,0, .3);
 			}
 		}
+
 		.ck_converted_content {
 			border-radius: 20px;
 			padding: 30px;
