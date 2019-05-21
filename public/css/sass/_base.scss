@@ -587,14 +587,14 @@ $cubic: cubic-bezier(.64,.09,.08,1);
 }
 
 .site-nav-wrap {
-	margin-bottom: 3vh;
+	margin-bottom: 3vw;
 	transform: translateY(-150%);
 	-webkit-transition: cubic-bezier(0.19, 1, 0.22, 1) 1.2s transform;
 	-moz-transition: cubic-bezier(0.19, 1, 0.22, 1) 1.2s transform;
 	transition: cubic-bezier(0.19, 1, 0.22, 1) 1.2s transform;
 
 	h3 {
-		margin-bottom: 1.5vh;
+		margin-bottom: 1vw;
 	}
 }
 
@@ -612,7 +612,7 @@ $cubic: cubic-bezier(.64,.09,.08,1);
 	.site-nav-item {
 		position: relative;
 		padding: 4px 20px;
-		margin-bottom: 1.5vh;
+		margin-bottom: 2vw;
 
 		&:last-of-type {
 			margin-bottom: 0;
