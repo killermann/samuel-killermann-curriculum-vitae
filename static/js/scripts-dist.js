@@ -19,6 +19,25 @@ var ScrollReveal=function(){"use strict";var r={delay:0,distance:"0",duration:60
 //@prepros-prepend convertkit.min.js
 //@prepros-prepend scrollreveal.min.js
 
+
+// Clicky Menu Action
+
+menuToggle();
+
+function menuToggle() {
+    var $toggle = document.querySelector('.menu-toggle');
+
+    if (!$toggle.offsetParent) {
+        return;
+    }
+
+    var $body = document.querySelector('body');
+
+    $toggle.addEventListener('click', function() {
+        $body.classList.toggle('noscroll');
+    });
+}
+
 /* Lazyload Youtube https://webdesign.tutsplus.com/tutorials/how-to-lazy-load-embedded-youtube-videos--cms-26743 */
 (function() {
 
@@ -52,32 +71,6 @@ var ScrollReveal=function(){"use strict";var r={delay:0,distance:"0",duration:60
 
 } )();
 
-// Initialize instantclick
-
-InstantClick.init();
-
-// Clicky Menu Action
-
-menuToggle();
-    InstantClick.on('change', function() {
-        var blocks = document.querySelectorAll('pre code');
-        for (var i = 0; i < blocks.length; i++) {
-        hljs.highlightBlock(blocks[i]);
-        }
-        menuToggle();
-    });
-    function menuToggle() {
-        var $toggle = document.querySelector('.menu-toggle');
-        if (!$toggle.offsetParent) {
-            return;
-        }
-        var $body = document.querySelector('body');
-        $toggle.addEventListener('click', function() {
-            $body.classList.toggle('noscroll');
-        }, false
-    );
-}
-
 // Scrolly Header Action
 
 function changeHeaderOnScroll() {
@@ -101,3 +94,4 @@ sr.reveal('.reveal', { duration: 800,});
 sr.reveal('.reveal-2', { duration: 800, delay: 200,});
 sr.reveal('.reveal-3', { duration: 800, delay: 400,});
 sr.reveal('.reveal-4', { duration: 800, delay: 600,});
+

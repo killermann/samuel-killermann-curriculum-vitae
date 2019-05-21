@@ -7,16 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Title -->
     <title>
-    {{- if not .IsHome }}
-        {{- if eq .Kind "page" }}{{ .Title }}
-        {{- else if eq .Data.Singular "tag" }}{{ .Data.Term }}
-        {{- else if isset .Params "title" }}{{.Title}}
-        {{- else }}Posts
-        {{- end }} - {{ .Site.Title -}}
-    {{- else -}}
-    The Home of Sam Killermann: Author, Comedian, Activist, Educator
-    {{- end -}}
-
+        {{- if not .IsHome }}
+            {{- if eq .Kind "page" }}{{ .Title }}
+            {{- else if eq .Data.Singular "tag" }}{{ .Data.Term }}
+            {{- else if isset .Params "title" }}{{.Title}}
+            {{- else }}Posts
+            {{- end }}{{ if isset .Params "subtitle" }}: {{ .Params.subtitle -}}{{ else }} ‖ {{.Site.Title -}}{{end}}
+        {{- else -}}
+        Sam Killermann: Activist, Artist, Author
+        {{- end -}}
     </title>
     <!-- Meta -->
     {{- if eq .Kind "page" }}
@@ -27,7 +26,7 @@
     <meta name="author" content="{{ .Site.Params.author }}">
     {{ end -}}
     <!-- Styles -->
-    <link href="{{ "css/style.css" | absURL }}" rel="stylesheet">
+    <link data-no-instant href="{{ "css/style.css" | absURL }}" rel="stylesheet">
     <!-- Favicons -->
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">

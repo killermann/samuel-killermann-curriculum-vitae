@@ -1,11 +1,11 @@
 baseURL = "https://www.samuelkillermann.com/"
 languageCode = "en-us"
-title = "Sam Killermann's Curriculum Vitae"
+title = "Created by Sam Killermann"
 theme= "hugo-paper"
 
 [params]
 author = "Sam Killermann"
-description = "Sam's internet house! A curriculum vitae featuring Killermann's work -- books, comedy shows, TEDxTalks, edugraphics, free online resources, podcasts, videos, blogs, and merch -- that has reached hundreds of millions of people in over 238 countries."
+description = "Sam's internet house! Featuring Killermann's work -- books, TEDxTalks, edugraphics, comedy shows, gender & sexuality & social justice resources -- that has reached hundreds of millions of people in over 238 countries."
 og_image = "/img/sK-Social-Card-2018.png"
 
 [build]
