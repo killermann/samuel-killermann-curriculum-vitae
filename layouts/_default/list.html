@@ -9,11 +9,17 @@
                 </h1>
             {{ else if eq .Data.Singular "skills" }}
                 <h1 class="list-title f-900 XL">
-                    <span class="purple-500 f-900">Projects where sK wore the</span>
-                    {{ .Data.Term }} <span class="purple-500 f-900">hat.</span>
+                    {{ if .Data.Term }}
+                    <span class="purple-500 f-900">Projects where sK wore the</span> {{ .Data.Term }} <span class="purple-500 f-900">hat.</span>
+                    {{ else }}
+                    <span class="purple-500 f-900">The many different</span> hats <span class="purple-500 f-900">sK wears</span>
+                    {{ end }}
                 </h1>
             {{ else if isset .Params "title"}}
                 <h1 class="list-title f-900 XL">{{ .Params.title }} <span class="purple-500 f-900">created by sK</span></h1>
+            {{ end }}
+            {{ if isset .Params "blurb" }}
+                <p class="post-blurb M f-900 lh-short">{{ .Params.blurb }}</p>
             {{ end }}
         </div>
     </header>
