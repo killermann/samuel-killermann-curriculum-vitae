@@ -27,14 +27,16 @@
     {{ end -}}
     <!-- Styles -->
     <link data-no-instant href="{{ "css/style.css" | absURL }}" rel="stylesheet">
+
     <!-- Favicons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#af6ee2">
-    <meta name="msapplication-TileColor" content="#af6ee2">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ `/` }}apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ `/` }}favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ `/` }}favicon-16x16.png">
+    <link rel="manifest" href="{{ `/` }}site.webmanifest">
+    <link rel="mask-icon" href="{{ `/` }}safari-pinned-tab.svg" color="#af6ee2">
+    <meta name="msapplication-TileColor" content="#603cba">
     <meta name="theme-color" content="#af6ee2">
+    
     <!-- Social Meta -->
     {{- if .Params.og_image -}}
     <meta property="og:image" content="http://samuelkillermann.com{{ .Params.og_image | relURL }}"/>

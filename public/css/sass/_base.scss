@@ -9,7 +9,7 @@
 }
 
 #instantclick-bar {
-  background: #af6ee2;
+	background: #af6ee2;
 }
 
 .mobileHide {
@@ -364,12 +364,11 @@ $cubic: cubic-bezier(.64,.09,.08,1);
 				color: white;
 				background: #05ABE0;
 				box-shadow:  0px 2px 4px rgba(0,0,0, .3);
+				margin-bottom: 0px;
 			}
 		}
 
 		.ck_converted_content {
-			border-radius: 20px;
-			padding: 30px;
 
 			a {
 				text-decoration: underline;
@@ -515,7 +514,7 @@ $cubic: cubic-bezier(.64,.09,.08,1);
 
 .menu {
     position: absolute;
-	background: rgba(black, .9);
+	background: rgba(black, .92);
 	backdrop-filter: blur(5px);
 	-webkit-backdrop-filter: blur(5px);
     width: 100vw;
@@ -603,6 +602,24 @@ $cubic: cubic-bezier(.64,.09,.08,1);
 	}
 }
 
+.scrolled {
+
+	#main-header {
+		background: rgba(black, .8);
+		box-shadow:0px 1px 12px 0px rgba(0,0,0,.3);
+	}
+
+
+	/* if backdrop support: very transparent and blurred */
+	@supports ((-webkit-backdrop-filter: blur(2em)) or (backdrop-filter: blur(2em))) {
+		#main-header {
+			background: rgba(black, .7);
+			backdrop-filter: blur(5px);
+			-webkit-backdrop-filter: blur(5px);
+		}
+	}
+}
+
 .noscroll {
 
 	overflow: hidden;
@@ -627,15 +644,6 @@ $cubic: cubic-bezier(.64,.09,.08,1);
 	}
 }
 
-.scrolled {
-
-	#main-header {
-		background: rgba(black, .8);
-		box-shadow:0px 1px 12px 0px rgba(0,0,0,.3);
-		backdrop-filter: blur(5px);
-		-webkit-backdrop-filter: blur(5px);
-	}
-}
 
 
 /**************************
