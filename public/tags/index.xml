@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Created by Sam Killermann</title>
+    <title>Themes of Sam Killermann&#39;s Work on Created by Sam Killermann</title>
     <link>https://www.samuelkillermann.com/tags/</link>
-    <description>Recent content in Tags on Created by Sam Killermann</description>
+    <description>Recent content in Themes of Sam Killermann&#39;s Work on Created by Sam Killermann</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 01 Feb 2017 00:00:00 +0000</lastBuildDate>
@@ -21,7 +21,7 @@
     </item>
     
     <item>
-      <title>Books authored (and co-authored) by sK</title>
+      <title>Books</title>
       <link>https://www.samuelkillermann.com/tags/book/</link>
       <pubDate>Thu, 14 Feb 2019 00:00:00 +0000</pubDate>
       
@@ -111,7 +111,7 @@
     </item>
     
     <item>
-      <title>TED-event Talks by Sam Killermann</title>
+      <title>TED Talks</title>
       <link>https://www.samuelkillermann.com/tags/ted/</link>
       <pubDate>Sun, 29 Mar 2015 00:00:00 +0000</pubDate>
       

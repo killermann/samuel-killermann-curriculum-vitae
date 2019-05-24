@@ -292,7 +292,6 @@ $cubic: cubic-bezier(.64,.09,.08,1);
 	}
 }
 
-
 .fishbowl {
 	margin:0;
 
@@ -1020,6 +1019,14 @@ $cubic: cubic-bezier(.64,.09,.08,1);
 		width:100%;
 		height:auto;
 	}
+}
+
+figcaption {
+	font-family: var(--serif);
+	font-size: .8em;
+	margin: .5em auto;
+	text-align: right;
+	opacity: .7;
 }
 
 /**************************
