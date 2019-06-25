@@ -95,11 +95,12 @@ The two main places folks can patronize (?) me are:
 
 I don't really use social media. I find it to be a consistent mind-suck, with the occasional feeling of Hellmouth. That said, here are the accounts I keep somewhat active:
 
-- [Twitter: @killermann](http://twitter.com/killermann)
-- [Instagram: @killermann](http://instagram.com/killermann)
-- [Facebook/Killermann](http://facebook.com/killermann) - my "personal" profile (but almost everything I post there is public)
-- [Facebook/SamKillermann](http://facebook.com/samkillermann) - my general Facebook fanpage
-- [Facebook/MetroSam](http://facebook.com/metrosam) - the fanpage for "It's Pronounced Metrosexual"
+- [Twitter: @killermann](https://twitter.com/killermann)
+- [Instagram: @killermann](https://instagram.com/killermann)
+- [Youtube: @samkillermann](https://www.youtube.com/c/SamKillermann)
+- [Facebook/Killermann](https://facebook.com/killermann) - my "personal" profile (but almost everything I post there is public)
+- [Facebook/SamKillermann](https://facebook.com/samkillermann) - my general Facebook fanpage
+- [Facebook/MetroSam](https://facebook.com/metrosam) - the fanpage for "It's Pronounced Metrosexual"
 
 Profiles: plenty. Presence: pitiful.
 
