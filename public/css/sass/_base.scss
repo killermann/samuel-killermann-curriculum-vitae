@@ -604,10 +604,9 @@ $cubic: cubic-bezier(.64,.09,.08,1);
 .scrolled {
 
 	#main-header {
-		background: rgba(#0d0018, .8);
-		box-shadow:0px 1px 12px 0px rgba(0,0,0,.3);
+		background: rgba(13,0,24,.85);
+		box-shadow:0px 1px 12px 0px rgba(13,0,24,.3);
 	}
-
 
 	/* if backdrop support: very transparent and blurred */
 	@supports ((-webkit-backdrop-filter: blur(2em)) or (backdrop-filter: blur(2em))) {
