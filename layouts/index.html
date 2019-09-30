@@ -38,13 +38,13 @@
 <section id="more-work" class="relative bg-grey-100">
     <div class="carousel">
         <h2 class="vertical-header S serif lh-title">Recent Work</h2>
-        {{ range first 10 (where .Data.Pages "Section" "work" ) }}
+        {{ range first 10 (where .Pages "Section" "work" ) }}
             {{ if not ( .Params.featured ) }}
                 {{ partial "card-post.html" . }}
             {{ end }}
         {{ end }}
         <article class="bigpad view-all serif">
-            <a href="{{ `/` }}work" title="View all Work"><strong>View all work &xrarr;</strong></a>
+            <a href="{{ `/` }}work" title="View all Work"><strong>View more work &xrarr;</strong></a>
         </article>
     </div>
 </section>

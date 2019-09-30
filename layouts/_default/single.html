@@ -27,7 +27,7 @@
         {{end}}
     </header>
 
-    <div class="post-content wrap bigpad">
+    <section class="post-content wrap bigpad">
         {{ .Content }}
 
         {{ if isset .Params "stats" }}
@@ -109,7 +109,7 @@
 
         {{end}}
 
-    </div>
+    </section>
     <footer class="post-footer bigpad cards">
         {{ if .Params.tags }}
         <div class="intro">
@@ -138,4 +138,16 @@
     </footer>
     <!-- Comments system area -->
 </article>
+<!-- <section id="more-work" class="relative bg-grey-100">
+    <div class="carousel">
+        <h2 class="vertical-header S serif lh-title">Recent Work</h2>
+        {{ range first 10 (where .Site.Pages "Section" "work" ) }}
+            {{ partial "card-post.html" . }}
+        {{ end }}
+        <article class="bigpad view-all serif">
+            <a href="{{ `/` }}work" title="View More Work"><strong>View more work &xrarr;</strong></a>
+        </article>
+    </div>
+</section> -->
+
 {{ partial "footer.html" . }}

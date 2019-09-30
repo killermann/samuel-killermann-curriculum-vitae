@@ -39,7 +39,7 @@
 	border: none;
 	background: #fff;
 	border-radius: 20px;
-	color: black;
+	color: #0d0018;
 }
 
 .ck_converted_content {
@@ -356,7 +356,7 @@ $cubic: cubic-bezier(.64,.09,.08,1);
 				margin-top: 4%;
 				height: auto;
 				width: 100%;
-				text-shadow: 0px 1px 1px black;
+				text-shadow: 0px 1px 1px #0d0018;
 				font-weight: 900;
 				padding: .7em 1em;
 				line-height: 1.4;
@@ -513,7 +513,7 @@ $cubic: cubic-bezier(.64,.09,.08,1);
 
 .menu {
     position: absolute;
-	background: rgba(black, .92);
+	background: rgba(#0d0018, .92);
 	backdrop-filter: blur(5px);
 	-webkit-backdrop-filter: blur(5px);
     width: 100vw;
@@ -604,7 +604,7 @@ $cubic: cubic-bezier(.64,.09,.08,1);
 .scrolled {
 
 	#main-header {
-		background: rgba(black, .8);
+		background: rgba(#0d0018, .8);
 		box-shadow:0px 1px 12px 0px rgba(0,0,0,.3);
 	}
 
@@ -612,7 +612,7 @@ $cubic: cubic-bezier(.64,.09,.08,1);
 	/* if backdrop support: very transparent and blurred */
 	@supports ((-webkit-backdrop-filter: blur(2em)) or (backdrop-filter: blur(2em))) {
 		#main-header {
-			background: rgba(black, .7);
+			background: rgba(#0d0018, .7);
 			backdrop-filter: blur(5px);
 			-webkit-backdrop-filter: blur(5px);
 		}
@@ -689,7 +689,7 @@ $cubic: cubic-bezier(.64,.09,.08,1);
 }
 
 #home-welcome {
-	background: black;
+	background:#0d0018;
 	padding-bottom: 100px;
 	padding-top: 100px;
 }
@@ -733,7 +733,7 @@ $cubic: cubic-bezier(.64,.09,.08,1);
 **************************/
 
 .list-header {
-	background-color: black;
+	background-color:#0d0018;
 	color: white;
 	padding: 70px 15px 0;
 
