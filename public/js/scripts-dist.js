@@ -49,6 +49,7 @@ function menuToggle() {
 
         var image = new Image();
         image.src = source;
+        image.alt = "Sam Killermann Gender TED Talk"
 
         image.addEventListener( "load", function() {
             youtube[ i ].appendChild( image );

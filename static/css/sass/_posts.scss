@@ -215,18 +215,15 @@
 		}
 	}
 
-	.page-title {
-		color: #000;
-	}
-
 	.post-header {
-		color: black;
-		background-color: #9141ce;
+		color: #fff;
         position: relative;
 		padding: 70px 0 20px;
+		background: rgb(0,0,0);
+		background: linear-gradient(180deg, rgba(0,0,0,0.85) 50%, rgba(0,0,0,.89) 100%); 
 
         .page-sub-title{
-            opacity: .5;
+            opacity: .6;
         }
 
 		.header-text, .emoji{
@@ -249,9 +246,21 @@
 		.emoji {
             display: block;
             position: absolute;
-            bottom: 0;
+			bottom: 0;
+			z-index: 2;
             left: 50%;
             transform: translate(-50%, 50%);
+		}
+
+		&:before {
+			position: absolute;
+			z-index: -1;
+			content: '';
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			background: var(--project-color);
 		}
 	}
 
@@ -313,14 +322,14 @@
 
     a {
         text-decoration:none;
-        color:darken(#af6ee2,10%);;
-        border-bottom:2px solid var(--purple);
+        color: currentColor;
+        border-bottom:2px solid var(--project-color);
         transition:all .1s linear;
         cursor: pointer;
 
         &:hover {
-            background:lighten(#af6ee2,30%);
-            border-color:lighten(#af6ee2,30%);
+            background:var(--project-color);
+            border-color:var(--project-color);
         }
     }
 

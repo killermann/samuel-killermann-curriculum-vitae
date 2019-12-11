@@ -1,9 +1,17 @@
 {{ partial "header.html" . }}
+<style>
+:root {
+{{- if .Params.color }}
+--project-color: {{ .Params.color }};  
+{{ else }}
+--project-color: #af6ee2;
+} {{ end -}}
+</style>
 <article class="post post-view">
-    <header class="post-header" style="background: {{ .Params.color }}">
+    <header class="post-header">
         <div class="header-text bigpad wrap">
 
-            <h1 class="page-title lh-title XXL {{with .Params.subtitle}}with-subtitle{{end}}">
+            <h1 class="page-title lh-title XXL {{with .Params.subtitle}}with-subtitle{{end}}" {{ if .Params.color }}style="color: {{ .Params.color }}"{{ end }}>
             {{ if .Params.link }}<a href="{{ .Params.link }}" target="_blank" alt="{{ .Title }}">{{ .Title }}</a>{{else}}{{ .Title }}{{end }}{{ with .Params.subtitle}}: <span class="page-sub-title">{{ . }}</span>{{end}}
             </h1>
 
