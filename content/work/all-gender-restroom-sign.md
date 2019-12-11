@@ -10,7 +10,7 @@ og_image: "/img/work/2014-all-gender-restroom-sign-toilet-by-sam-killermann.jpg"
 tags: ["Social Justice", "Gender"]
 skills: ["Designer", "Illustrator", "Public Thinker", "Blogger"]
 featured: true
-color: "#333"
+color: "#aaa"
 stats:
   updated: "June 5, 2018"
   curriculum_downloads:

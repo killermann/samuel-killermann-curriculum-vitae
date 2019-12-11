@@ -1,7 +1,6 @@
 baseURL = "https://www.samuelkillermann.com/"
 languageCode = "en-us"
 title = "Created by Sam Killermann"
-theme= "hugo-paper"
 
 [params]
     author = "Sam Killermann"

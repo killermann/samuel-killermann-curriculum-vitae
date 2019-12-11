@@ -8,7 +8,7 @@ link: "http://itspronouncedmetrosexual.com"
 tags: ["Gender", "Sexuality", "Social Justice", "Activism", "Free Online Resource", "Comedy Show"]
 skills: ["Blogger", "Educator", "Performer", "Illustrator", "Designer", "Website Developer", "Public Thinker"]
 featured: true
-color: "#eb366e"
+color: "#FF1F64"
 stats:
   updated: "May 14, 2018"
   downloads: 1000000000

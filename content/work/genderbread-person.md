@@ -9,7 +9,7 @@ og_image: "/img/work/2011-genderbread-person-sam-killermann-version-1.jpg"
 tags: ["Gender", "Sexuality", "Social Justice"]
 skills: ["Educator", "Designer", "Public Thinker", "Illustrator"]
 featured: true
-color: "#ECC41C"
+color: "#ffd61d"
 stats:
   updated: "May 24, 2018"
   curriculum_downloads:

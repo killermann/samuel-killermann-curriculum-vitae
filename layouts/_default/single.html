@@ -7,19 +7,20 @@
             {{ if .Params.link }}<a href="{{ .Params.link }}" target="_blank" alt="{{ .Title }}">{{ .Title }}</a>{{else}}{{ .Title }}{{end }}{{ with .Params.subtitle}}: <span class="page-sub-title">{{ . }}</span>{{end}}
             </h1>
 
-            {{ if not .Params.hide_meta }}
-                <p class="post-meta XS">
-                    {{- if or .Params.author .Site.Params.author -}} By
-                    {{ .Params.author | default .Site.Params.author }}, published {{ end }}
-                    {{- .Date.Format "January 2006" -}}
-                    {{ if .Params.link }}
-                     · <a href="{{ .Params.link }}" target="_blank" alt="{{ .Title }}">Link</a>
-                    {{end}}
-                </p>
-            {{ end }}
             <p class="post-blurb M f-900 lh-short">
                 {{ .Params.blurb }}
             </p>
+
+            {{ if not .Params.hide_meta }}
+            <p class="post-meta XS">
+                {{- if or .Params.author .Site.Params.author -}} Created by
+                {{ .Params.author | default .Site.Params.author }} in {{ end }}
+                {{- .Date.Format "January 2006" -}}
+                {{ if .Params.link }}
+                    · <a href="{{ .Params.link }}" target="_blank" alt="{{ .Title }}">Link</a>
+                {{end}}
+            </p>
+            {{ end }}
 
         </div>
         {{with .Params.emoji}}

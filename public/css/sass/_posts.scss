@@ -215,14 +215,17 @@
 		}
 	}
 
+	.page-title {
+		color: #000;
+	}
+
 	.post-header {
-        color: white;
+        color: black;
         position: relative;
-        padding: 70px 0 20px;
-        background: #2D084A;
+		padding: 70px 0 20px;
 
         .page-sub-title{
-            opacity: .6;
+            opacity: .5;
         }
 
 		.header-text, .emoji{
@@ -234,24 +237,11 @@
             margin: 0;
         }
 
-		&:after {
-			position: absolute;
-			top: 0;
-			left: 0;
-			right: 0;
-			bottom: 0;
-			content: '';
-			background-color: rgba(black, .5);
-			z-index: 1;
-		}
-
-		.page-title, .page-sub-title, .post-meta{
+		.page-title, .page-sub-title, .post-blurb{
             margin-bottom: 2rem;
         }
 		.post-subtitle {
 			font-size:1.5em;
-			color:#000;
-			text-shadow:none;
 			margin:.5em auto .7em;
 		}
 
