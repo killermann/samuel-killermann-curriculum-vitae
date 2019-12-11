@@ -1082,25 +1082,6 @@ footer.footer {
 	position:relative;
 	text-align: left;
 
-	.footer--inner {
-		background-image:url(../img/sK-logo-pattern-400.png);
-		background-repeat:repeat;
-		background-position:top left;
-		-webkit-animation: slide 30s linear infinite;
-	}
-
-	#footer--about {
-		max-width:720px;
-		padding:2em;
-		margin:0 auto;
-
-		a {font-weight:bold; text-decoration: underline;}
-
-		& + p {
-			margin-bottom:1em;
-		}
-	}
-
 	h3 {
 		font-family:var(--serif);
 		font-size:1.2em;
@@ -1114,11 +1095,10 @@ footer.footer {
 		list-style: none;
 		margin:0;
 		li {
-			margin-bottom:.2em;
 			a {
 				font-weight:bold;
 				display:block;
-				padding:.2em 0;
+				padding:.4em 0;
 			}
 		}
 	}
@@ -1129,4 +1109,26 @@ footer.footer {
 		}
 	}
 
+}
+
+.footer--inner {
+	background-image:url(../img/sK-logo-pattern-400.png);
+	background-repeat:repeat;
+	background-position:top left;
+	-webkit-animation: slide 30s linear infinite;
+}
+
+#footer--about {
+	max-width:720px;
+	padding:2em;
+	margin:0 auto;
+
+	a {
+		font-weight:bold; 
+		text-decoration: underline;
+	}
+
+	& + p {
+		margin-bottom:1em;
+	}
 }
