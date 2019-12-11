@@ -5,6 +5,7 @@ layout: "single"
 emoji: "🤗"
 date: 2018-05-01
 hide_meta: true
+color: "#af6ee2"
 ---
 
 Let's be honest: "About" pages are pretty bleh. For a more fun idea, check out the ["Now" page](../now/) on this site to get a sense of what I'm currently all about.

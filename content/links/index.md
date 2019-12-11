@@ -6,6 +6,7 @@ date: 2018-05-07
 kind: "page"
 blurb: "A bunch of links to find sK (and his work) online"
 hide_meta: true
+color: "#af6ee2"
 ---
 
 Click and behold: hypertext transfer protocol at its finest.

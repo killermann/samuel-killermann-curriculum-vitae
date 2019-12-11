@@ -5,6 +5,7 @@ emoji: "⌛️"
 date: "2018-05-01"
 kind: "page"
 hide_meta: true
+color: "#af6ee2"
 ---
 
 Sam Killermann is an artist, author, and award-winning activist who focuses on themes of gender, sexuality, and global justice. Through his free online resources, books, curricula, and comedy shows, Sam travels the globe telling a story about a possible future where everyone is healthy, understood, educated, and safe.
