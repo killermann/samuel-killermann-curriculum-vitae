@@ -7,6 +7,11 @@ title = "Created by Sam Killermann"
     description = "Sam's internet house! Featuring Killermann's work -- books, TEDxTalks, edugraphics, comedy shows, gender & sexuality & social justice resources -- that has reached hundreds of millions of people in over 238 countries."
     og_image = "/img/sK-Social-Card-2018.png"
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 [build]
     publish = "public"
     command = "hugo"
@@ -54,7 +59,7 @@ title = "Created by Sam Killermann"
     tags = "tags"
 
 [context.production.environment]
-    HUGO_VERSION = "0.52"
+    HUGO_VERSION = "0.60.1"
 
 [context.deploy-preview.environment]
-    HUGO_VERSION = "0.52"
+    HUGO_VERSION = "0.60.1"

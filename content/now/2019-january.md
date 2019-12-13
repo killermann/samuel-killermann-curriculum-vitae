@@ -6,7 +6,7 @@ blurb: "I'm starting a new experiment: trying to be employed directly for the wo
 color: "#ff8b3d"
 ---
 > "In most cases being a good boss means hiring talented people and then getting out of their way."
-
+>
 > &mdash; Tina Fey
 
 For 2019, I'm trying something new: I'm [searching for bosses](https://bemyboss.es).
