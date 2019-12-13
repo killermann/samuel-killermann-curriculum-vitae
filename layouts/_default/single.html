@@ -21,11 +21,11 @@
 
             {{ if not .Params.hide_meta }}
             <p class="post-meta XS">
-                {{- if or .Params.author .Site.Params.author -}} Created by
-                {{ .Params.author | default .Site.Params.author }} in {{ end }}
+                {{- if or .Params.author .Site.Params.author -}}
+                {{ .Params.author | default .Site.Params.author }}&nbsp;&nbsp;·&nbsp;&nbsp;{{ end }}
                 {{- .Date.Format "January 2006" -}}
                 {{ if .Params.link }}
-                    · <a href="{{ .Params.link }}" target="_blank" alt="{{ .Title }}" {{- if .Params.color }}style="color: {{ .Params.color }}"{{ end }}>Link</a>
+                &nbsp;&nbsp;·&nbsp;&nbsp;<a href="{{ .Params.link }}" target="_blank" alt="{{ .Title }}" {{- if .Params.color }}style="color: {{ .Params.color }}"{{ end }}>Link</a>
                 {{end}}
             </p>
             {{ end }}
@@ -145,7 +145,8 @@
         </div>
         {{ end }}
     </footer>
-    <!-- Comments system area -->
+
+    {{ partial "mailing-list.html" }}
 </article>
 <!-- <section id="more-work" class="relative bg-grey-100">
     <div class="carousel">

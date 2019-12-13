@@ -7,15 +7,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Title -->
     <title>
-        {{- if not .IsHome }}
+        {{- if .Params.seo_title }}
+            {{ .Params.seo_title }}
+        {{ else if eq .Section "now" }}
+            {{ .Title }} ‖ What is Sam Killermann working on right now? 
+        {{ else if not .IsHome }}
             {{- if eq .Kind "page" }}{{ .Title }}
             {{- else if eq .Data.Singular "tag" }}{{ .Data.Term }}
             {{- else if isset .Params "title" }}{{.Title}}
             {{- else }}Posts
             {{- end }}{{ if isset .Params "subtitle" }}: {{ .Params.subtitle -}}{{ else }} ‖ {{.Site.Title -}}{{end}}
-        {{- else -}}
-        Sam Killermann: Activist, Artist, Author
-        {{- end -}}
+        {{ else }}
+        Sam Killermann: Activist, Artist, Author, Storyteller for Global Justice
+        {{ end -}}
     </title>
     <!-- Meta -->
     {{- if eq .Kind "page" }}
