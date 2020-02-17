@@ -119,8 +119,8 @@
         {{end}}
 
     </section>
+    {{ if .Params.tags }}
     <footer class="post-footer bigpad cards">
-        {{ if .Params.tags }}
         <div class="intro">
             <h2 class="M f-900 title">Explore</h2>
             <p>Themes and skills I used to create <strong>{{if .Params.link }}<a href="{{ .Params.link }}" alt="{{ .Params.title }}">{{ .Params.title }}</a>{{else}}{{ .Params.title }}{{end}}</strong>, that are clickable links to similar work</p>
@@ -133,7 +133,6 @@
                 {{ end }}
             </ul>
         </div>
-        {{ end }}
         {{ if .Params.skills }}
         <div class="card">
             <h3 class="title S">🎩 Hats I wore</h3>
@@ -145,6 +144,8 @@
         </div>
         {{ end }}
     </footer>
+    {{ end }}
+
 
     {{ partial "mailing-list.html" }}
 </article>

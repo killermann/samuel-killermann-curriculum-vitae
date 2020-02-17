@@ -1,5 +1,5 @@
 ---
-title: "Getting bossed around."
+title: "Getting bossed around"
 date: 2019-01-01
 emoji: "🍊"
 blurb: "I'm starting a new experiment: trying to be employed directly for the work I do online."
