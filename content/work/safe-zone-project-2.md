@@ -10,14 +10,14 @@ skills: ["Curriculum Writer", "Facilitator", "Educator", "Designer", "Website De
 color: "#3FA9F5"
 featured: true
 stats:
-  curriculum_downloads: 33321
-  downloads: 76410
-  annual_audience: 308616
-  country_count: 102
+  curriculum_downloads: 42013
+  downloads: 99387
+  annual_audience: 519116
+  country_count: 204
   lifetime_reach:
-  updated: "May 19, 2019"
+  updated: "Feb. 17, 2020"
   custom_stat: "Online Course Students"
-  custom_count: 779
+  custom_count: 2104
 ---
 
 The Safe Zone Project 2.0 is what Meg &amp; I have been saying to refer to the revamp of the online resource, so that's what I'll call it here.
