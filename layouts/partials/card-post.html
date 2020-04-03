@@ -1,6 +1,6 @@
 <article class="post card-entry rounded">
 
-    <header class="pad post-header" {{ if .Params.color }} style="background: {{ .Params.color }}" {{ end }}>
+    <header class="pad post-header" {{ if .Params.color }} style="background: {{ .Params.color }}"{{ end }}>
         {{if .Params.emoji}}
         <div class="emoji">
             <a href="{{ .Permalink }}" title="Read about {{ .Title }}">{{ .Params.emoji }}</a>

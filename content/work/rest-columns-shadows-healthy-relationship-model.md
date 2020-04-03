@@ -8,7 +8,7 @@ link: "http://itspronouncedmetrosexual.com/2016/11/rest-columns-shadows-healthy-
 og_image: "/img/work/2016-Columns-and-Shadows-Model-V1-by-Sam-Killermann-Karen-Rayne.jpg"
 color: "#fe81d5"
 tags: ["Sexuality", "Social Justice"]
-skills: ["Educator", "Designer", "Copywriter"]
+skills: ["Educator", "Designer", "Writer", "Public Thinker"]
 stats:
   updated: "June 2, 2018"
   curriculum_downloads:

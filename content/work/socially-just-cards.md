@@ -7,7 +7,7 @@ blurb: "Handmade greeting cards for the socially conscious, all in the gift econ
 link: "http://sociallyjustcards.com"
 color: "#F1505A"
 tags: ["Merch", "Gift Experiment", "Activism", "Social Justice"]
-skills: ["Illustrator", "Copywriter", "Designer", "Website Developer"]
+skills: ["Illustrator", "Writer", "Designer", "Website Developer"]
 ---
 
 An experiment in gift economy and social justice, SJC is where I serve as Head Elf.

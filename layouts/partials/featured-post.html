@@ -1,6 +1,6 @@
 <article class="post featured-entry reveal">
     <header class="post-header">
-        <div class="hats-worn XS grey-500 lh-short f-900">
+        <div class="hats-worn XS grey-500 upper lh-short f-900">
             {{ range $i, $e := .Params.skills }}{{ if $i }}, {{ end }}{{ $e }}{{ end }}
         </div>
         <h3 class="f-900 post-title L">
@@ -14,14 +14,14 @@
         </div>
         {{end}}
         <div class="post-summary">
-            <p class="M f-900 grey-700">{{ .Params.blurb }}</p>
+            <p class="M grey-700">{{ .Params.blurb }}</p>
         </div>
         <div class="post-statistics">
-            <p class="S grey-500">
+            <strong class="XS grey-500">
                 {{- with .Params.stats.annual_audience }}Over {{ lang.NumFmt 0 . }} annual audience. {{ end -}}
                 {{- with .Params.stats.downloads }}Over {{ lang.NumFmt 0 . }} downloads. {{ end}}
                 {{- with .Params.stats.country_count }}In over {{ lang.NumFmt 0 . }} countries. {{ end -}}
-            </p>
+            </strong>
         </div>
     </section>
 

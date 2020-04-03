@@ -62,7 +62,11 @@ p.dropCap:first-letter {
 }
 
 .XS {
-	font-size: .8em;
+	font-size: .75em;
+}
+
+.upper {
+	text-transform: uppercase;
 }
 
 .lh-title {

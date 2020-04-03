@@ -1,6 +1,6 @@
 baseURL = "https://www.samuelkillermann.com/"
 languageCode = "en-us"
-title = "Created by Sam Killermann"
+title = "by Sam Killermann"
 
 [params]
     author = "Sam Killermann"
