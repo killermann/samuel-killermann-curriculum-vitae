@@ -1,6 +1,4 @@
 //@prepros-prepend instantclick.min.js
-//@prepros-prepend scrollreveal.min.js
-
 
 // Clicky Menu Action
 
@@ -71,9 +69,9 @@ function changeHeaderOnScroll() {
 
 // Scrolly Revealy Action
 
-window.addEventListener('scroll', changeHeaderOnScroll);
-window.sr = ScrollReveal();
-sr.reveal('.reveal', { duration: 800,});
-sr.reveal('.reveal-2', { duration: 800, delay: 200,});
-sr.reveal('.reveal-3', { duration: 800, delay: 400,});
-sr.reveal('.reveal-4', { duration: 800, delay: 600,});
+// window.addEventListener('scroll', changeHeaderOnScroll);
+// window.sr = ScrollReveal();
+// sr.reveal('.reveal', { duration: 800,});
+// sr.reveal('.reveal-2', { duration: 800, delay: 200,});
+// sr.reveal('.reveal-3', { duration: 800, delay: 400,});
+// sr.reveal('.reveal-4', { duration: 800, delay: 600,});
