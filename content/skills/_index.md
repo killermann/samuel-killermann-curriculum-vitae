@@ -1,5 +1,6 @@
 ---
 title: "Skills Contributed to Global Justice"
-blurb: "Without a formal education in any of this, these are self-taught skills that were necessary to create each project, contributed to global justice."
+seo_title: "Skills Contributed to Global Justice by Sam Killermann"
+blurb: "Without a formal education in any of these skills, I taught myself what was necessary to create each project and contribute to global justice."
 emoji: "✍️"
 ---

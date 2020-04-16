@@ -13,16 +13,16 @@
             {{ else if eq .Data.Singular "skills" }}
                 <h1 class="list-title f-900 XL">
                     {{ if .Data.Term }}
-                    <span class="purple-500 f-900">Projects where sK wore the</span> {{ humanize .Data.Term }} <span class="purple-500 f-900">hat.</span>
+                    <span class="purple-500 f-900">Projects where I wore the</span> {{ humanize .Data.Term | lower }} <span class="purple-500 f-900">hat.</span>
                     {{ else }}
-                    <span class="purple-500 f-900">The many different</span> hats <span class="purple-500 f-900">sK wears</span>
+                    <span class="purple-500 f-900">The many different</span> hats <span class="purple-500 f-900">I wear.</span>
                     {{ end }}
                 </h1>
             {{ else if isset .Params "title"}}
                 <h1 class="list-title f-900 XL">{{ humanize .Params.title }} <span class="purple-500 f-900">created by sK</span></h1>
             {{ end }}
             {{ if isset .Params "blurb" }}
-                <p class="post-blurb M f-900 lh-short">{{ humanize .Params.blurb }}</p>
+                <p class="post-blurb M f-900 lh-short">{{ .Params.blurb }}</p>
             {{ end }}
         </div>
     </header>

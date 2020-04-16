@@ -10,13 +10,15 @@
         {{- if .Params.seo_title }}
             {{ .Params.seo_title }}
         {{ else if eq .Section "now" }}
-            {{ .Title }} ‖ What is Sam Killermann working on right now? 
+            Now: {{ .Title }}
         {{ else if not .IsHome }}
             {{- if eq .Kind "page" }}{{ .Title }}
             {{- else if eq .Data.Singular "tag" }}{{ .Data.Term }}
             {{- else if isset .Params "title" }}{{.Title}}
             {{- else }}Posts
-            {{- end }}{{ if isset .Params "subtitle" }}: {{ .Params.subtitle -}}{{ else }} ‖ {{.Site.Title -}}{{end}}
+            {{- end }}{{ if isset .Params "subtitle" }}: {{ .Params.subtitle -}}{{ else }}
+            {{end}}
+            by Sam Killermann
         {{ else }}
         Sam Killermann: Activist, Artist, Author, Storyteller for Global Justice
         {{ end -}}

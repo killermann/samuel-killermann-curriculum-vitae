@@ -1,9 +1,11 @@
 ---
 title: "Sam Killermann Biography"
+seo_title: "Sam Killermann Bio"
 layout: "single"
 emoji: "⌛️"
 date: "2018-05-01"
 kind: "page"
+blurb: "The thing you can share with your people if you're bringing me in to speak or perform for them."
 hide_meta: true
 color: "#af6ee2"
 ---

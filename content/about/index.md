@@ -1,22 +1,39 @@
 ---
 title: "About Sam Killermann"
+seo_title: "About Sam Killermann: Award-Winning Activist and Best-Selling Author"
 blurb: "Employed by the collective to create for global justice."
 layout: "single"
 emoji: "🤗"
-date: 2018-05-01
+date: 2020-04-16
 hide_meta: true
 color: "#af6ee2"
 ---
 
-Let's be honest: "About" pages are pretty bleh. For a more fun idea, check out the ["Now" page](../now/) on this site to get a sense of what I'm currently all about.
+The New York Times said, "\[Killermann's] perfectly O.K. with being known as the toilet sign guy." And it's true. I am.
 
-Okay, now that I've gotten that off my chest &mdash; Hi! I'm Sam Killermann (yes, my real last name), and I wear <a href="https://www.samuelkillermann.com/skills/" title="Sam Killermann Skills & Hats">a lot of hats</a>. If you've poked around this site, specifically the [work list](../work/), you've likely already figured that out.
+[They said that](https://www.nytimes.com/2015/11/08/style/transgender-restroom-all-gender.html) because of the [all-gender restroom sign](/work/all-gender-restroom-sign/) I designed, that has been spread all over the world, and is now in use in thousands of communities. Truthfully, that project was an outlier, more than represetative of _what I do_. I'm not a "designer."
 
-You can read the [Sam Killermann Biography](https://www.samuelkillermann.com/bio) if you want a lot of detail about the work I've done (or to include in an event description [if you're bringing me to talk to your people](https://samtalkto.us)).
+In all honesty, I'm not really any one thing. 
 
-And if you're curious about this site itself -- how to navigate it, how I made it, etc. -- check out [this post](https://samuelkillermann.com/work/samuel-killermann-curriculum-vitae/) where I give some background on the project.
+I [wear a lot of hats](/skills/), including [author](/skills/author/), [facilitator](/skills/facilitator/), [coder](/skills/coder/), [performer](/skills/performer), [educator](/skills/educator), [public thinker](/skills/public-thinker), [illustrator](/skills/illustrator), and, yes, [designer](/skills/designer).
 
-Beyond all that, I'm not really sure what you want to know about me, so I'll do my best to answer to use this page to answer the most common questions I get asked from crowd members and readers.
+But none of those things were what I studied in school. Or really represent what I do, or who I am. 
+
+They're just skills I've taught myself to serve my overarching goal that connects all my work: **I want to live in a world where everyone is healthy, understood, educated, and safe.**
+
+That's what I call "global justice." 
+
+And while I often focus specifically on a dimension of it in a project (for example, [themes](/tags/) like [gender](/tags/gender/), or [sexuality](/tags/sexuality/)), it's infused into everything I do. I create for global justice.
+
+It's who I am.
+
+**Now, because we're being honest, can I just say that "About" pages are pretty blegh. For a more fun idea, check out the ["Now" page](../now/) on this site to get a sense of what I'm currently all about.**
+
+You can read the [Sam Killermann Biography](https://www.samuelkillermann.com/bio) page if you want a lot of detail about the work I've done (or to include in an event description [if you're bringing me to talk to your people](https://samtalkto.us)).
+
+And if you're curious about this site itself -- how to navigate it, how I made it, etc. -- check out [this post](/work/samuel-killermann-curriculum-vitae/) where I give some background on the project.
+
+Beyond all that, I'm not really sure what you want to know about me, so keep scrolling down and I'll do my best to use this page to answer the most common questions I get asked from audiences at shows, readers, and emailers.
 
 <figure class="work--sample edugraphic">
 	<img title="Sam Killermann at TEDxYouth @ San Diego in 2015" alt="Sam Killermann giving a talk at TEDxYOUTH San Diego in 2015" src="/img/sam-killermann-ted-x-youth-behind.jpg" class="ultra-wide">

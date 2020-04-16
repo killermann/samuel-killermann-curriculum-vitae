@@ -1,5 +1,4 @@
 //@prepros-prepend instantclick.min.js
-//@prepros-prepend convertkit.min.js
 //@prepros-prepend scrollreveal.min.js
 
 
