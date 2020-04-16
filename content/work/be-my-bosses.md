@@ -7,7 +7,7 @@ blurb: "A new experiment in funding my work, directly via patronage "
 link: "https://bemyboss.es"
 color: "#84DCC6"
 tags: ["Gift Experiment"]
-skills: ["Public Thinker", "Writer", "Designer", "Videographer", "Website Developer"]
+skills: ["Public Thinker", "Writer", "Designer", "Videographer", "Coder"]
 ---
 
 Be My Boss(es) is a splash page for my Patreon profile, explaining how I am doing Patreon, and patronage, for anyone who wants to employ me.

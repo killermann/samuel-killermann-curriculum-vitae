@@ -6,7 +6,7 @@ date: 2018-05-02
 emoji: "📄"
 color: "#AF6EE2"
 tags: ["Free Online Resource"]
-skills: ["Designer","Website Developer"]
+skills: ["Designer","Coder"]
 ---
 Welcome to the seventh version of samuelkillermann.com. At least -- I think that's right. One thing I'm sure of: it's been a linear path of "Each one is better than the last."
 

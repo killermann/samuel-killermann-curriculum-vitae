@@ -8,7 +8,7 @@ blurb: "A six-week online course + community charting a path toward equity"
 link: "https://www.sjmd.space"
 og_image: "/img/work/2019-social-justice-minus-dogma-og-image.png"
 tags: ["Social Justice", "Activism", "Online Course", "Gift Experiment"]
-skills: ["Educator", "Facilitator", "Website Developer", "Designer", "Public Thinker"]
+skills: ["Educator", "Facilitator", "Coder", "Designer", "Public Thinker"]
 featured: true
 color: "#67c2e7"
 stats:

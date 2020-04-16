@@ -8,7 +8,7 @@ blurb: "A book about facilitation with actionable advice and anecdotes"
 link: "http://facilitationmagic.com"
 color: "#7e2fc3"
 tags: ["Facilitation", "Book"]
-skills: ["Author", "Facilitator", "Designer", "Website Developer", "Public Thinker"]
+skills: ["Author", "Facilitator", "Designer", "Coder", "Public Thinker"]
 stats:
   updated: "May 14, 2018"
   curriculum_downloads:

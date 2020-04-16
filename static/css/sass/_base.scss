@@ -837,6 +837,7 @@ $cubic: cubic-bezier(.64,.09,.08,1);
 	}
 
 	.post-meta {
+	
 		a {
 			display: inline-block;
 
@@ -847,6 +848,10 @@ $cubic: cubic-bezier(.64,.09,.08,1);
 				margin-left: 3vw;
 			}
 		}
+	}
+
+	.post-statistics {
+		margin-bottom: 15px;
 	}
 }
 

@@ -6,7 +6,7 @@ author: "Sam Killermann + Meg Bolger + Kaleigh Cornelison"
 blurb: "A free online resource for all facilitators with articles, videos, and downloads"
 link: "http://facilitating.xyz"
 tags: ["Facilitation", "Free Online Resource"]
-skills: ["Facilitator", "Blogger", "Designer", "Website Developer"]
+skills: ["Facilitator", "Blogger", "Designer", "Coder"]
 color: "#24828b"
 ---
 

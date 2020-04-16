@@ -6,7 +6,7 @@ author: "Sam Killermann"
 blurb: "A free online resource for learning about social justice, gender, and sexuality"
 link: "http://itspronouncedmetrosexual.com"
 tags: ["Gender", "Sexuality", "Social Justice", "Activism", "Free Online Resource", "Comedy Show"]
-skills: ["Blogger", "Educator", "Performer", "Illustrator", "Designer", "Website Developer", "Public Thinker"]
+skills: ["Blogger", "Educator", "Performer", "Illustrator", "Designer", "Coder", "Public Thinker"]
 featured: true
 color: "#FF1F64"
 stats:

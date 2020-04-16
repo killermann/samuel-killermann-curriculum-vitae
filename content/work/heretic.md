@@ -8,7 +8,7 @@ blurb: "A podcast about the social justice movement and the unwritten rules that
 link: "https://thesafezoneproject.com"
 color: "#67C2E7"
 tags: ["Social Justice", "Podcast"]
-skills: ["Public Thinker", "Speaker", "Facilitator", "Writer", "Designer", "Illustrator", "Website Developer"]
+skills: ["Public Thinker", "Speaker", "Facilitator", "Writer", "Designer", "Illustrator", "Coder"]
 ---
 
 With guest activists, authors, and artists who have who have been pushed to the fringes by the movement, spent their lives fighting for social justice, or fighting against it, Heretic is a light conversation about the darkness in society.

@@ -6,7 +6,7 @@ author: "Sam Killermann"
 blurb: "Shirts, stencils, and prints that bring the protest to your everyday"
 link: "http://everyshirtispolitical.com"
 tags: ["Merch", "Gift Experiment", "Activism", "Social Justice"]
-skills: ["Designer", "Writer", "Website Developer", "Public Thinker"]
+skills: ["Designer", "Writer", "Coder", "Public Thinker"]
 color: "#F96D6D"
 ---
 

@@ -6,7 +6,7 @@ author: "Sam Killermann + Meg Bolger"
 blurb: "A free online resource for LGBTQ+ awareness and allyship training workshops"
 link: "http://thesafezoneproject.com"
 tags: ["Gender", "Sexuality", "Social Justice", "Free Online Resource", "Curriculum"]
-skills: ["Curriculum Writer", "Facilitator", "Educator", "Designer", "Website Developer"]
+skills: ["Curriculum Writer", "Facilitator", "Educator", "Designer", "Coder"]
 color: "#3FA9F5"
 stats:
   curriculum_downloads: 33321

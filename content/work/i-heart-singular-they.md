@@ -7,7 +7,7 @@ blurb: "An animated love poem to a pronoun"
 link: "http://iheartsingularthey.com"
 color: "#ed145b"
 tags: ["Social Justice", "Gender", "Activism"]
-skills: ["Illustrator", "Author", "Website Developer", "Animator"]
+skills: ["Illustrator", "Author", "Coder", "Animator"]
 ---
 
 This adorable, shareable, and oh-so-subtly-activist love poem was inspired by Everyone in the 90s’ experience in high school.

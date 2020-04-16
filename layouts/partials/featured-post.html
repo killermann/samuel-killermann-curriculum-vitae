@@ -17,11 +17,11 @@
             <p class="M grey-700">{{ .Params.blurb }}</p>
         </div>
         <div class="post-statistics">
-            <strong class="XS grey-500">
-                {{- with .Params.stats.annual_audience }}Over {{ lang.NumFmt 0 . }} annual audience. {{ end -}}
+            <p class="XS grey-500">
+                <strong>{{- with .Params.stats.annual_audience }}Over {{ lang.NumFmt 0 . }} annual audience. {{ end -}}
                 {{- with .Params.stats.downloads }}Over {{ lang.NumFmt 0 . }} downloads. {{ end}}
-                {{- with .Params.stats.country_count }}In over {{ lang.NumFmt 0 . }} countries. {{ end -}}
-            </strong>
+                {{- with .Params.stats.country_count }}In over {{ lang.NumFmt 0 . }} countries. {{ end -}}</strong>
+            </p>
         </div>
     </section>
 

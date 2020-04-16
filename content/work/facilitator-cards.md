@@ -8,7 +8,7 @@ blurb: "For facilitation planning, responding to your group, improvising when th
 link: "https://www.facilitator.cards"
 og_image: "/img/work/2019-social-justice-minus-dogma-og-image.png"
 tags: ["Facilitation", "Curriculum", "Merch", "Gift Experiment"]
-skills: ["Facilitator", "Blogger", "Curriculum Writer", "Website Developer", "Designer", "Videographer"]
+skills: ["Facilitator", "Blogger", "Curriculum Writer", "Coder", "Designer", "Videographer"]
 featured: true
 color: "#3ddbd4"
 stats:
