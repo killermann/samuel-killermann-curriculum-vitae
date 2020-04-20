@@ -1,10 +1,9 @@
 ---
 title: "Facilitator Cards"
-subtitle: "A deck for you, not your participants."
 date: 2020-03-03
 emoji: "🃏"
 author: "Sam Killermann + Meg Bolger"
-blurb: "For facilitation planning, responding to your group, improvising when the unexpected comes up, and getting on the same page as your co-facilitator."
+blurb: "A deck for you, not your participants"
 link: "https://www.facilitator.cards"
 og_image: "/img/work/2019-social-justice-minus-dogma-og-image.png"
 tags: ["Facilitation", "Curriculum", "Merch", "Gift Experiment"]
