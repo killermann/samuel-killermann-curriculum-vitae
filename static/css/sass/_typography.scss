@@ -4,14 +4,20 @@ input,
 select,
 optgroup,
 textarea {
-	font-family:var(--sans-serif);
 	color: #0d0018;
 	line-height:1.5;
 	font-size:calc(14px + .5vw);
-	text-rendering: optimizelegibility;
 }
 
-h1, h2, h3, h4, h5, h6 {line-height:1.1;}
+h1, h2, h3, h4, h5, h6,
+button,
+input,
+select,
+optgroup,
+textarea { 
+	line-height:1.1;
+	font-family:var(--sans-serif);
+}
 
 h1, .h1, .post-view .post-title {font-size: calc(2.4em + .6vw);}
 

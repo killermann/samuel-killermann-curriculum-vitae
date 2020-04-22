@@ -236,8 +236,9 @@
         }
 
 		.page-title, .page-sub-title, .post-blurb{
-            margin-bottom: 2rem;
-        }
+					margin-bottom: 2rem;
+					font-family:var(--sans-serif);
+			}
 		.post-subtitle {
 			font-size:1.5em;
 			margin:.5em auto .7em;
@@ -320,6 +321,11 @@
 
 .post-content {
 
+	h2 {
+		margin-top: 3em;
+		margin-bottom: 20px;
+	}
+
     a {
         text-decoration:none;
         color: currentColor;
@@ -342,7 +348,8 @@
     }
 
 	table {
-	    border-radius: 6px;
+		border-radius: 6px;
+		color: #0d0018;
 		@extend .shadow-high;
 		@extend .gradient-alt;
 
@@ -350,6 +357,7 @@
 			background:none;
 			border-radius:6px 6px 0 0;
 			color:#fff;
+			font-family: var(--sans-serif);
 
 			td, th {border-color:var(--purple);background:none;}
 
