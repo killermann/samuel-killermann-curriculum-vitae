@@ -19,17 +19,17 @@ textarea {
 	font-family:var(--sans-serif);
 }
 
-h1, .h1, .post-view .post-title {font-size: calc(2.4em + .6vw);}
+h1, .h1, .post-view .post-title, .XXL {font-size: calc(2.8em + 1.5vw);}
 
-h2, .h2 {font-size: calc(1.9em + .5vw);}
+h2, .h2, .XL {font-size: calc(1.9em + 1.5vw);}
 
-h3, .h3 {font-size: calc(1.6em + .4vw);}
+h3, .h3, .L {font-size: calc(1.6em + 1.5vw);}
 
-h4, .h4 {font-size: 1.45em;}
+h4, .h4, .M {font-size: 1.45em;}
 
-h5, .h5 {font-size: 1.28em;}
+h5, .h5, .S {font-size: 1em;}
 
-h6, .h6 {font-size: 1.125em;}
+h6, .h6, .XS {font-size: .75em;}
 
 p.dropCap:first-letter {
 	color: var(--project-color);
@@ -45,30 +45,6 @@ p.dropCap:first-letter {
 
 .serif {
 	font-family: var(--serif);
-}
-
-.XXL {
-	font-size: 3.4em;
-}
-
-.XL {
-	font-size: 2.6em;
-}
-
-.L {
-	font-size: 2em;
-}
-
-.M {
-	font-size: 1.4em;
-}
-
-.S {
-	font-size: 1em;
-}
-
-.XS {
-	font-size: .75em;
 }
 
 .upper {
