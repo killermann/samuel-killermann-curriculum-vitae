@@ -734,6 +734,10 @@ $cubic: cubic-bezier(.64,.09,.08,1);
 	background:#0d0018;
 	padding-bottom: 100px;
 	padding-top: 100px;
+
+	.header-text {
+		z-index: 998;
+	}
 }
 
 #TEDxTalk {
