@@ -19,6 +19,12 @@ title = "by Sam Killermann"
 [menu]
 
 [[menu.main]]
+    identifier = "books"
+    name = "Books"
+    url = "/books/"
+    weight = -140
+
+[[menu.main]]
     identifier = "work"
     name = "Work"
     url = "/work/"

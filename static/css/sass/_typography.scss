@@ -62,3 +62,12 @@ p.dropCap:first-letter {
 .f-900 {
 	font-weight: 900;
 }
+
+hr {
+	display: block;
+	background: var(--project-color);
+	width: 16.666%;
+	margin: 2rem auto;
+	height: 5px;
+	border-radius: 3px;
+}
