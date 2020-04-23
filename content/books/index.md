@@ -21,7 +21,7 @@ If you want an email when I publish the next one, the best thing you can do is s
 ## A Guide to Gender
 
 <div class="wp-block-image" style="max-width: 50%; float: left; margin: 5% 5% 5% 0;">
-  <figure class="alignright is-resized"><a href="https://guidetogender.com" target="_blank" rel="noreferrer noopener"><img src="https://samkillermann.com/wp-content/uploads/2018/11/G2G2-Front-Cover-FINAL-692x1024.png" alt="Cover design for A Guide to Gender: The Social Justice Advocate's Handbook" class="shadow-high wp-image-1033 lazy-load" width="300" height="450" /></a></figure>
+  <figure class="alignright is-resized"><a href="https://guidetogender.com" target="_blank" rel="noreferrer noopener"><img src="https://www.samk.blog/wp-content/uploads/2018/11/G2G2-Front-Cover-FINAL-692x1024.png" alt="Cover design for A Guide to Gender: The Social Justice Advocate's Handbook" class="shadow-high wp-image-1033 lazy-load" width="300" height="450" /></a></figure>
 </div>
 
 Currently in its 2nd Edition, [A Guide to Gender: The Social Justice Advocate&#8217;s Handbook][3] has been the #1 in a bunch of categories on Amazon, and has become the textbook for lots of gender studies courses, despite me having a subheading in the book stating &#8220;This is not a textbook.&#8221;
@@ -43,7 +43,7 @@ _Direct links to get A Guide to Gender:_
 ## Unlocking the Magic of Facilitation
 
 <div class="wp-block-image" style="max-width: 50%; float: left; margin: 5% 5% 5% 0;">
-  <figure class="alignright is-resized"><a href="https://facilitationmagic.com" target="_blank" rel="noreferrer noopener"><img data-src="https://samkillermann.com/wp-content/uploads/2018/11/UtMoF-Cover-600.png" alt="Cover design for Unlocking the Magic of Facilitation: 11 Key Concepts You Didn't Know You Didn't Know" class="shadow-high wp-image-1050 lazy-load" width="300" height="450" srcset="https://samkillermann.com/wp-content/uploads/2018/11/UtMoF-Cover-600.png 600w, https://samkillermann.com/wp-content/uploads/2018/11/UtMoF-Cover-600-200x300.png 200w" sizes="(max-width: 300px) 100vw, 300px" /></a></figure>
+  <figure class="alignright is-resized"><a href="https://facilitationmagic.com" target="_blank" rel="noreferrer noopener"><img data-src="https://www.samk.blog/wp-content/uploads/2018/11/UtMoF-Cover-600.png" alt="Cover design for Unlocking the Magic of Facilitation: 11 Key Concepts You Didn't Know You Didn't Know" class="shadow-high wp-image-1050 lazy-load" width="300" height="450" srcset="https://www.samk.blog/wp-content/uploads/2018/11/UtMoF-Cover-600.png 600w, https://www.samk.blog/wp-content/uploads/2018/11/UtMoF-Cover-600-200x300.png 200w" sizes="(max-width: 300px) 100vw, 300px" /></a></figure>
 </div>
 
 [Unlocking the Magic of Facilitation: 11 Key Concepts You Didn&#8217;t Know You Didn&#8217;t Know][4] is the first book I co-authored with Meg Bolger. We wrote it with a narrow audience in mind: specifically, to give to our train-the-trainer participants, filling in gaps on things we never had time to cover.
@@ -63,7 +63,7 @@ _Direct links to get Unlocking the Magic of Facilitation:_
 ## Advocating Creatively
 
 <div class="wp-block-image" style="max-width: 50%; float: left; margin: 5% 5% 5% 0;">
-  <figure class="alignright is-resized"><a href="https://smile.amazon.com/Advocating-Creatively-Stories-Contemporary-Pioneers/dp/1500943983/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1543516169&sr=8-1" target="_blank" rel="noreferrer noopener"><img data-src="https://samkillermann.com/wp-content/uploads/2018/11/advocating-creatively-cover.jpg" alt="Cover design of Advocating Creatively" class="shadow-high wp-image-1052 lazy-load" width="300" srcset="https://samkillermann.com/wp-content/uploads/2018/11/advocating-creatively-cover.jpg 333w, https://samkillermann.com/wp-content/uploads/2018/11/advocating-creatively-cover-200x300.jpg 200w" sizes="(max-width: 333px) 100vw, 333px" /></a></figure>
+  <figure class="alignright is-resized"><a href="https://smile.amazon.com/Advocating-Creatively-Stories-Contemporary-Pioneers/dp/1500943983/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1543516169&sr=8-1" target="_blank" rel="noreferrer noopener"><img data-src="https://www.samk.blog/wp-content/uploads/2018/11/advocating-creatively-cover.jpg" alt="Cover design of Advocating Creatively" class="shadow-high wp-image-1052 lazy-load" width="300" srcset="https://www.samk.blog/wp-content/uploads/2018/11/advocating-creatively-cover.jpg 333w, https://www.samk.blog/wp-content/uploads/2018/11/advocating-creatively-cover-200x300.jpg 200w" sizes="(max-width: 333px) 100vw, 333px" /></a></figure>
 </div>
 
 [Advocating Creatively: Stories of Contemporary Social Change Pioneers][5], edited by Natalie A. Millman, is a book I was asked to contribute a chapter to. It&#8217;s a fun read, with a diverse authorship, where no two chapters are alike.
@@ -81,7 +81,7 @@ _Direct links to get Advocating Creatively:_
 ## How I Got Into Sex&#8230; Ed
 
 <div class="wp-block-image" style="max-width: 50%; float: left; margin: 5% 5% 5% 0;">
-  <figure class="alignright is-resized"><a href="https://www.sexedstore.com/how-i-got-into-sex-ed/" target="_blank" rel="noreferrer noopener"><img src="https://samkillermann.com/wp-content/uploads/2018/11/How-I-Got-Into-Sex-Ed-cover-643x1024.jpg" alt="" class="shadow-high wp-image-1055 lazy-load" width="300" height="450" /></a></figure>
+  <figure class="alignright is-resized"><a href="https://www.sexedstore.com/how-i-got-into-sex-ed/" target="_blank" rel="noreferrer noopener"><img src="https://www.samk.blog/wp-content/uploads/2018/11/How-I-Got-Into-Sex-Ed-cover-643x1024.jpg" alt="" class="shadow-high wp-image-1055 lazy-load" width="300" height="450" /></a></figure>
 </div>
 
 [How I Got into Sex Ed][6], edited by Karen Rayne, is an anthology of over 60 essays from sexuality educators in the field, this book differs from all other CSE publications.
