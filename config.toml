@@ -33,7 +33,7 @@ title = "by Sam Killermann"
 [[menu.main]]
     identifier = "Blog"
     name = "Blog"
-    url = "https://www.samkillermann.com/"
+    url = "https://www.samk.blog/"
     weight = -120
 
 [[menu.main]]

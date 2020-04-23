@@ -72,10 +72,14 @@
 
 .overlapper {
 	margin: 0 6vw;
-	overflow:hidden;
+	transform: translateY(-50%);
 
-	p {
-		padding: 4vw 2vw 4vw 6vw;
+	.inner {
+		padding: 4vw 6vw;
+
+		p {
+			margin-right: -4vw;
+		}
 	}
 
 	.fishbowl {
