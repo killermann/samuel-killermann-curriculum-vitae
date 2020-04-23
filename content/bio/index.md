@@ -1,6 +1,6 @@
 ---
-title: "Sam Killermann Biography"
-seo_title: "Sam Killermann Bio"
+title: "Sam Killermann Bio"
+seo_title: "Sam Killermann Biography"
 layout: "single"
 emoji: "⌛️"
 date: "2018-05-01"
