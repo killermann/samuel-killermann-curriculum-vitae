@@ -60,7 +60,9 @@ window.addEventListener('scroll', function() {
   } else {
     header.classList.remove('scrolled');
   }
-});
+}, { capture: false, passive: true});
+
+
 // Scrolly Revealy Action
 
 // window.addEventListener('scroll', changeHeaderOnScroll);
