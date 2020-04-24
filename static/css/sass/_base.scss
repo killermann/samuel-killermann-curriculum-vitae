@@ -276,6 +276,14 @@ a {
 	@media only screen and (min-width: 600px) {
 		margin-top: -15%;
 	}
+
+	.fishbowl--inner {
+		position: absolute;
+		left: 0;
+		top:0;
+		right:0;
+		bottom:0;
+	}
 	
 	.inner {
 		padding: 30px;
@@ -365,11 +373,6 @@ $cubic: cubic-bezier(.64,.09,.08,1);
 
 	.fishbowl--inner{
 		text-align:center;
-		position: absolute;
-		left: 0;
-		top:0;
-		right:0;
-		bottom:0;
 		background-image:url(../img/sK-logo-pattern-400.png);
 		background-repeat:repeat;
 		background-position:top left;

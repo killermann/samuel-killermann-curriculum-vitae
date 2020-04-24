@@ -8,6 +8,7 @@ kind: "page"
 blurb: "A bunch of links to find me and my work online"
 hide_meta: true
 color: "#af6ee2"
+draft: true
 ---
 
 Click and behold: hypertext transfer protocol at its finest.

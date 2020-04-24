@@ -54,12 +54,6 @@ title = "by Sam Killermann"
     url = "/bio/"
     weight = -90
 
-[[menu.main]]
-    identifier = "links"
-    url ="/links/"
-    name = "Links"
-    weight = -80
-
 [taxonomies]
     skills = "skills"
     tags = "tags"
