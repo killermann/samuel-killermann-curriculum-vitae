@@ -1001,7 +1001,7 @@ $cubic: cubic-bezier(.64,.09,.08,1);
         border-radius:5px;
         margin-left:-15px;
         display:block;
-        width:calc(100% + 30px);
+        width:calc(100% + 20px);
 
         img {
             width:100%;
@@ -1118,9 +1118,8 @@ figcaption {
 
 **************************/
 
-footer.footer {
-	@extend .gradient-alt;
-	font-size:.8em;
+.footer {
+	background:#0d0018;
 	color:#fff;
 	margin:0;
 	padding:0;
@@ -1132,41 +1131,46 @@ footer.footer {
 		font-family:var(--serif);
 		font-size:1.2em;
 		margin-bottom:.5em;
-		color:#fff;
+		color: var(--project-color, #af6ee2);
 		letter-spacing:.04em;
 		text-shadow:0px 1px 3px rgba(0,0,0,.5);
+	}
+
+	.grid {
+		display: flex;
+		@extend .pad;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+
+	.unit {
+		@extend .pad;
+		margin-bottom: 1em;
 	}
 
 	ul {
 		list-style: none;
 		margin:0;
 		li {
+			margin-bottom: .2em;
 			a {
 				font-weight:bold;
-				display:block;
-				padding:.4em 0;
+				display:inline-block;
+				padding:.6em 0 .15em;
+				text-decoration: none;
+				border-bottom:.15em solid rgba(255,255,255,.3);
+
+				&:hover, &:focus {
+					border-color: white;
+				}
 			}
 		}
 	}
 
-	.grid {
-		.unit {
-			padding:2em;
-		}
-	}
-
-}
-
-.footer--inner {
-	background-image:url(../img/sK-logo-pattern-400.png);
-	background-repeat:repeat;
-	background-position:top left;
-	-webkit-animation: slide 30s linear infinite;
 }
 
 #footer--about {
 	max-width:720px;
-	padding:2em;
 	margin:0 auto;
 
 	a {
