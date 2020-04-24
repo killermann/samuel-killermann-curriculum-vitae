@@ -262,14 +262,15 @@ a {
 
 .hero {
 	min-height: 100vh;
+	min-height: -webkit-fill-available;
 }
 
 .overlapper {
-	margin: -50% 30px 60px;
+	margin: -30% 20px 60px;
 	overflow:hidden;
 
-	@media only screen and (min-width: 481px) {
-		margin-top: -25%;
+	@media only screen and (min-width: 450px) {
+		margin-top: -20%;
 	}
 
 	@media only screen and (min-width: 600px) {
@@ -347,6 +348,7 @@ $cubic: cubic-bezier(.64,.09,.08,1);
 
 .fishbowl {
 	margin:0;
+	position: relative;
 
 	.cta {
 		display: flex;
@@ -363,6 +365,11 @@ $cubic: cubic-bezier(.64,.09,.08,1);
 
 	.fishbowl--inner{
 		text-align:center;
+		position: absolute;
+		left: 0;
+		top:0;
+		right:0;
+		bottom:0;
 		background-image:url(../img/sK-logo-pattern-400.png);
 		background-repeat:repeat;
 		background-position:top left;
@@ -763,6 +770,7 @@ $cubic: cubic-bezier(.64,.09,.08,1);
 
 	.header-text {
 		z-index: 998;
+		padding-bottom: 1rem;
 	}
 }
 
@@ -831,7 +839,6 @@ $cubic: cubic-bezier(.64,.09,.08,1);
 }
 
 .featured-entry {
-	padding: 0 30px;
 	position: relative;
 
 	.post-header {
