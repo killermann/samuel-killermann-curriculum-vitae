@@ -542,13 +542,16 @@ $cubic: cubic-bezier(.64,.09,.08,1);
 	display: flex;
 	justify-content: space-between;
 	z-index:5;
-	transition:all .5s ease-out;
+	transition:background .5s ease-out;
 	position:fixed;
 	z-index:9998;
 	top:0;
-	background: #0d0018;
 	width:100%;
 	color: white;
+
+	&.scrolled {
+		background: #0d0018;
+	}
 }
 
 .menu-toggle {
@@ -671,23 +674,6 @@ $cubic: cubic-bezier(.64,.09,.08,1);
 	a svg {
 		width: 1em;
 		height: 1em;
-	}
-}
-
-.scrolled {
-
-	#main-header {
-		background: rgba(13,0,24,.85);
-		box-shadow:0px 1px 12px 0px rgba(13,0,24,.3);
-	}
-
-	/* if backdrop support: very transparent and blurred */
-	@supports ((-webkit-backdrop-filter: blur(2em)) or (backdrop-filter: blur(2em))) {
-		#main-header {
-			background: rgba(#0d0018, .7);
-			backdrop-filter: blur(5px);
-			-webkit-backdrop-filter: blur(5px);
-		}
 	}
 }
 
@@ -999,9 +985,9 @@ $cubic: cubic-bezier(.64,.09,.08,1);
         padding:30px 5px 5px;
         background:#ccc;
         border-radius:5px;
-        margin-left:-25px;
+        margin-left:-15px;
         display:block;
-        width:calc(100% + 50px);
+        width:calc(100% + 30px);
 
         img {
             width:100%;
@@ -1092,9 +1078,9 @@ $cubic: cubic-bezier(.64,.09,.08,1);
 	}
 
 	.ultra-wide, &.ultra-wide {
-		margin-left:-25px;
-		max-width:calc(100% + 50px);
-		width:calc(100% + 50px);
+		margin-left:-15px;
+		max-width:calc(100% + 30px);
+		width:calc(100% + 30px);
 		height:auto;
 	}
 

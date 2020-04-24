@@ -52,19 +52,15 @@ function menuToggle() {
 
 // Scrolly Header Action
 
-function changeHeaderOnScroll() {
-    const distanceY = window.pageYOffset || document.documentElement.scrollTop,
-    shrinkOn = 60,
-    body = document.body,
-    headerEl = document.getElementById('main-header');
+const header = document.getElementById('main-header');
 
-    if (distanceY > shrinkOn) {
-        body.classList.add("scrolled");
-    } else {
-        body.classList.remove("scrolled");
-    }
-}
-
+window.addEventListener('scroll', function() {  
+  if (window.scrollY > 0) {
+    header.classList.add('scrolled');
+  } else {
+    header.classList.remove('scrolled');
+  }
+});
 // Scrolly Revealy Action
 
 // window.addEventListener('scroll', changeHeaderOnScroll);
