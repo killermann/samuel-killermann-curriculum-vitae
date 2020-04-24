@@ -465,7 +465,7 @@ $cubic: cubic-bezier(.64,.09,.08,1);
 	scroll-snap-type: mandatory;
 
 	.card-entry {
-		scroll-snap-align: start;
+		scroll-snap-align: center;
 		flex: none;
 		margin-right: 3vw;
 		margin-bottom: 0;
