@@ -1,5 +1,3 @@
-//@prepros-prepend instantclick.min.js
-
 // Clicky Menu Action
 
 menuToggle();
