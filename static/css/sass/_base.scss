@@ -8,6 +8,11 @@
     --dark-grey: #191F23;
 }
 
+
+body {
+	background: rgb(240,240,240);
+}
+
 a {
 	outline-color: var(--purple);
 }
@@ -770,6 +775,10 @@ $cubic: cubic-bezier(.64,.09,.08,1);
 		z-index: 998;
 		padding-bottom: 1rem;
 	}
+}
+
+#home-brief {
+	box-shadow: 0px 1em 3em rgba(0,0,0,.1);
 }
 
 #TEDxTalk {

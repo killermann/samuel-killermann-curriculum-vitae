@@ -19,17 +19,6 @@
                 {{ .Params.blurb }}
             </p>
 
-            {{ if not .Params.hide_meta }}
-            <p class="post-meta XS">
-                {{- if or .Params.author .Site.Params.author -}}
-                {{ .Params.author | default .Site.Params.author }}&nbsp;&nbsp;·&nbsp;&nbsp;{{ end }}
-                {{- .Date.Format "January 2006" -}}
-                {{ if .Params.link }}
-                &nbsp;&nbsp;·&nbsp;&nbsp;<a href="{{ .Params.link }}" target="_blank" alt="{{ .Title }}" {{- if .Params.color }}style="color: {{ .Params.color }}"{{ end }}>Link</a>
-                {{end}}
-            </p>
-            {{ end }}
-
         </div>
         {{with .Params.emoji}}
         <span class="XXL emoji lh-title">{{ . }}</span>
@@ -37,6 +26,17 @@
     </header>
 
     <section class="post-content wrap bigpad">
+        {{ if not .Params.hide_meta }}
+            <div class="post-meta XS">
+                {{- if or .Params.author .Site.Params.author -}}
+                {{ .Params.author | default .Site.Params.author }}&nbsp;&nbsp;·&nbsp;&nbsp;{{ end }}
+                {{- .Date.Format "January 2006" -}}
+                {{ if .Params.link }}
+                &nbsp;&nbsp;·&nbsp;&nbsp;<a href="{{ .Params.link }}" target="_blank" alt="{{ .Title }}">Visit the Site &rsaquo;</a>
+                {{end}}
+            </div>
+            {{ end }}
+
         {{ .Content }}
 
         {{ if isset .Params "stats" }}

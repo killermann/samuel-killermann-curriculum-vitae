@@ -155,15 +155,13 @@
   display: block;
   padding: 4px 15px;
   color: rgba(0, 0, 0, .6);
-  background: rgba(0, 0, 0, .05);
+  background: #fff;
   border-radius: 3px;
 }
 .post-tags li + li {
   margin-left: 3px;
 }
-.post-tags a:hover {
-  background: rgba(0, 0, 0, .08);
-}
+
 @media (max-width: 767px) {
   .post-content blockquote {
     margin: 0 0 0 -30px;
@@ -180,7 +178,7 @@
 
 		.post-meta {
 			a {
-				text-decoration:underline;
+				display: inline-block;
 			}
 		}
 		article {
