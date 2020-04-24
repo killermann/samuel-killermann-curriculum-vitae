@@ -1,6 +1,5 @@
 ---
 title: "Social Justice, Minus Dogma"
-subtitle: "Online Course + Community"
 date: 2019-06-24
 emoji: "⚖️"
 author: "Sam Killermann"
