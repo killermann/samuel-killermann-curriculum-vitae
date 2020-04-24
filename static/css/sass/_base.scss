@@ -929,16 +929,13 @@ $cubic: cubic-bezier(.64,.09,.08,1);
 	.post-body {
 		flex-grow: 2;
 		display: flex;
+		padding: 20px;
 		justify-content: space-between;
 		flex-direction: column;
 	}
 
 	.emoji {
 		font-size: 30px;
-	}
-
-	.post-body {
-		padding: 30px;
 	}
 
 	&:hover, &:focus {
