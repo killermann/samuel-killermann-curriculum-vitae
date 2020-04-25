@@ -1,6 +1,12 @@
 </main>
 <footer class="footer">
     <div class="footer--inner">
+        <a class="site-logo" href="{{ `/` }}" title="Home" aria-label="Home">
+            <svg id="heart-sK" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 134 67">
+            <path class="icon-heart" d="M22 36s-1-9-10-12-13 3-3 16 15 24 14 14-1-33 11-44c9-9 17-5 16 8 0 15-20 37-20 37" {{ if (isset .Params "color") }} stroke="{{ .Params.color }}" {{ else }} stroke="currentColor" {{ end }} fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+            <path class="icon-sK" d="M63 36a15 15 0 0 0-11-5c-8-1-14 6 2 18s-19 22-12 5c4-8 17-19 23-30 7-13 10-27 8-19-3 15-3 55-3 52 4-22 34-53 31-51S69 35 75 34s54-13 56-10" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+            </svg>
+        </a>
         <div class="grid">
             <div class="unit reveal">
                 <h3>Browse</h3>

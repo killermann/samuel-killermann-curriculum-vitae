@@ -8,7 +8,6 @@
     --dark-grey: #191F23;
 }
 
-
 body {
 	background: rgb(240,240,240);
 }
@@ -1136,6 +1135,10 @@ figcaption {
 	z-index:1;
 	position:relative;
 	text-align: left;
+
+	.site-logo {
+		display: none;
+	}
 
 	h3 {
 		font-family:var(--serif);
