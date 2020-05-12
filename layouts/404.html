@@ -1,0 +1,37 @@
+{{ partial "header.html" . }}
+<header id="home-welcome" class="bigpad">
+    <div class="header-text bigpad">
+        <h1 class="page-title XXL">4😮4 Error.</h1>
+        <h2 class="page-sub-title L purple-300">Sorry! Page not found.</h2>
+        <p class="page-blurb lh-short M text-wrap purple-500">
+            It might be a typo in the URL, or that this page has been deleted.<br/>
+            Head <a style="text-decoration:underline;text-decoration-color:rgba(255,255,255,.7)" href="https://www.samkillermann.com">home</a> or scroll down & maybe you'll find what you're looking for.
+        </p>
+    </div>
+</header>
+<section id="featured-work" class="relative bigpad" style="margin-top:6vw;">
+    <h2 class="vertical-header S serif mobileHide">💼 &nbsp;&nbsp;Featured Work</h2>
+    {{ range where .Site.RegularPages "Section" "work"  }}
+        {{ if .Params.featured }}
+            {{ partial "featured-post.html" . }}
+        {{ end }}
+    {{ end }}
+</section>
+
+{{ partial "mailing-list.html" }}
+
+<section id="more-work" class="relative bg-grey-100">
+    <div class="carousel">
+        <h2 class="vertical-header S serif lh-title">Recent Work</h2>
+        {{ range first 10 (where .Site.RegularPages "Section" "work" ) }}
+            {{ if not ( .Params.featured ) }}
+                {{ partial "card-post.html" . }}
+            {{ end }}
+        {{ end }}
+        <article class="bigpad view-all serif">
+            <a href="{{ `/` }}work" title="View all Work"><strong>View more work &xrarr;</strong></a>
+        </article>
+    </div>
+</section>
+
+{{ partial "footer.html" . }}
